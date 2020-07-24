@@ -9,13 +9,15 @@
         />
       </div>
       <nav class="sm:mr-20">
-        <div class="flex w-auto">
-          <a class="uppercase p-2 sm:px-6 hover:text-blue-600 hover:underline transition ease-in duration-200 font-semibold" href="#">Link</a>
-          <a class="uppercase p-2 sm:px-6 hover:text-blue-600 hover:underline transition ease-in duration-200 font-semibold"  href="#">Link</a>
-          <a class="uppercase p-2 sm:px-6 hover:text-blue-600 hover:underline transition ease-in duration-200 font-semibold"  href="#">Link</a>
-          <a class="uppercase p-2 sm:px-6 hover:text-blue-600 hover:underline transition ease-in duration-200 font-semibold"  href="#">Link</a>
+        <div class="flex w-auto items-center">
+          <g-link to="/"><i class="fas fa-mountain hover:text-blue-600 cursor-pointer p-2 sm:px-6 text-xl"></i></g-link>
+          <g-link to="/leistungen" class="uppercase p-2 sm:px-6 hover:text-blue-600 transition ease-in duration-200 font-semibold">Leistungen</g-link>
+          <g-link to="/about" class="uppercase p-2 sm:px-6 hover:text-blue-600 transition ease-in duration-200 font-semibold">Wer wir sind</g-link>
+          <g-link to="/events" class="uppercase p-2 sm:px-6 hover:text-blue-600 transition ease-in duration-200 font-semibold">Was wir machen</g-link>
+          <g-link to="/kontakt" class="uppercase p-2 sm:px-6 hover:text-blue-600 transition ease-in duration-200 font-semibold">Kontakt</g-link>
         </div>
       </nav>
+      
     </header>
     <transition name="fade" appear>
       <main>
@@ -30,8 +32,15 @@
           class="w-20 m-auto"  
           />
           <div class="text-center">
-            <p class="text-xs">Text | text | text | text</p>
-            <p class="text-lg">Text | text | text | text</p>
+            <p class="text-xs">
+              <a class="uppercase p-2 hover:text-blue-600 transition ease-in duration-200 font-semibold"  href="#">Jobs</a>|
+              <a class="uppercase p-2 hover:text-blue-600 transition ease-in duration-200 font-semibold"  href="#">Presse</a>|
+              <a class="uppercase p-2 hover:text-blue-600 transition ease-in duration-200 font-semibold"  href="#">Impressum</a>|
+              <a class="uppercase p-2 hover:text-blue-600 transition ease-in duration-200 font-semibold"  href="#">Datenschutz</a>
+            </p>
+            <p class="text-lg py-2">
+              <a class="p-2 hover:text-blue-600 transition ease-in duration-200"  href="#">© Ain't No Moiuntain High Enough</a>
+            </p>
           </div>
         </div>
     </footer>

@@ -14,7 +14,7 @@
 <script>
 export default {
   metaInfo: {
-    title: 'Home'
+    title: 'Über Uns'
   }
 }
 </script>
