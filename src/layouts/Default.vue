@@ -1,7 +1,7 @@
 <template>
   <div class="layout">
-    <header class="flex p-4 px-8 items-center justify-between">
-      <div>
+    <header class="flex p-4 md:px-8 items-center justify-between">
+      <div class="hidden lg:block">
         <g-image 
         alt="Logo ANMHE" 
         src="https://studyinkenya.co.ke/assets/default/images/ads/institution-logo-placeholder.png"
@@ -11,10 +11,10 @@
       <nav class="sm:mr-20">
         <div class="flex w-auto items-center">
           <g-link to="/"><i class="fas fa-mountain hover:text-blue-600 cursor-pointer p-2 sm:px-6 text-xl"></i></g-link>
-          <g-link to="/leistungen" class="uppercase p-2 sm:px-6 hover:text-blue-600 transition ease-in duration-200 font-semibold">Leistungen</g-link>
-          <g-link to="/about" class="uppercase p-2 sm:px-6 hover:text-blue-600 transition ease-in duration-200 font-semibold">Wer wir sind</g-link>
-          <g-link to="/events" class="uppercase p-2 sm:px-6 hover:text-blue-600 transition ease-in duration-200 font-semibold">Was wir machen</g-link>
-          <g-link to="/kontakt" class="uppercase p-2 sm:px-6 hover:text-blue-600 transition ease-in duration-200 font-semibold">Kontakt</g-link>
+          <g-link to="/leistungen" class="sm:uppercase p-1 sm:p-2 lg:px-6 hover:text-blue-600 transition ease-in duration-200 font-semibold text-sm">Leistungen</g-link>
+          <g-link to="/about" class="sm:uppercase p-1 sm:p-2 lg:px-6 hover:text-blue-600 transition ease-in duration-200 font-semibold text-sm">Wer wir sind</g-link>
+          <g-link to="/events" class="sm:uppercase p-1 sm:p-2 lg:px-6 hover:text-blue-600 transition ease-in duration-200 font-semibold text-sm">Was wir machen</g-link>
+          <g-link to="/kontakt" class="hidden p-1 sm:block sm:uppercase sm:p-2 lg:px-6 hover:text-blue-600 transition ease-in duration-200 font-semibold text-sm  ">Kontakt</g-link>
         </div>
       </nav>
       
