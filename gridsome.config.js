@@ -1,5 +1,5 @@
 module.exports = {
-  siteName: "Ain't No Mountain High Enough",
+  siteName: "Ain't No Mountain",
   plugins: [
     {
       use: "@gridsome/source-airtable",

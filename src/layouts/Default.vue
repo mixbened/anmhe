@@ -15,6 +15,7 @@
           <g-link to="/about" class="sm:uppercase p-1 sm:p-2 lg:px-6 hover:text-blue-600 transition ease-in duration-200 font-semibold text-sm">Wer wir sind</g-link>
           <g-link to="/events" class="sm:uppercase p-1 sm:p-2 lg:px-6 hover:text-blue-600 transition ease-in duration-200 font-semibold text-sm">Was wir machen</g-link>
           <g-link to="/kontakt" class="hidden p-1 sm:block sm:uppercase sm:p-2 lg:px-6 hover:text-blue-600 transition ease-in duration-200 font-semibold text-sm  ">Kontakt</g-link>
+          <g-link to="/digitale-events" class="p-1 bg-orange-300 sm:uppercase sm:p-2 lg:px-6 hover:text-blue-600 transition ease-in duration-200 font-semibold text-sm  ">Digitale Events</g-link>
         </div>
       </nav>
       
@@ -39,7 +40,7 @@
               <a class="uppercase p-2 hover:text-blue-600 transition ease-in duration-200 font-semibold"  href="#">Datenschutz</a>
             </p>
             <p class="text-lg py-2">
-              <a class="p-2 hover:text-blue-600 transition ease-in duration-200"  href="#">© Ain't No Moiuntain High Enough</a>
+              <a class="p-2 hover:text-blue-600 transition ease-in duration-200"  href="#">© Ain't No Mountain</a>
             </p>
           </div>
         </div>
