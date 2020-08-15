@@ -57,4 +57,7 @@ query {
 </static-query>
 
 <style>
+.content-container {
+  padding: 0 5%;
+}
 </style>

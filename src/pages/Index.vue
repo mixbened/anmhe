@@ -4,19 +4,24 @@
       <div class="cover-image-background">
         <div class="sm:p-20 p-8 sm:py-32 p-12 sm:w-1/2 w-full sm:ml-32 ml-0">
           <h2 class="text-2xl font-semibold uppercase">Holladio! Wir sind Ain´t No Mountain, die junge Agentur für Live-Kommunikation im Rheinland.</h2>
-          <p class="py-8">Holladio! Wir sind Ain´t No Mountain, die junge Agentur für Live-Kommunikation im Rheinland. Unser Herz schlägt für echte Erlebnisse: Wir lieben es, Messeauftritte, Produktpräsentationen, Kick-offs, Tagungen, Festivals und Mitarbeiterevents zu konzipieren und umzusetzen. Unser Ohrwurm-Name ist Programm: Kein Berg zu hoch und kein Weg zu weit. Kein Job zu klein und keine Challenge zu groß! Wir entwickeln für jedes Projekt die passenden Tools. On- oder offline, analog oder digital, hybrid oder virtuell. Wie wir das schaffen? Ganz einfach: Mit jeder Menge Erfahrung und unserem Netzwerk aus Kreativen und Projektmanagern. Profis aus Event, Messe, Online, Print und Social Media.</p>
+          <p class="py-8">Unser Herz schlägt für echte Erlebnisse: Wir lieben es, Messeauftritte, Produktpräsentationen, Kick-offs, Tagungen, Festivals und Mitarbeiterevents zu konzipieren und umzusetzen. Unser Ohrwurm-Name ist Programm: Kein Berg zu hoch und kein Weg zu weit. Kein Job zu klein und keine Challenge zu groß! Wir entwickeln für jedes Projekt die passenden Tools. On- oder offline, analog oder digital, hybrid oder virtuell. Wie wir das schaffen? Ganz einfach: Mit jeder Menge Erfahrung und unserem Netzwerk aus Kreativen und Projektmanagern. Profis aus Event, Messe, Online, Print und Social Media.</p>
           <p class="font-bold m-2">Wenn der Berg ruft - just call us, you don't have to worry!</p>
         </div>
       </div>
     </section>
-
+    <InfoCard value="some text" />
   </Layout>
 </template>
 
 <script>
+import InfoCard from '../components/InfoCard'
+
 export default {
   metaInfo: {
     title: 'Home'
+  },
+  components: {
+    InfoCard
   }
 }
 </script>
