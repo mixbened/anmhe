@@ -1,16 +1,14 @@
 <template>
   <!-- This is the Event Card Preview Component-->
-  <div
-    class="event--card"
-    :style="{
-      border: '3px solid ' + color,
-    }"
-  >
-    <h1 class="handwriting event--title">{{ event.name }}</h1>
-    <time class="event--dates">{{ formattedDate }}</time>
-    <p class="event--excerpt">{{ event.excerpt }}</p>
-    <div class="link--moreDetails">
-      <g-link :to="'events/' + event.id"> Full Details >></g-link>
+  <div class="rounded overflow-hidden shadow-lg m-auto my-20 w-1/2">
+    <img class="w-full" src="https://images.unsplash.com/photo-1472653431158-6364773b2a56?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60" alt="Sunset in the mountains">
+    <div class="px-6 py-4">
+      <h1 class="text-xl font-bold">{{ event.name }}</h1>
+      <time class="event--dates">{{ formattedDate }}</time>
+      <p class="event--excerpt">{{ event.excerpt }}</p>
+    </div>
+    <div class="px-6 py-4">
+    <g-link :to="'events/' + event.id"> Full Details >></g-link>
     </div>
   </div>
 </template>
@@ -54,36 +52,4 @@ export default {
 </script>
 
 <style scoped>
-.event--title {
-  margin: 0;
-}
-
-.event--date {
-  margin: 0;
-  color: hsl(0, 0%, 35%);
-}
-
-.link--moreDetails {
-  display: block;
-  padding-right: 25px;
-  text-align: right;
-}
-
-.event--excerpt {
-  /** This converts the `\n`'s into line breaks when *
-  *   pulled from Airtable's Long text fields        */
-  white-space: pre-wrap;
-}
-
-.event--card {
-  border-radius: 10px;
-  padding: 7px;
-  margin-bottom: 15px;
-}
-
-@media only screen and (min-width: 500px) {
-  .event--card {
-    padding: 12px 24px;
-  }
-}
 </style>

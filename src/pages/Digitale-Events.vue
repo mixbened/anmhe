@@ -1,13 +1,5 @@
 <template>
-  <!-- This is the Events list Page-->
   <Layout>
-    <section>
-      <g-image 
-        alt="Yellow background with grey pencils. Photo by Joanna Kosinska on Unsplash" 
-        src="https://images.unsplash.com/photo-1549880338-65ddcdfd017b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60" 
-        class="w-full"
-      />
-    </section>
     <div>
       <div v-for="(edge, index) in $page.events.edges" :key="edge.node.id">
         <EventCard
@@ -16,7 +8,13 @@
         />
       </div>
     </div>
+    <IconList 
+      title1="KAPAZITÄT" text1="Kochevents, Tastings, Shootings: Eventlocation für bis zu 50 Personen" image1="https://studyinkenya.co.ke/assets/default/images/ads/institution-logo-placeholder.png" 
+      title2="KAPAZITÄT" text2="Kochevents, Tastings, Shootings: Eventlocation für bis zu 50 Personen" image2="https://studyinkenya.co.ke/assets/default/images/ads/institution-logo-placeholder.png" 
+      title3="KAPAZITÄT" text3="Kochevents, Tastings, Shootings: Eventlocation für bis zu 50 Personen" image3="https://studyinkenya.co.ke/assets/default/images/ads/institution-logo-placeholder.png" 
+    />
   </Layout>
+  
 </template>
 
 <page-query>
@@ -36,10 +34,13 @@
 <script>
 import Layout from "~/layouts/Default.vue";
 import EventCard from "~/components/EventCard.vue";
+import IconList from '../components/IconList'
+
 export default {
   components: {
     Layout,
     EventCard,
+    IconList
   },
   data() {
     return {
