@@ -1,7 +1,6 @@
 <template>
   <Layout>
     <h1>Events</h1>
-    {{ $page.event.name }}
   </Layout>
 </template>
 

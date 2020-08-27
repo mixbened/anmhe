@@ -1,14 +1,14 @@
 <template>
   <!-- This is the Event Card Preview Component-->
-  <div class="rounded overflow-hidden shadow-lg m-auto my-20 w-1/2">
-    <img class="w-full" src="https://images.unsplash.com/photo-1472653431158-6364773b2a56?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60" alt="Sunset in the mountains">
+  <div class="rounded overflow-hidden shadow-lg mx-2 sm:m-auto my-8 sm:my-20 sm:w-2/3 w-full pb-4">
+    <img src="https://images.unsplash.com/photo-1472653431158-6364773b2a56?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60" alt="Sunset in the mountains">
     <div class="px-6 py-4">
       <h1 class="text-xl font-bold">{{ event.name }}</h1>
       <time class="event--dates">{{ formattedDate }}</time>
       <p class="event--excerpt">{{ event.excerpt }}</p>
     </div>
     <div class="px-6 py-4">
-    <g-link :to="'events/' + event.id"> Full Details >></g-link>
+    <g-link :to="'events/' + event.id" class="py-1 border-bottom">Weitere Infos</g-link>
     </div>
   </div>
 </template>
@@ -52,4 +52,7 @@ export default {
 </script>
 
 <style scoped>
+.border-bottom {
+  border-bottom: 2px solid black;
+}
 </style>
