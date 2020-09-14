@@ -1,7 +1,7 @@
 <template>
     <section class="w-full">
       <div class="bg-scroll bg-center bg-cover p-20 sm:p-48 cover-image-background relative text-white" :style="{backgroundImage:`url(${image})`}">
-        <div class="text-center">
+        <div class="text-center relative z-10">
           <h4>{{ subtitle }}</h4>
           <h1 class="text-2xl sm:text-6xl font-bold py-2">{{ title }}</h1>
           <g-link :to="link" class="py-1 border-bottom">{{ buttonText }}</g-link>

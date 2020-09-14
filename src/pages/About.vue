@@ -18,4 +18,9 @@ export default {
 </script>
 
 <style>
+
+.cover-image-background > * {
+  position: relative;
+  z-index: 100;
+}
 </style>

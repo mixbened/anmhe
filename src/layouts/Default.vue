@@ -2,11 +2,11 @@
   <div class="layout">
     <header class="flex p-4 md:px-8 items-center justify-between">
       <div class="hidden lg:block">
-        <g-image 
+        <g-link to="/"><g-image 
         alt="Logo ANMHE" 
         src="https://studyinkenya.co.ke/assets/default/images/ads/institution-logo-placeholder.png"
         class="w-20 sm:w-32 m:w-40"  
-        />
+        /></g-link>
       </div>
       <nav class="sm:mr-20">
         <div class="flex w-auto items-center">
@@ -34,13 +34,13 @@
           />
           <div class="text-center">
             <p class="text-xs">
-              <a class="uppercase p-2 hover:text-blue-600 transition ease-in duration-200 font-semibold"  href="#">Jobs</a>|
-              <a class="uppercase p-2 hover:text-blue-600 transition ease-in duration-200 font-semibold"  href="#">Presse</a>|
-              <a class="uppercase p-2 hover:text-blue-600 transition ease-in duration-200 font-semibold"  href="#">Impressum</a>|
-              <a class="uppercase p-2 hover:text-blue-600 transition ease-in duration-200 font-semibold"  href="#">Datenschutz</a>
+              <g-link class="uppercase p-2 hover:text-blue-600 transition ease-in duration-200 font-semibold"  to="/jobs">Jobs</g-link>|
+              <g-link class="uppercase p-2 hover:text-blue-600 transition ease-in duration-200 font-semibold"  to="/presse">Presse</g-link>|
+              <g-link class="uppercase p-2 hover:text-blue-600 transition ease-in duration-200 font-semibold"  to="/impressum">Impressum</g-link>|
+              <g-link class="uppercase p-2 hover:text-blue-600 transition ease-in duration-200 font-semibold"  to="/impressum#datenschutz">Datenschutz</g-link>
             </p>
             <p class="text-lg py-2">
-              <a class="p-2 hover:text-blue-600 transition ease-in duration-200"  href="#">© Ain't No Mountain</a>
+              <a class="p-2 hover:text-blue-600 transition ease-in duration-200"  href="/">© Ain't No Mountain</a>
             </p>
           </div>
         </div>

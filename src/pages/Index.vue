@@ -3,7 +3,8 @@
     <section>
       <div class="cover-image-background relative bg-cover text-white" :style="{backgroundImage:'url(https://images.unsplash.com/photo-1549880338-65ddcdfd017b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60)'}">
         <div class="sm:p-20 p-8 sm:py-32 p-12 sm:w-1/2 w-full sm:ml-32 ml-0">
-          <h2 class="text-2xl font-semibold uppercase">Holladio! Wir sind Ain´t No Mountain, die junge Agentur für Live-Kommunikation im Rheinland.</h2>
+          <h2 class="text-2xl font-semibold uppercase">Holladio!</h2>
+          <h2 class="text-xl font-semibold uppercase">Wir sind Ain´t No Mountain, die junge Agentur für Live-Kommunikation im Rheinland.</h2>
           <p class="py-8">Unser Herz schlägt für echte Erlebnisse: Wir lieben es, Messeauftritte, Produktpräsentationen, Kick-offs, Tagungen, Festivals und Mitarbeiterevents zu konzipieren und umzusetzen. Unser Ohrwurm-Name ist Programm: Kein Berg zu hoch und kein Weg zu weit. Kein Job zu klein und keine Challenge zu groß! Wir entwickeln für jedes Projekt die passenden Tools. On- oder offline, analog oder digital, hybrid oder virtuell. Wie wir das schaffen? Ganz einfach: Mit jeder Menge Erfahrung und unserem Netzwerk aus Kreativen und Projektmanagern. Profis aus Event, Messe, Online, Print und Social Media.</p>
           <p class="font-bold m-2">Wenn der Berg ruft - just call us, you don't have to worry!</p>
         </div>
