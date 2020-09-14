@@ -1,19 +1,44 @@
 <template>
   <Layout>
-    <section>
-      <section class="mx-4 sm:mx-8 sm:mx-32 md:mx-48 p-4">
-        <h3 class="text-3xl font-semibold uppercase">Titeltext</h3>
-        <p class="my-4 text-justify">Our mission is to create workspaces in which users can easily work – through fair prices and excellent service. Founded in Germany in 2015, we offer private offices for teams and companies with a flexible monthly subscription. With social awareness, we shape “new work” to grow a healthy business – together. Currently, we operate a total of 21 workspaces in Berlin, Lisbon, Potsdam, Hamburg, Cologne and Munich.</p>
-      </section>
-    </section>
+    <Intro title="Kontakt" text="" />
+    <div class="mx-4 sm:mx-8 sm:mx-32 md:mx-48 p-4">
+      <form
+        action="https://formspree.io/mwkwelwn"
+        method="POST"
+      >
+        <label class="block uppercase font-semibold text-gray-700 tracking-wide my-8">
+          Deine Email-Adresse
+          <input type="text" name="_replyto" class="bg-white focus:outline-none focus:shadow-outline border border-gray-300 rounded-lg py-2 px-4 my-2 block w-full appearance-none leading-normal" placeholder="Wohin sollen wir die Antwort schicken?">
+        </label>
+        <label class="block uppercase font-semibold text-gray-700 tracking-wide my-8">
+          Betreff
+          <input type="text" name="_replyto" class="bg-white focus:outline-none focus:shadow-outline border border-gray-300 rounded-lg py-2 px-4 my-2 block w-full appearance-none leading-normal" placeholder="Worum geht's?">
+        </label>
+        <label class="block uppercase font-semibold text-gray-700 tracking-wide my-8">
+          Deine Nachricht
+          <textarea  type="text" name="_replyto" class="bg-white focus:outline-none focus:shadow-outline border border-gray-300 rounded-lg py-2 px-4 my-2 block w-full appearance-none leading-normal" placeholder="Was ist deine Frage?"/>
+        </label>
 
+        <!-- your other form fields go here -->
+
+        <button type="submit" class="bg-orange-300 hover:bg-blue-700 font-bold py-2 px-4 rounded">
+          Senden
+        </button>
+      </form>
+    </div>
   </Layout>
 </template>
 
 <script>
+import Intro from '../components/Intro'
+
+
 export default {
   metaInfo: {
     title: 'Kontakt'
+  },
+  components: {
+    Intro
   }
 }
 </script>

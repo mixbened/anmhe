@@ -5,7 +5,7 @@
       <h2 class="text-center text-4xl">Full Service</h2>
       <h2 class="text-center my-2 mb-8">Veranstaltungen die unser Herz höher schlagen lassen!</h2>
       <div class="grid grid-cols-2 gap-2">
-        <div class="col-span-1 rounded p-4 border">
+        <div class="col-span-1 rounded p-4 border-2">
           <h4 class="text-2xl py-2">Corporate</h4>
           <ul class="list-disc px-6">
             <li>Mitarbeiterfest</li>
@@ -17,7 +17,7 @@
             <li>Teambuilding</li>
           </ul>
         </div>
-        <div class="col-span-1 rounded p-4 border">
+        <div class="col-span-1 rounded p-4 border-2">
           <h4 class="text-2xl py-2">Public</h4>
           <ul class="list-disc px-6">
             <li>Festival</li>
