@@ -1,5 +1,8 @@
 <template>
   <Layout>
+    <section>
+      <Intro title="Digitale Events" text="Events blindtext, Lorem ipsum dolor sit amet. Events blindtext, Lorem ipsum dolor sit amet. Events blindtext, Lorem ipsum dolor sit amet. Events blindtext, Lorem ipsum dolor sit amet. Events blindtext, Lorem ipsum dolor sit amet" />
+    </section>
     <div>
       <div v-for="(edge, index) in $page.events.edges" :key="edge.node.id">
         <EventCard
@@ -34,12 +37,14 @@
 import Layout from "~/layouts/Default.vue";
 import EventCard from "~/components/EventCard.vue";
 import IconList from '../components/IconList'
+import Intro from '~/components/Intro'
 
 export default {
   components: {
     Layout,
     EventCard,
-    IconList
+    IconList,
+    Intro
   },
   data() {
     return {
