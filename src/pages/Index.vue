@@ -33,7 +33,7 @@ export default {
 <style>
 
 .cover-image-background > * {
-  z-index: 100;
+  z-index: 10;
   position: relative;
 }
 
