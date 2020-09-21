@@ -1,23 +1,41 @@
 <template>
   <Layout>
-    <section>
-      <div class="cover-image-background relative bg-cover text-white" :style="{backgroundImage:'url(https://images.unsplash.com/photo-1549880338-65ddcdfd017b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60)'}">
-        <div class="sm:p-20 p-8 sm:py-32 p-12 sm:w-1/2 w-full sm:ml-32 ml-0">
-          <h2 class="text-2xl font-semibold uppercase">Holladio!</h2>
-          <h2 class="text-xl font-semibold uppercase">Wir sind Ain´t No Mountain, die junge Agentur für Live-Kommunikation im Rheinland.</h2>
-          <p class="py-8">Unser Herz schlägt für echte Erlebnisse: Wir lieben es, Messeauftritte, Produktpräsentationen, Kick-offs, Tagungen, Festivals und Mitarbeiterevents zu konzipieren und umzusetzen. Unser Ohrwurm-Name ist Programm: Kein Berg zu hoch und kein Weg zu weit. Kein Job zu klein und keine Challenge zu groß! Wir entwickeln für jedes Projekt die passenden Tools. On- oder offline, analog oder digital, hybrid oder virtuell. Wie wir das schaffen? Ganz einfach: Mit jeder Menge Erfahrung und unserem Netzwerk aus Kreativen und Projektmanagern. Profis aus Event, Messe, Online, Print und Social Media.</p>
-          <p class="font-bold m-2">Wenn der Berg ruft - just call us, you don't have to worry!</p>
+    <section class="w-full">
+      <div class="bg-scroll bg-center bg-cover h-70 relative text-gray-800 overlay" :style="{backgroundImage:`url(https://images.unsplash.com/photo-1511632765486-a01980e01a18?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60)`}">
+        <div class="text-left px-4 sm:px-20 relative z-10 flex items-center justify-center   h-full">
+            <vue-typed-js :strings="['First text.', 'Second Text.']" :showCursor="false" :typeSpeed="150" :backSpeed="50" :backDelay="2000" :loop="true">
+              <h1 class="text-center text-6xl font-semibold typing"></h1>
+            </vue-typed-js>
         </div>
       </div>
     </section>
-    <InfoCard value="some text" />
-    <InfoGrid title="Some Title" subtitle="this is the subtitle" head1="another head" head2="" head3="" text1="some more lorem ipsum text for having some content" text2="" text3="" image1="https://images.unsplash.com/photo-1549880338-65ddcdfd017b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60" image2="https://images.unsplash.com/photo-1549880338-65ddcdfd017b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60" image3="https://images.unsplash.com/photo-1549880338-65ddcdfd017b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60" image4="https://images.unsplash.com/photo-1549880338-65ddcdfd017b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60" />
+    <section class="mt-10">
+      <div class="mx-4 sm:mx-8 sm:mx-20 md:w-1/2 md:ml-32 p-4">
+        <h1 class="text-4xl font-semibold">HOLLADIO!</h1>
+        <h3 class="text-2xl my-2">WIR SIND AIN´T NO MOUNTAIN, DIE JUNGE AGENTUR FÜR LIVE-KOMMUNIKATION IM RHEINLAND.</h3>
+        <p>Unser Herz schlägt für echte Erlebnisse: Wir lieben es, Messeauftritte, Produktpräsentationen, Kick-offs, Tagungen, Festivals und Mitarbeiterevents zu konzipieren und umzusetzen. Unser Ohrwurm-Name ist Programm: Kein Berg zu hoch und kein Weg zu weit. Kein Job zu klein und keine Challenge zu groß! Wir entwickeln für jedes Projekt die passenden Tools. On- oder offline, analog oder digital, hybrid oder virtuell. Wie wir das schaffen? Ganz einfach: Mit jeder Menge Erfahrung und unserem Netzwerk aus Kreativen und Projektmanagern. Profis aus Event, Messe, Online, Print und Social Media.</p>
+        <p class="my-2"><b>Wenn der Berg ruft - just call us, you don't have to worry!</b></p>
+        <g-link to="/was-wir-machen"><button class="bg-orange-300 hover:bg-blue-700 text-white font-bold py-2 px-4 text-sm">Mehr über uns</button></g-link>
+      </div>
+    </section>
+    <section class="mt-20 bg-orange-300">
+        <IconList 
+          title1="KAPAZITÄT" text1="Kochevents, Tastings, Shootings: Eventlocation für bis zu 50 Personen" image1="https://studyinkenya.co.ke/assets/default/images/ads/institution-logo-placeholder.png" 
+          title2="KAPAZITÄT" text2="Kochevents, Tastings, Shootings: Eventlocation für bis zu 50 Personen" image2="https://studyinkenya.co.ke/assets/default/images/ads/institution-logo-placeholder.png" 
+          title3="KAPAZITÄT" text3="Kochevents, Tastings, Shootings: Eventlocation für bis zu 50 Personen" image3="https://studyinkenya.co.ke/assets/default/images/ads/institution-logo-placeholder.png" 
+        />
+    </section>
+    <section>
+      <Newsletter />
+    </section>
   </Layout>
 </template>
 
 <script>
 import InfoCard from '../components/InfoCard'
 import InfoGrid from '../components/InfoGrid'
+import IconList from '../components/IconList'
+import Newsletter from '../components/Newsletter'
 
 export default {
   metaInfo: {
@@ -25,27 +43,28 @@ export default {
   },
   components: {
     InfoCard,
-    InfoGrid
+    InfoGrid,
+    IconList,
+    Newsletter
   }
 }
 </script>
 
 <style>
 
-.cover-image-background > * {
-  z-index: 10;
-  position: relative;
+.h-70 {
+  height: 32rem;
 }
 
-.cover-image-background::after {
-  content: '';
+.overlay::before {
   position: absolute;
+  display: inline-block;
+  content: '';
   top: 0;
-  right: 0;
-  bottom: 0;
   left: 0;
-  background-image: linear-gradient(to bottom right, #0E0E0E, #0c0c0c);
+  width: 100%;
+  height: 100%;
   opacity: .3;
-  z-index: 1;
+  background: orange;
 }
 </style>

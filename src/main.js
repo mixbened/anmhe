@@ -3,10 +3,13 @@
 
 import DefaultLayout from '~/layouts/Default.vue'
 import '~/assets/css/all.min.css'
+import VueTypedJs from 'vue-typed-js'
+
 
 export default function (Vue, { router, head, isClient }) {
   // Set default layout as a global component
   Vue.component('Layout', DefaultLayout)
+  Vue.use(VueTypedJs)
   // Import Google Fonts
   head.link.push({
     rel: 'stylesheet',

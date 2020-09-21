@@ -1,24 +1,23 @@
 <template>
   <div class="layout">
-    <header class="flex items-center justify-between fixed top-0 w-full bg-white z-50">
-      <div class="hidden lg:block">
-        <g-link to="/"><g-image 
-        alt="Logo ANMHE" 
-        src="../assets/logo-transparent.png"
-        class="ml-4 w-20 sm:w-32 m:w-40"  
-        /></g-link>
-      </div>
-      <nav class="sm:mr-20">
-        <div class="flex w-auto items-center">
-          <g-link to="/"><i class="fas fa-mountain hover:text-blue-600 cursor-pointer p-2 sm:px-6 text-xl"></i></g-link>
-          <g-link to="/was-wir-machen" class="sm:uppercase p-1 sm:p-2 lg:px-6 hover:text-blue-600 transition ease-in duration-200 font-semibold text-sm">Was Wir Machen</g-link>
-          <g-link to="/wer-wir-sind" class="sm:uppercase p-1 sm:p-2 lg:px-6 hover:text-blue-600 transition ease-in duration-200 font-semibold text-sm">Wer Wir Sind</g-link>
-          <g-link to="/bergpost" class="hidden p-1 sm:block sm:uppercase sm:p-2 lg:px-6 hover:text-blue-600 transition ease-in duration-200 font-semibold text-sm">Wie Wir Arbeiten</g-link>
-          <g-link to="/digitale-events" class="p-1 bg-orange-300 sm:uppercase sm:p-2 lg:px-6 hover:text-blue-600 transition ease-in duration-200 font-semibold text-sm  ">Digitale Events</g-link>
+      <header :class="{ 'bg-white': !view.atTopOfPage }" class="transition duration-500 text-gray-800 flex items-center justify-between fixed top-0 w-full bg-transparent z-50">
+        <div class="hidden lg:block">
+          <g-link to="/"><g-image 
+          alt="Logo ANMHE" 
+          src="../assets/logo-transparent.png"
+          class="ml-4 w-20 sm:w-32 m:w-40"  
+          /></g-link>
         </div>
-      </nav>
-      
-    </header>
+        <nav class="sm:mr-20">
+          <div class="flex w-auto items-center">
+            <g-link to="/"><i class="fas fa-mountain hover:text-blue-600 cursor-pointer p-2 sm:px-6 text-xl"></i></g-link>
+            <g-link to="/was-wir-machen" class="sm:uppercase p-1 sm:p-2 lg:px-6 hover:text-blue-600 transition ease-in duration-200 font-semibold text-sm">Was Wir Machen</g-link>
+            <g-link to="/wer-wir-sind" class="sm:uppercase p-1 sm:p-2 lg:px-6 hover:text-blue-600 transition ease-in duration-200 font-semibold text-sm">Wer Wir Sind</g-link>
+            <g-link to="/bergpost" class="hidden p-1 sm:block sm:uppercase sm:p-2 lg:px-6 hover:text-blue-600 transition ease-in duration-200 font-semibold text-sm">Wie Wir Arbeiten</g-link>
+            <g-link to="/digitale-events" class="p-1 bg-orange-300 sm:uppercase sm:p-2 lg:px-6 hover:text-blue-600 transition ease-in duration-200 font-semibold text-sm  ">Digitale Events</g-link>
+          </div>
+        </nav>
+      </header>
     <transition name="fade" appear>
       <main>
         <slot />
@@ -55,8 +54,40 @@ query {
 }
 </static-query>
 
+<script>
+export default {
+  data () {
+    return {
+        view: {
+            atTopOfPage: true
+        }
+    }
+  },
+
+  beforeMount () {
+      window.addEventListener('scroll', this.handleScroll);
+  },
+
+  methods: {
+      handleScroll(){
+          // when the user scrolls, check the pageYOffset
+          if(window.pageYOffset>0){
+              // user is scrolled
+              console.log('not on top')
+              if(this.view.atTopOfPage) this.view.atTopOfPage = false
+          }else{
+              // user is at top of page
+              console.log('top of page')
+              if(!this.view.atTopOfPage) this.view.atTopOfPage = true
+          }
+      }
+  }
+}
+</script>
+
 <style>
 .content-container {
   padding: 0 5%;
 }
+
 </style>

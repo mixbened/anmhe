@@ -1,7 +1,7 @@
 <template>
   <Layout>
-    <FullBanner title="Some Title" subtitle="subtitle" buttonText="Learn More" link="/" image="https://images.unsplash.com/photo-1491438590914-bc09fcaaf77a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60"/>
-    <section class="p-8 mx-20 mt-20">
+    <Header title="was wir machen." background="https://images.unsplash.com/photo-1511632765486-a01980e01a18?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60"/>
+    <section class="p-8 mx-20 mt-10">
       <h2 class="text-center text-4xl">Full Service</h2>
       <h2 class="text-center my-2 mb-8">Veranstaltungen die unser Herz höher schlagen lassen!</h2>
       <div class="grid grid-cols-2 gap-2">
@@ -30,7 +30,7 @@
       </div>
     </section>
     <section class="mt-20">
-      <InfoCard title="Events sind unser Ding" text="Schau dir an, welche Events wir organisieren. Bei uns wird vor keiner Idee halt gemacht. #wirmachenesmöglich" button="Zu den Events" image="https://images.unsplash.com/photo-1491438590914-bc09fcaaf77a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60" position="left"/>
+      <InfoCard link="/events" title="Events sind unser Ding" text="Schau dir an, welche Events wir organisieren. Bei uns wird vor keiner Idee halt gemacht. #wirmachenesmöglich" button="Zu den Events" image="https://images.unsplash.com/photo-1491438590914-bc09fcaaf77a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60" position="left"/>
     </section>
   </Layout>
   
@@ -38,7 +38,7 @@
 
 <script>
 import InfoCard from '../components/InfoCard'
-import FullBanner from '../components/FullBanner'
+import Header from '../components/Header'
 
 export default {
   metaInfo: {
@@ -46,7 +46,7 @@ export default {
   },
   components: {
     InfoCard,
-    FullBanner
+    Header
   }
 }
 </script>
