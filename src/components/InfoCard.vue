@@ -1,6 +1,6 @@
 <template>
   <!-- This is the Event Card Preview Component-->
-  <section class="my-2" :style="{color:`${text}`, backgroundColor: `${background}`}">
+  <section :style="{color:`${text}`, backgroundColor: `${background}`}">
     <div v-if="position === 'left'">
       <div class="grid grid-cols-3 sm:grid-cols-11">
         <div class="col-span-6 bg-scroll bg-center" :style="{backgroundImage:`url(${image})`}"></div>

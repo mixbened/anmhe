@@ -30,7 +30,14 @@
       </div>
     </section>
     <section class="mt-20">
-      <InfoCard link="/events" title="Events sind unser Ding" text="Schau dir an, welche Events wir organisieren. Bei uns wird vor keiner Idee halt gemacht. #wirmachenesmöglich" button="Zu den Events" image="https://images.unsplash.com/photo-1491438590914-bc09fcaaf77a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60" position="left"/>
+      <InfoCard link="/events" title="Corporate Events" text="Schau dir an, welche Events wir organisieren. Bei uns wird vor keiner Idee halt gemacht. #wirmachenesmöglich" button="Zu den Events" image="https://images.unsplash.com/photo-1556761175-b413da4baf72?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60" position="left"/>
+      <InfoCard link="/events" title="Public Events" text="Schau dir an, welche Events wir organisieren. Bei uns wird vor keiner Idee halt gemacht. #wirmachenesmöglich" button="Zu den Events" image="https://images.unsplash.com/photo-1491438590914-bc09fcaaf77a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60" position="right"/>
+    </section>
+    <section class="mt-20">
+      <Intro text="Communication is a Gift. Wir glauben, dass Kommunikation ein mächtiges Werkzeug ist, um Menschen zu inspirieren und positiv zu beeinflussen. Gute Kommunikation ist allerdings nicht selbstverständlich. Sie ist Kunst und Wissenschaft zugleich. Mit datengetriebener Kreativität vereinen wir beide Welten für emphatische, authentische und präzise Inhalte." title="Ain't No Mountain." />
+    </section>
+    <section class="mt-20">
+      <FullBanner title="Hybride Events" buttonText="Mehr Erfahren" subtitle="Online - Offline - Hybrid" image="https://images.unsplash.com/photo-1596800933138-f1d353706417?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60" link="/hybride-events" />
     </section>
   </Layout>
   
@@ -39,6 +46,8 @@
 <script>
 import InfoCard from '../components/InfoCard'
 import Header from '../components/Header'
+import Intro from '../components/Intro'
+import FullBanner from '../components/FullBanner'
 
 export default {
   metaInfo: {
@@ -46,7 +55,9 @@ export default {
   },
   components: {
     InfoCard,
-    Header
+    Header,
+    Intro,
+    FullBanner
   }
 }
 </script>
