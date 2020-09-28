@@ -75,20 +75,4 @@ export default {
 </script>
 
 <style>
-
-.h-70 {
-  height: 32rem;
-}
-
-.overlay::before {
-  position: absolute;
-  display: inline-block;
-  content: '';
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  opacity: .3;
-  background: orange;
-}
 </style>

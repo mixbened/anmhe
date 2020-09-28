@@ -1,9 +1,49 @@
 <template>
   <Layout>
-    <section>
-      <Intro title="Jobs" text="some text" />
+    <section class="mt-32">
+      <Intro title="Talents Needed" text="Lass uns zusammen die Berge der Arbeitswelt erklimmen, einzigartige Veranstaltungen konzipieren, die besten Abläufe planen und echte Erlebnisse umsetzen. Mit unserer Kreativität bringen wir gemeinsam Ideen auf die Strecke und mit unserer Detailverliebtheit so manchen auch um den Verstand. Für unsere Kunden geben wir alles und wollen immer besser sein als die anderen. Das hält uns aber nicht davon ab auch mal die Aussicht zu genießen, ganz gemütlich und mit einem Hollerwasser* in der Hand. Wir sind eine noch junge, gerade am Anfang stehende Agentur, wollen aber hoch hinaus und suchen dafür Wegbegleiter. Um das Team aktuell zu komplettieren brauchen wir:" />
     </section>
-
+    <section class="text-gray-800 mx-4 sm:mx-8 sm:mx-32 md:mx-48 p-4">
+      <div class="grid grid-cols-2 gap-2 my-20">
+        <div class="col-span-1 rounded p-4 border-2 hover:bg-gray-200 relative">
+          <h4 class="text-2xl py-2 text-center">Praktikant (m/w/d)</h4>
+          <p class="transition">
+            <b>Was du mitbringen solltest: </b>
+            <ul class="list-disc p-4">
+              <li>Bisschen Agenturerfahrung wär´ nicht schlecht</li>
+              <li>Schon mal was geplant und organisiert haben</li>
+              <li>Bock auf coole Ideen und Kreativität</li>
+              <li>Bist neugierig, mutig und motiviert</li>
+              <li>Absolute Zuverlässigkeit und Sorgfalt</li>
+              <li>Idealerweise 3 Monate Zeit</li>
+            </ul>
+          </p>
+          <div class="bottom-0 my-2 absolute">
+          </div>
+        </div>
+        <div class="col-span-1 rounded p-4 border-2 hover:bg-gray-200 relative">
+          <h4 class="text-2xl py-2 text-center">Freelancer</h4>
+          <p class="transition">
+            <b>Wenn du: </b>
+            <ul class="list-disc p-4">
+              <li>Dich als Projektleiter, Konzeptioner, Architekt, Grafiker bei uns einbringen möchtest</li>
+              <li>Lust hast, uns mit deiner Erfahrung beim Aufbau der Agentur zu unterstützen</li>
+              <li>Bock auf coole Ideen und Kreativität</li>
+              <li>Eine Hohe Kommunikations- und Teamfähigkeit besitzt</li>
+              <li>Professionell eigenverantwortlich und strukturiert arbeitest</li>
+              <li>Projekte umsetzen willst, die den Kunden und dich nach vorne bringen</li>
+            </ul>
+            <b>…dann freuen wir uns von dir zu hören!</b>
+          </p>
+        </div>
+      </div>
+      <div>
+        
+        <p class="mb-4">Wenn du Lust hast auf ein starkes Team, abwechslungsreiche Aufgaben, ein kreatives Arbeitsklima XXX, dann werde Teil unseres Agentur-Alltags und begleite uns beim Aufbau. Sende uns einfach deine Bewerbung mit ein paar netten Worten und Arbeitsproben an hello@aintnomountain.com.</p>
+        
+        <small>*Du weißt nicht was ein Hollerwasser ist? Hier das Rezept: Nimm Wasser (egal, ob laut oder leise) und gebe Holunderblütensirup dazu - fertig! Die richtige “Mische” erfährst du, wenn du bei uns anfängst ;-)</small>
+      </div>
+    </section>
   </Layout>
 </template>
 

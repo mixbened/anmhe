@@ -1,6 +1,6 @@
 <template>
   <Layout>
-    <section>
+    <section class="mt-32">
       <Intro title="Digitale Events" text="Events blindtext, Lorem ipsum dolor sit amet. Events blindtext, Lorem ipsum dolor sit amet. Events blindtext, Lorem ipsum dolor sit amet. Events blindtext, Lorem ipsum dolor sit amet. Events blindtext, Lorem ipsum dolor sit amet" />
     </section>
     <div>

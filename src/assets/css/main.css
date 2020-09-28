@@ -1,1 +1,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans&family=Lobster&display=swap');
+
+
+.h-70 {
+    height: 32rem;
+  }
+  
+  .overlay::before {
+    position: absolute;
+    display: inline-block;
+    content: '';
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: .3;
+    background: orange;
+  }

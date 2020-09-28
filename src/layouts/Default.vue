@@ -73,11 +73,9 @@ export default {
           // when the user scrolls, check the pageYOffset
           if(window.pageYOffset>0){
               // user is scrolled
-              console.log('not on top')
               if(this.view.atTopOfPage) this.view.atTopOfPage = false
           }else{
               // user is at top of page
-              console.log('top of page')
               if(!this.view.atTopOfPage) this.view.atTopOfPage = true
           }
       }
