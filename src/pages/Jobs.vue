@@ -3,9 +3,9 @@
     <section class="mt-32">
       <Intro title="Talents Needed" text="Lass uns zusammen die Berge der Arbeitswelt erklimmen, einzigartige Veranstaltungen konzipieren, die besten Abläufe planen und echte Erlebnisse umsetzen. Mit unserer Kreativität bringen wir gemeinsam Ideen auf die Strecke und mit unserer Detailverliebtheit so manchen auch um den Verstand. Für unsere Kunden geben wir alles und wollen immer besser sein als die anderen. Das hält uns aber nicht davon ab auch mal die Aussicht zu genießen, ganz gemütlich und mit einem Hollerwasser* in der Hand. Wir sind eine noch junge, gerade am Anfang stehende Agentur, wollen aber hoch hinaus und suchen dafür Wegbegleiter. Um das Team aktuell zu komplettieren brauchen wir:" />
     </section>
-    <section class="text-gray-800 mx-4 sm:mx-8 sm:mx-32 md:mx-48 p-4">
-      <div class="grid grid-cols-2 gap-2 my-20">
-        <div class="col-span-1 rounded p-4 border-2 hover:bg-gray-200 relative">
+    <section class="mx-4 sm:mx-20 md:ml-32 p-4">
+      <div class="grid grid-cols-1 sm:grid-cols-2 gap-2 my-20">
+        <div class="col-span-1 rounded p-4 px-6 bg-gray-200 relative">
           <h4 class="text-2xl py-2 text-center">Praktikant (m/w/d)</h4>
           <p class="transition">
             <b>Was du mitbringen solltest: </b>
@@ -21,7 +21,7 @@
           <div class="bottom-0 my-2 absolute">
           </div>
         </div>
-        <div class="col-span-1 rounded p-4 border-2 hover:bg-gray-200 relative">
+        <div class="col-span-1 rounded p-4 px-6 bg-gray-200 relative">
           <h4 class="text-2xl py-2 text-center">Freelancer</h4>
           <p class="transition">
             <b>Wenn du: </b>

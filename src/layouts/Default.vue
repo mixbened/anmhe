@@ -10,11 +10,11 @@
         </div>
         <nav class="sm:mr-20">
           <div class="flex w-auto items-center">
-            <g-link to="/"><i class="fas fa-mountain hover:text-blue-600 cursor-pointer p-2 sm:px-6 text-xl"></i></g-link>
-            <g-link to="/was-wir-machen" class="sm:uppercase p-1 sm:p-2 lg:px-6 hover:text-blue-600 transition ease-in duration-200 font-semibold text-sm">Was Wir Machen</g-link>
-            <g-link to="/wer-wir-sind" class="sm:uppercase p-1 sm:p-2 lg:px-6 hover:text-blue-600 transition ease-in duration-200 font-semibold text-sm">Wer Wir Sind</g-link>
-            <g-link to="/bergpost" class="hidden p-1 sm:block sm:uppercase sm:p-2 lg:px-6 hover:text-blue-600 transition ease-in duration-200 font-semibold text-sm">Wie Wir Arbeiten</g-link>
-            <g-link to="/digitale-events" class="p-1 bg-orange-300 sm:uppercase sm:p-2 lg:px-6 hover:text-blue-600 transition ease-in duration-200 font-semibold text-sm  ">Digitale Events</g-link>
+            <g-link to="/"><i class="fas fa-mountain hover:text-secondary cursor-pointer p-2 sm:px-6 text-xl"></i></g-link>
+            <g-link to="/was-wir-machen" class="sm:uppercase p-1 sm:p-2 lg:px-6 hover:text-secondary transition ease-in duration-200 font-semibold text-sm">Was Wir Machen</g-link>
+            <g-link to="/wer-wir-sind" class="sm:uppercase p-1 sm:p-2 lg:px-6 hover:text-secondary transition ease-in duration-200 font-semibold text-sm">Wer Wir Sind</g-link>
+            <g-link to="/events" class="hidden p-1 sm:block sm:uppercase sm:p-2 lg:px-6 hover:text-secondary transition ease-in duration-200 font-semibold text-sm">Wie Wir Arbeiten</g-link>
+            <g-link to="/digitale-events" class="p-1 bg-tertiary sm:uppercase sm:p-2 lg:px-6 hover:text-secondary transition ease-in duration-200 font-semibold text-sm  ">Digitale Events</g-link>
           </div>
         </nav>
       </header>
@@ -32,13 +32,13 @@
           />
           <div class="text-center">
             <p class="text-xs">
-              <g-link class="uppercase p-2 hover:text-blue-600 transition ease-in duration-200 font-semibold"  to="/jobs">Jobs</g-link>|
-              <g-link class="uppercase p-2 hover:text-blue-600 transition ease-in duration-200 font-semibold"  to="/presse">Presse</g-link>|
-              <g-link class="uppercase p-2 hover:text-blue-600 transition ease-in duration-200 font-semibold"  to="/impressum">Impressum</g-link>|
-              <g-link class="uppercase p-2 hover:text-blue-600 transition ease-in duration-200 font-semibold"  to="/impressum#datenschutz">Datenschutz</g-link>
+              <g-link class="uppercase p-2 hover:text-secondary transition ease-in duration-200 font-semibold"  to="/jobs">Jobs</g-link>|
+              <g-link class="uppercase p-2 hover:text-secondary transition ease-in duration-200 font-semibold"  to="/presse">Presse</g-link>|
+              <g-link class="uppercase p-2 hover:text-secondary transition ease-in duration-200 font-semibold"  to="/impressum">Impressum</g-link>|
+              <g-link class="uppercase p-2 hover:text-secondary transition ease-in duration-200 font-semibold"  to="/impressum#datenschutz">Datenschutz</g-link>
             </p>
             <p class="text-lg py-2">
-              <a class="p-2 hover:text-blue-600 transition ease-in duration-200"  href="/">© Ain't No Mountain</a>
+              <a class="p-2 hover:text-secondary transition ease-in duration-200"  href="/">© Ain't No Mountain</a>
             </p>
           </div>
         </div>

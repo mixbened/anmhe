@@ -1,7 +1,7 @@
 <template>
     <section class="w-full">
-      <div class="bg-scroll bg-center bg-cover h-70 relative text-gray-800 overlay flex items-end" :style="{backgroundImage:`url(${background})`}">
-        <div class="text-left px-4 sm:px-20 relative z-10">
+      <div class="bg-scroll bg-center bg-cover h-70 relative text-black overlay flex items-end" :style="{backgroundImage:`url(${background})`}">
+        <div class="text-left relative z-10 mx-4 sm:mx-20 md:ml-32">
           <h1 class="text-2xl sm:text-6xl font-bold py-2 uppercase">{{ title }}</h1>
         </div>
       </div>

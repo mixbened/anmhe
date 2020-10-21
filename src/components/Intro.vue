@@ -1,5 +1,5 @@
 <template>
-      <section class="text-gray-800 mx-4 sm:mx-8 sm:mx-32 md:mx-48 p-4">
+      <section class="text-black mx-4 sm:mx-20 md:ml-32 py-4 md:w-1/2">
         <h3 class="text-3xl font-semibold uppercase">{{ title }}</h3>
         <p class="my-4 text-justify">{{ text }}</p>
       </section>

@@ -1,7 +1,7 @@
 <template>
   <Layout>
     <section class="w-full">
-      <div class="bg-scroll bg-center bg-cover h-70 relative text-gray-800 overlay" :style="{backgroundImage:`url(https://images.unsplash.com/photo-1511632765486-a01980e01a18?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60)`}">
+      <div class="bg-scroll bg-center bg-cover h-70 relative  text-black  overlay" :style="{backgroundImage:`url(https://images.unsplash.com/photo-1511632765486-a01980e01a18?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60)`}">
         <div class="text-left px-4 sm:px-20 relative z-10 flex items-center justify-center   h-full">
             <vue-typed-js :strings="['First text.', 'Second Text.']" :showCursor="false" :typeSpeed="150" :backSpeed="50" :backDelay="2000" :loop="true">
               <h1 class="text-center text-6xl font-semibold typing"></h1>
@@ -11,14 +11,14 @@
     </section>
     <section class="mt-10">
       <div class="mx-4 sm:mx-8 sm:mx-20 md:w-1/2 md:ml-32 p-4">
-        <h1 class="text-4xl font-semibold">HOLLADIO!</h1>
+        <h1 class="text-4xl font-bold italic">HOLLADIO!</h1>
         <h3 class="text-2xl my-2">WIR SIND AIN´T NO MOUNTAIN, DIE JUNGE AGENTUR FÜR LIVE-KOMMUNIKATION IM RHEINLAND.</h3>
-        <p>Unser Herz schlägt für echte Erlebnisse: Wir lieben es, Messeauftritte, Produktpräsentationen, Kick-offs, Tagungen, Festivals und Mitarbeiterevents zu konzipieren und umzusetzen. Unser Ohrwurm-Name ist Programm: Kein Berg zu hoch und kein Weg zu weit. Kein Job zu klein und keine Challenge zu groß! Wir entwickeln für jedes Projekt die passenden Tools. On- oder offline, analog oder digital, hybrid oder virtuell. Wie wir das schaffen? Ganz einfach: Mit jeder Menge Erfahrung und unserem Netzwerk aus Kreativen und Projektmanagern. Profis aus Event, Messe, Online, Print und Social Media.</p>
+        <p class="text-justify">Unser Herz schlägt für echte Erlebnisse: Wir lieben es, Messeauftritte, Produktpräsentationen, Kick-offs, Tagungen, Festivals und Mitarbeiterevents zu konzipieren und umzusetzen. Unser Ohrwurm-Name ist Programm: Kein Berg zu hoch und kein Weg zu weit. Kein Job zu klein und keine Challenge zu groß! Wir entwickeln für jedes Projekt die passenden Tools. On- oder offline, analog oder digital, hybrid oder virtuell. Wie wir das schaffen? Ganz einfach: Mit jeder Menge Erfahrung und unserem Netzwerk aus Kreativen und Projektmanagern. Profis aus Event, Messe, Online, Print und Social Media.</p>
         <p class="my-2"><b>Wenn der Berg ruft - just call us, you don't have to worry!</b></p>
-        <g-link to="/was-wir-machen"><button class="bg-orange-300 hover:bg-gray-800 font-bold py-2 px-4 text-sm">Mehr über uns</button></g-link>
+        <g-link to="/was-wir-machen"><button class="bg-tertiary hover:bg-secondary  font-bold py-2 px-4 text-sm">Mehr über uns</button></g-link>
       </div>
     </section>
-    <section class="sm:m-20 m-8">
+    <section class="sm:mx-20 mx-8 my-24">
       <div class="grid grid-cols-1 sm:grid-cols-3 gap-4 px-0 lg:px-20">
         <div class="col-span-1 text-center p-10">
           <g-image
