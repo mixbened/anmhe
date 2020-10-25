@@ -1,21 +1,22 @@
 <template>
   <Layout>
-    <section class="w-full">
-      <div class="bg-scroll bg-center bg-cover h-70 relative  text-black  overlay" :style="{backgroundImage:`url(https://images.unsplash.com/photo-1511632765486-a01980e01a18?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60)`}">
-        <div class="text-left px-4 sm:px-20 relative z-10 flex items-center justify-center   h-full">
-            <vue-typed-js :strings="['First text.', 'Second Text.']" :showCursor="false" :typeSpeed="150" :backSpeed="50" :backDelay="2000" :loop="true">
-              <h1 class="text-center text-6xl font-semibold typing"></h1>
-            </vue-typed-js>
-        </div>
+    <section class="relative sm:h-screen">
+      <div class="w-full h-full block overflow-hidden">
+        <video autoplay muted id="myVideo" class="w-full h-full scale">
+          <source src="https://res.cloudinary.com/mixbened/video/upload/v1603629177/ANM/trimmed-intro-anm.mov" type="video/mp4">
+        </video>
       </div>
     </section>
     <section class="mt-10">
       <div class="mx-4 sm:mx-8 sm:mx-20 md:w-1/2 md:ml-32 p-4">
-        <h1 class="text-4xl font-bold italic">HOLLADIO!</h1>
-        <h3 class="text-2xl my-2">WIR SIND AIN´T NO MOUNTAIN, DIE JUNGE AGENTUR FÜR LIVE-KOMMUNIKATION IM RHEINLAND.</h3>
-        <p class="text-justify">Unser Herz schlägt für echte Erlebnisse: Wir lieben es, Messeauftritte, Produktpräsentationen, Kick-offs, Tagungen, Festivals und Mitarbeiterevents zu konzipieren und umzusetzen. Unser Ohrwurm-Name ist Programm: Kein Berg zu hoch und kein Weg zu weit. Kein Job zu klein und keine Challenge zu groß! Wir entwickeln für jedes Projekt die passenden Tools. On- oder offline, analog oder digital, hybrid oder virtuell. Wie wir das schaffen? Ganz einfach: Mit jeder Menge Erfahrung und unserem Netzwerk aus Kreativen und Projektmanagern. Profis aus Event, Messe, Online, Print und Social Media.</p>
-        <p class="my-2"><b>Wenn der Berg ruft - just call us, you don't have to worry!</b></p>
-        <g-link to="/was-wir-machen"><button class="bg-tertiary hover:bg-secondary  font-bold py-2 px-4 text-sm">Mehr über uns</button></g-link>
+        <vue-typed-js :strings="['Holladio!', 'Moin Moin', 'Die Agentur, die du dir gewünscht hast.']" :showCursor="false" :typeSpeed="150" :backSpeed="50" :backDelay="2000" :loop="true">
+          <h1 class="text-center text-4xl font-semibold"><span class="typing"></span><span class="opacity-0 text-xs">.</span></h1>
+        </vue-typed-js>
+        <p class="text-justify leading-loose my-2">
+          <span class="block mb-2">Wir sind Ain't No Mountain, die junge Agentur für Live-Kommunikation im Rheinland.</span>
+          Unser Herz schlägt für echte Erlebnisse: Wir lieben es, Messeauftritte, Produktpräsentationen, Kick-offs, Tagungen, Festivals und Mitarbeiterevents zu konzipieren und umzusetzen. Unser Ohrwurm-Name ist Programm: Kein Berg zu hoch und kein Weg zu weit. Kein Job zu klein und keine Challenge zu groß! Wir entwickeln für jedes Projekt die passenden Tools. On- oder offline, analog oder digital, hybrid oder virtuell. Wie wir das schaffen? Ganz einfach: Mit jeder Menge Erfahrung und unserem Netzwerk aus Kreativen und Projektmanagern. Profis aus Event, Messe, Online, Print und Social Media. Wenn der Berg ruft - just call us, you don't have to worry!
+          </p>
+        <g-link to="/was-wir-machen"><button class="bg-primary text-white hover:bg-secondary font-bold py-2 px-4 text-sm">Mehr über uns</button></g-link>
       </div>
     </section>
     <section class="sm:mx-20 mx-8 my-24">
@@ -74,5 +75,8 @@ export default {
 }
 </script>
 
-<style>
+<style scoped>
+#myVideo {
+  transform: scale(1.3);
+}
 </style>

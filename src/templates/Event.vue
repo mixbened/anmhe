@@ -1,6 +1,5 @@
 <template>
   <Layout>
-    <h1>Events</h1>
   </Layout>
 </template>
 

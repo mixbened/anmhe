@@ -1,12 +1,12 @@
 <template>
   <Layout>
-    <section class="mt-32">
-      <Intro title="Talents Needed" text="Lass uns zusammen die Berge der Arbeitswelt erklimmen, einzigartige Veranstaltungen konzipieren, die besten Abläufe planen und echte Erlebnisse umsetzen. Mit unserer Kreativität bringen wir gemeinsam Ideen auf die Strecke und mit unserer Detailverliebtheit so manchen auch um den Verstand. Für unsere Kunden geben wir alles und wollen immer besser sein als die anderen. Das hält uns aber nicht davon ab auch mal die Aussicht zu genießen, ganz gemütlich und mit einem Hollerwasser* in der Hand. Wir sind eine noch junge, gerade am Anfang stehende Agentur, wollen aber hoch hinaus und suchen dafür Wegbegleiter. Um das Team aktuell zu komplettieren brauchen wir:" />
+    <section class="mt-32 mx-4 sm:mx-20 md:ml-32 py-4 md:w-1/2">
+      <h2 class="text-3xl font-semibold uppercase inline-block bg-primary leading-tight p-2 text-white">Stellen bei ANM</h2>
     </section>
     <section class="mx-4 sm:mx-20 md:ml-32 p-4">
       <div class="grid grid-cols-1 sm:grid-cols-2 gap-2 my-20">
-        <div class="col-span-1 rounded p-4 px-6 bg-gray-200 relative">
-          <h4 class="text-2xl py-2 text-center">Praktikant (m/w/d)</h4>
+        <div class="col-span-1 rounded p-4 px-6 shadow relative">
+          <h4 class="text-2xl my-2 text-center inline-block border-b-2 border-black">Praktikant (m/w/d)</h4>
           <p class="transition">
             <b>Was du mitbringen solltest: </b>
             <ul class="list-disc p-4">
@@ -21,8 +21,8 @@
           <div class="bottom-0 my-2 absolute">
           </div>
         </div>
-        <div class="col-span-1 rounded p-4 px-6 bg-gray-200 relative">
-          <h4 class="text-2xl py-2 text-center">Freelancer</h4>
+        <div class="col-span-1 rounded p-4 px-6 shadow relative">
+          <h4 class="text-2xl my-2 text-center inline-block border-b-2 border-black">Freelancer</h4>
           <p class="transition">
             <b>Wenn du: </b>
             <ul class="list-disc p-4">
@@ -39,7 +39,7 @@
       </div>
       <div>
         
-        <p class="mb-4">Wenn du Lust hast auf ein starkes Team, abwechslungsreiche Aufgaben, ein kreatives Arbeitsklima XXX, dann werde Teil unseres Agentur-Alltags und begleite uns beim Aufbau. Sende uns einfach deine Bewerbung mit ein paar netten Worten und Arbeitsproben an hello@aintnomountain.com.</p>
+        <p class="mb-4">Wenn du Lust hast auf ein starkes Team, abwechslungsreiche Aufgaben, ein kreatives Arbeitsklima XXX, dann werde Teil unseres Agentur-Alltags und begleite uns beim Aufbau. Sende uns einfach deine Bewerbung mit ein paar netten Worten und Arbeitsproben an <span class="font-semibold">hello@aintnomountain.com.</span></p>
         
         <small>*Du weißt nicht was ein Hollerwasser ist? Hier das Rezept: Nimm Wasser (egal, ob laut oder leise) und gebe Holunderblütensirup dazu - fertig! Die richtige “Mische” erfährst du, wenn du bei uns anfängst ;-)</small>
       </div>

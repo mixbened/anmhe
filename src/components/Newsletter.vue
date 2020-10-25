@@ -1,6 +1,6 @@
 <template>
   <!-- This is the Event Card Preview Component-->
-  <section class="px-4 sm:px-32 md:px-64 py-12 bg-tertiary text-white">
+  <section class="my-8 mx-auto w-full sm:w-4/5 md:w-4/5 lg:w-2/3 xxl:w-1/3 p-8 bg-gray-100">
     <form action="https://aintnomountain.us2.list-manage.com/subscribe/post?u=379cbb28ae2ca785a28d16826&amp;id=82123e83a3" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
       <div class="grid grid-cols-5">
         <div class="col-span-4">
@@ -13,7 +13,7 @@
         </div>
         <div class="col-span-4">
           <div class="mc-field-group">
-          <input type="email" value="" name="EMAIL" class="required email w-full p-2 text-black" id="mce-EMAIL" placeholder="Email Adresse">
+          <input type="email" value="" name="EMAIL" class="required email w-full p-2 text-black bg-gray-100" id="mce-EMAIL" placeholder="Email Adresse">
           </div>
         </div>
         <div class="col-span-1">
