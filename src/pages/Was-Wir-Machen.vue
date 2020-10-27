@@ -9,7 +9,7 @@
     <!-- <section class="mx-4 sm:mx-20 md:ml-32">
       <a href="/was-wir-machen"><button class="bg-tertiary hover:bg-secondary font-bold py-2 px-4 text-sm text-white">Bisherige Projekte</button></a>
     </section> -->
-    <section class="mx-4 sm:mx-20 md:ml-32 my-32">
+    <section class="mx-4 sm:mx-20 md:ml-32 my-32" id="analog">
       <h2 class="text-3xl font-semibold uppercase inline-block bg-primary leading-tight p-2 text-white">Analoge Events</h2>
       <div class="grid grid-cols-1 sm:grid-cols-2 gap-8 mt-10">
         <div class="col-span-1 py-4 mr-4 sm:mr-32">
@@ -49,7 +49,7 @@
         </div>
       </div>
     </section>
-    <section class="bg-secondary text-white">
+    <section class="bg-secondary text-white" id="digital">
       <div class="mx-4 sm:mx-20 md:ml-32 my-32 py-12">
         <h2 class="text-3xl font-semibold uppercase inline-block bg-white leading-tight p-2 text-secondary">Digitale Events</h2>
         <div class="grid grid-cols-1 sm:grid-cols-2 gap-8 mt-10">
@@ -107,7 +107,7 @@ noch bis zum “Z” an deiner Seite.</p>
         </div>
       </div>
     </section>
-    <section class="mx-4 sm:mx-20 md:ml-32 my-32">
+    <section class="mx-4 sm:mx-20 md:ml-32 my-32" id="hybrid">
       <h2 class="text-3xl font-semibold uppercase inline-block bg-primary leading-tight p-2 text-white">Hybride Events</h2>
       <div class="grid grid-cols-1 sm:grid-cols-2 gap-8 mt-10">
         <div class="col-span-2 py-4 mr-4 sm:mr-32">

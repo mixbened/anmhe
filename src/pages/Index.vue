@@ -1,13 +1,13 @@
 <template>
   <Layout>
-    <section class="relative sm:h-screen">
+    <section class="relative sm:h-screen" id="banner">
       <div class="w-full h-full block overflow-hidden">
         <video autoplay muted id="myVideo" class="w-full h-full scale">
           <source src="https://res.cloudinary.com/mixbened/video/upload/v1603629177/ANM/trimmed-intro-anm.mov" type="video/mp4">
         </video>
       </div>
     </section>
-    <section class="mt-10">
+    <section class="mt-10" id="start">
       <div class="mx-4 sm:mx-8 sm:mx-20 md:w-1/2 md:ml-32 p-4">
         <vue-typed-js :strings="['Holladio!', 'Moin Moin', 'Die Agentur, die du dir gewünscht hast.']" :showCursor="false" :typeSpeed="150" :backSpeed="50" :backDelay="2000" :loop="true">
           <h1 class="text-center text-4xl font-semibold"><span class="typing"></span><span class="opacity-0 text-xs">.</span></h1>
@@ -19,34 +19,38 @@
         <g-link to="/was-wir-machen"><button class="bg-primary text-white hover:bg-secondary font-bold py-2 px-4 text-sm">Mehr über uns</button></g-link>
       </div>
     </section>
-    <section class="sm:mx-20 mx-8 my-24">
-      <div class="grid grid-cols-1 sm:grid-cols-3 gap-4 px-0 lg:px-20">
-        <div class="col-span-1 text-center p-10">
+    <section class="sm:mx-20 mx-8 my-32">
+      <div class="grid grid-cols-1 sm:grid-cols-3 gap-8 px-0 lg:px-20">
+        <div class="col-span-1 text-center p-10 bg-tertiary shadow text-white rounded">
           <g-image
           alt="Icon Image" 
           src="../assets/undraw_breaking_barriers_vnf3.svg"
           class="w-64 m-auto" 
           />
-          <h4 class="text-lg font-bold py-2">Breaking Barriers</h4>
+          <h2 class="text-2xl font-semibold uppercase inline-block bg-white leading-tight p-2 my-8 text-tertiary">Analoge Events</h2>
           <p class="px-4 sm:px-8 text-sm">Lorem Ipsum.......</p>
+          <g-link to="/was-wir-machen#hybrid" class="p-1 border-b border-white">Mehr erfahren</g-link>
         </div>
-        <div class="col-span-1 text-center p-10">
+        <div class="col-span-1 text-center p-10 bg-secondary shadow text-white rounded">
           <g-image 
           alt="Icon Image" 
           src="../assets/undraw_events_2p66.svg"
           class="w-64 m-auto" 
           />
-          <h4 class="text-lg font-bold py-2">Be On Time</h4>
-          <p class="px-4 sm:px-8 text-sm">Lorem Ipsum.......</p>
+          <h2 class="text-2xl font-semibold uppercase inline-block bg-white leading-tight p-2 my-8 text-secondary">Digitale Events</h2>
+          <p class="px-4 sm:px-8 text-sm">Kurz mal raus aus dem Schatten und alles überholt. Das haben Digitale Events vor ein paar Wochen geschafft und sind aktuell nicht mehr aus der Veranstaltungslandschaft wegzudenken.</p>
+          <g-link to="/was-wir-machen#hybrid" class="p-1 border-b border-white">Mehr erfahren</g-link>
         </div>
-        <div class="col-span-1 text-center p-10">
+        <div class="col-span-1 text-center p-10 bg-primary shadow text-white rounded">
           <g-image 
           alt="Icon Image" 
           src="../assets/undraw_special_event_4aj8.svg"
           class="w-64 m-auto" 
+          style="margin: 0.5em"
           />
-          <h4 class="text-lg font-bold pt-4 py-2">Feel the Vibe</h4>
+          <h2 class="text-2xl font-semibold uppercase inline-block bg-white leading-tight p-2 my-8 text-primary">Hybride Events</h2>
           <p class="px-4 sm:px-8 text-sm">Lorem Ipsum.......</p>
+          <g-link to="/was-wir-machen#hybrid" class="p-1 border-b border-white">Mehr erfahren</g-link>
         </div>
       </div>
     </section>
@@ -71,6 +75,15 @@ export default {
     InfoGrid,
     IconList,
     Newsletter
+  },
+  mounted(){
+    setTimeout(() => {
+      const elBanner = document.getElementById('banner')
+      const heightBanner = elBanner.offsetHeight 
+      const elHeader = document.getElementById('header')
+      const heightHeader = elHeader.offsetHeight 
+      window.scroll(0,heightBanner-heightHeader)
+    },5000)
   }
 }
 </script>

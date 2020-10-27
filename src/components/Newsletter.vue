@@ -13,7 +13,7 @@
         </div>
         <div class="col-span-4">
           <div class="mc-field-group">
-          <input type="email" value="" name="EMAIL" class="required email w-full p-2 text-black bg-gray-100" id="mce-EMAIL" placeholder="Email Adresse">
+          <input type="email" value="" name="EMAIL" class="required email w-full p-2 text-black bg-gray-200" id="mce-EMAIL" placeholder="Email Adresse">
           </div>
         </div>
         <div class="col-span-1">

@@ -1,10 +1,10 @@
 <template>
   <div class="layout">
-      <header :class="{ 'opacity-1': !view.atTopOfPage, 'opacity-0': view.atTopOfPage }" class="bg-white transition duration-500 text-gray-800 flex items-center justify-between fixed top-0 w-full bg-transparent z-50 py-2">
+      <header :class="{ 'opacity-1': !view.atTopOfPage, 'opacity-0': view.atTopOfPage }" class="bg-white transition duration-500 text-gray-800 flex items-center justify-between fixed top-0 w-full bg-transparent z-50 py-2" id="header">
         <div>
           <g-link to="/"><g-image 
           alt="Logo ANMHE" 
-          src="../assets/ANM-SHORT-B@3x-transparent.png"
+          src="../assets/ANM-SHORT-B@3x.png"
           class="ml-1 sm:ml-4 w-20 sm:w-32 m:w-40"  
           /></g-link>
         </div>
@@ -13,7 +13,7 @@
             <g-link to="/was-wir-machen" class="sm:uppercase p-2 sm:p-2 lg:px-6 hover:text-secondary transition ease-in duration-200 font-semibold text-xs sm:text-base">Was Wir Machen</g-link>
             <g-link to="/wer-wir-sind" class="sm:uppercase p-2 sm:p-2 lg:px-6 hover:text-secondary transition ease-in duration-200 font-semibold text-xs sm:text-base">Wer Wir Sind</g-link>
             <g-link to="/events" class="hidden p-2 sm:block sm:uppercase sm:p-2 lg:px-6 hover:text-secondary transition ease-in duration-200 font-semibold text-xs sm:text-base">Wie Wir Arbeiten</g-link>
-            <g-link to="/digitale-events" class="p-2 border border-primary sm:uppercase sm:p-2 lg:px-6 hover:text-secondary transition ease-in duration-200 font-semibold  text-xs sm:text-base">Digitale Events</g-link>
+            <g-link to="/was-wir-machen#digital" class="p-2 border border-primary sm:uppercase sm:p-2 lg:px-6 hover:text-secondary transition ease-in duration-200 font-semibold  text-xs sm:text-base">Digitale Events</g-link>
           </div>
         </nav>
       </header>
