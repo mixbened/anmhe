@@ -2,6 +2,7 @@
   <Layout>
     <section class="mt-32 mx-4 sm:mx-20 md:ml-32 py-4 md:w-1/2">
       <h2 class="text-3xl font-semibold uppercase inline-block bg-primary leading-tight p-2 text-white">Stellen bei ANM</h2>
+      <p class="my-6">Lass uns zusammen die Berge der Arbeitswelt erklimmen, einzigartige Veranstaltungen konzipieren, die besten Abläufe planen und echte Erlebnisse umsetzen. Mit unserer Kreativität bringen wir gemeinsam Ideen auf die Strecke und mit unserer Detailverliebtheit so manchen auch um den Verstand. Für unsere Kunden geben wir alles und wollen immer besser sein als die anderen. Das hält uns aber nicht davon ab auch mal die Aussicht zu genießen, ganz gemütlich und mit einem Hollerwasser* in der Hand.</p>
     </section>
     <section class="mx-4 sm:mx-20 md:ml-32 p-4">
       <div class="grid grid-cols-1 sm:grid-cols-2 gap-2 my-20">

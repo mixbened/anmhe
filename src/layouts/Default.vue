@@ -1,6 +1,6 @@
 <template>
   <div class="layout">
-      <header :class="{ 'opacity-1': !view.atTopOfPage, 'opacity-0': view.atTopOfPage }" class="bg-white transition duration-500 text-gray-800 flex items-center justify-between fixed top-0 w-full bg-transparent z-50 py-2" id="header">
+      <header :class="{ 'opacity-1': !view.atTopOfPage, 'opacity-0': view.atTopOfPage && view.route !== '/jobs' }" class="bg-white transition duration-500 text-gray-800 flex items-center justify-between fixed top-0 w-full bg-transparent z-50 py-2" id="header">
         <div>
           <g-link to="/"><g-image 
           alt="Logo ANMHE" 
@@ -71,15 +71,17 @@ export default {
   data () {
     return {
         view: {
-            atTopOfPage: true
+            atTopOfPage: true,
+            route: window.location.pathname
         }
     }
   },
 
   beforeMount () {
       window.addEventListener('scroll', this.handleScroll);
-  },
+      console.log(this.view)
 
+  },
   methods: {
       handleScroll(){
           // when the user scrolls, check the pageYOffset
