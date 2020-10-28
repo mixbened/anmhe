@@ -1,6 +1,5 @@
 <template>
-  <Layout>
-  </Layout>
+  <div>placeholder</div>
 </template>
 
 <script>
