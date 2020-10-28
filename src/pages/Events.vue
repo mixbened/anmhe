@@ -15,8 +15,10 @@
           </div>
         </div>
       </section>
-      <section class="my-20 mx-4 sm:mx-20 md:ml-32">
-        
+      <section class="my-48 mx-4 sm:mx-20 md:ml-32 text-center">
+        <h2 class="text-3xl font-semibold uppercase inline-block bg-primary leading-tight p-2 text-white">Frag uns einfach</h2>
+        <p class="my-4">Ruf uns an, schick uns eine Anfrage oder sende uns eine Brieftaube</p>
+        <g-link to="/bergpost" class="p-1 border-b border-black">Kontaktmöglichkeiten</g-link>
       </section>
   </Layout>
 </template>

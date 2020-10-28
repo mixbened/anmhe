@@ -29,7 +29,7 @@
           />
           <h2 class="text-2xl font-semibold uppercase inline-block bg-white leading-tight p-2 my-8 text-tertiary w-full">Analoge Events</h2>
           <p class="mb-4 text-sm">Live will be back! Messen, Produktpräsentationen, Kick-off-Events, Tagungen, Festivals und Mitarbeiterevents werden zurückkommen. Dafür ist der Mensch zu sehr Mensch und von seinen Emotionen gesteuert.</p>
-          <g-link to="/was-wir-machen#hybrid" class="p-1 border-b border-white absolute" style="bottom: 1em">Mehr erfahren</g-link>
+          <g-link to="/was-wir-machen#analog" class="p-1 border-b border-white absolute" style="bottom: 1em">Mehr erfahren</g-link>
         </div>
         <div class="col-span-1 text-left p-10 bg-secondary shadow text-white rounded relative">
           <g-image 
@@ -39,7 +39,7 @@
           />
           <h2 class="text-2xl font-semibold uppercase inline-block bg-white leading-tight p-2 my-8 text-secondary w-full">Digitale Events</h2>
           <p class="mb-4 text-sm">Kurz mal raus aus dem Schatten und alles überholt. Das haben Digitale Events vor ein paar Wochen geschafft und sind aktuell nicht mehr aus der Veranstaltungslandschaft wegzudenken.</p>
-          <g-link to="/was-wir-machen#hybrid" class="p-1 border-b border-white absolute" style="bottom: 1em">Mehr erfahren</g-link>
+          <g-link to="/was-wir-machen#digital" class="p-1 border-b border-white absolute" style="bottom: 1em">Mehr erfahren</g-link>
         </div>
         <div class="col-span-1 text-left p-10 bg-primary shadow text-white rounded relative">
           <g-image 
