@@ -15,6 +15,9 @@
           </div>
         </div>
       </section>
+      <section class="my-20 mx-4 sm:mx-20 md:ml-32">
+        
+      </section>
   </Layout>
 </template>
 
