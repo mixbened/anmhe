@@ -9,7 +9,7 @@
           <p class="py-4 italic">Unser Herz schlägt für echte Erlebnisse: Wir lieben es, Messeauftritte, Produktpräsentationen, Kick-offs, Tagungen, Festivals und Mitarbeiterevents zu konzipieren und umzusetzen.</p>
         </div>
         <div  class="col-span-1 py-8">
-          <g-image src="../assets/undraw_Newsletter_re_wrob.svg"></g-image>
+          <g-image src="../assets/Newsletter_Laptop_goran-ivos-unsplash.png"></g-image>
         </div>
         <div class="col-span-4">
           <div class="mc-field-group">

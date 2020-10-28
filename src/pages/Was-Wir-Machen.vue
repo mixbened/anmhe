@@ -1,15 +1,15 @@
 <template>
   <Layout>
     <section>
-      <Header title="was wir machen." background="https://images.unsplash.com/photo-1511632765486-a01980e01a18?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60"/>
+      <Header title="was wir machen." background="https://res.cloudinary.com/mixbened/image/upload/v1603872788/ANM/Titel_Was_wir_machen.png"/>
     </section>
-    <section class="mt-10">
+    <section class="my-20 mb-32">
       <Intro title="No Way is too long. No Mountain too high." text="Wir sind ehrlich mit dir: Die eierlegende Wollmilchsau sind wir nicht! Jedoch sind wir in der Lage, mit unserer Beratung, dem Projektmanagement und unserem Netzwerk aus Partnern beinahe jede Aufgabe zu lösen! Wo wir allerdings so richtig stark sind ist die Konzeption, Organisation und Umsetzung von echten Erlebnissen! Wie diese „echten Erlebnisse“ aussehen sollen, ist erst einmal egal. Wir helfen dir dabei dein “echtes Erlebnis” zu entwickeln, zu transportieren und richtig in Szene zu setzen. Denn unser Ziel ist, deine Veranstaltung an die Spitze zu bringen. Das lieben wir!" />
     </section>
     <!-- <section class="mx-4 sm:mx-20 md:ml-32">
       <a href="/was-wir-machen"><button class="bg-tertiary hover:bg-secondary font-bold py-2 px-4 text-sm text-white">Bisherige Projekte</button></a>
     </section> -->
-    <section class="mx-4 sm:mx-20 md:ml-32 my-32" id="analog">
+    <section class="mx-4 sm:mx-20 md:ml-32 mb-32" id="analog">
       <h2 class="text-3xl font-semibold uppercase inline-block bg-primary leading-tight p-2 text-white">Analoge Events</h2>
       <div class="grid grid-cols-1 sm:grid-cols-2 gap-8 mt-10">
         <div class="col-span-1 py-4 mr-4 sm:mr-32">

@@ -1,7 +1,7 @@
 <template>
   <!-- This is the Events list Page-->
   <Layout>
-      <Header title="Projekte"  background="https://images.unsplash.com/photo-1511632765486-a01980e01a18?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60"/>
+      <Header title=""  background="https://res.cloudinary.com/mixbened/image/upload/v1603873034/ANM/DoSomethingGreat-quer.png"/>
       <section class="mt-10">
         <Intro title="Bisher lief es ganz gut" text="Events blindtext, Lorem ipsum dolor sit amet. Events blindtext, Lorem ipsum dolor sit amet. Events blindtext, Lorem ipsum dolor sit amet. Events blindtext, Lorem ipsum dolor sit amet. Events blindtext, Lorem ipsum dolor sit amet" />
       </section>
