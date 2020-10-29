@@ -3,122 +3,680 @@
     <section class="mt-32">
       <Intro title="Datenschutzerklärung" text="" />
     </section>
-    <section class="text-gray-800 mx-4 sm:mx-20 md:ml-32 py-4">
-      <div class="my-4">
-        <div>
-          <h3 class="text-xl my-4">1. Datenschutz auf einen Blick</h3>
-          <b>Allgemeine Hinweise</b>
-          <p>Die folgenden Hinweise geben einen einfachen Überblick darüber, was mit Ihren personenbezogenen Daten passiert, wenn Sie diese Website besuchen. Personenbezogene Daten sind alle Daten, mit denen Sie persönlich identifiziert werden können. Ausführliche Informationen zum Thema Datenschutz entnehmen Sie unserer unter diesem Text aufgeführten Datenschutzerklärung.</p>
-          <div class="my-2"><b>Datenerfassung auf dieser Website</b></div>
-          <p>Wer ist verantwortlich für die Datenerfassung auf dieser Website?
-Die Datenverarbeitung auf dieser Website erfolgt durch den Websitebetreiber. Dessen Kontaktdaten können Sie dem Impressum dieser Website entnehmen.
- 
-Wie erfassen wir Ihre Daten?
-Ihre Daten werden zum einen dadurch erhoben, dass Sie uns diese mitteilen. Hierbei kann es sich z. B. um Daten handeln, die Sie in ein Kontaktformular eingeben.
- 
-Andere Daten werden automatisch beim Besuch der Website durch unsere IT-Systeme erfasst. Das sind vor allem technische Daten (z. B. Internetbrowser, Betriebssystem oder Uhrzeit des Seitenaufrufs). Die Erfassung dieser Daten erfolgt automatisch, sobald Sie diese Website betreten.
- 
-Wofür nutzen wir Ihre Daten?
-Ein Teil der Daten wird erhoben, um eine fehlerfreie Bereitstellung der Website zu gewährleisten. Andere Daten können zur Analyse Ihres Nutzerverhaltens verwendet werden.
- 
-Welche Rechte haben Sie bezüglich Ihrer Daten?
-Sie haben jederzeit das Recht unentgeltlich Auskunft über Herkunft, Empfänger und Zweck Ihrer gespeicherten personenbezogenen Daten zu erhalten. Sie haben außerdem ein Recht, die Berichtigung oder Löschung dieser Daten zu verlangen. Hierzu sowie zu weiteren Fragen zum Thema Datenschutz können Sie sich jederzeit unter der im Impressum angegebenen Adresse an uns wenden. Des Weiteren steht Ihnen ein Beschwerderecht bei der zuständigen Aufsichtsbehörde zu.
- 
-Außerdem haben Sie das Recht, unter bestimmten Umständen die Einschränkung der Verarbeitung Ihrer personenbezogenen Daten zu verlangen. Details hierzu entnehmen Sie der Datenschutzerklärung unter „Recht auf Einschränkung der Verarbeitung“.
- 
-Analyse-Tools und Tools von Drittanbietern
-Beim Besuch dieser Website kann Ihr Surf-Verhalten statistisch ausgewertet werden. Das geschieht vor allem mit Cookies und mit sogenannten Analyseprogrammen. Die Analyse Ihres Surf-Verhaltens erfolgt in der Regel anonym; das Surf-Verhalten kann nicht zu Ihnen zurückverfolgt werden.
- 
-Sie können dieser Analyse widersprechen oder sie durch die Nichtbenutzung bestimmter Tools verhindern. Detaillierte Informationen zu diesen Tools und über Ihre Widerspruchsmöglichkeiten finden Sie in der folgenden Datenschutzerklärung.
-          </p>
-        </div>
-
-        <div>
-          <h3 class="text-xl my-4">2. Hosting und Content Delivery Networks (CDN)</h3>
-          <div class="my-2"><b>Externes Hosting</b></div>
-          <p>Diese Website wird bei einem externen Dienstleister gehostet (Hoster). Die personenbezogenen Daten, die auf dieser Website erfasst werden, werden auf den Servern des Hosters gespeichert. Hierbei kann es sich v. a. um IP-Adressen, Kontaktanfragen, Meta- und Kommunikationsdaten, Vertragsdaten, Kontaktdaten, Namen, Webseitenzugriffe und sonstige Daten, die über eine Website generiert werden, handeln. Der Einsatz des Hosters erfolgt zum Zwecke der Vertragserfüllung gegenüber unseren potenziellen und bestehenden Kunden (Art. 6 Abs. 1 lit. b DSGVO) und im Interesse einer sicheren, schnellen und effizienten Bereitstellung unseres Online-Angebots durch einen professionellen Anbieter (Art. 6 Abs. 1 lit. f DSGVO). Unser Hoster wird Ihre Daten nur insoweit verarbeiten, wie dies zur Erfüllung seiner Leistungspflichten erforderlich ist und unsere Weisungen in Bezug auf diese Daten befolgen.
-          </p>
-          <b>Abschluss eines Vertrages über Auftragsverarbeitung</b>
-          <p>Um die datenschutzkonforme Verarbeitung zu gewährleisten, haben wir einen Vertrag über Auftragsverarbeitung mit unserem Hoster geschlossen.</p>
-        </div>
-
-        <div>
-          <h3 class="text-xl my-4">3. Allgemeine Hinweise und Pflichtinformationen</h3>
-          <div class="my-2"><b>Datenschutz</b></div>
-          <p>Die Betreiber dieser Seiten nehmen den Schutz Ihrer persönlichen Daten sehr ernst. Wir behandeln Ihre personenbezogenen Daten vertraulich und entsprechend der gesetzlichen Datenschutzvorschriften sowie dieser Datenschutzerklärung. Wenn Sie diese Website benutzen, werden verschiedene personenbezogene Daten erhoben. Personenbezogene Daten sind Daten, mit denen Sie persönlich identifiziert werden können. Die vorliegende Datenschutzerklärung erläutert, welche Daten wir erheben und wofür wir sie nutzen. Sie erläutert auch, wie und zu welchem Zweck das geschieht. Wir weisen darauf hin, dass die Datenübertragung im Internet (z. B. bei der Kommunikation per E-Mail) Sicherheitslücken aufweisen kann. Ein lückenloser Schutz der Daten vor dem Zugriff durch Dritte ist nicht möglich.
-          </p>
-          <div class="my-2"><b>Hinweis zur verantwortlichen Stelle</b></div>
-          <p>Die verantwortliche Stelle für die Datenverarbeitung auf dieser Website ist:</p>
-          <div class="my-2">
-            Dominik Dugandzic<br>
-            Walter-Kolb-Str. 40<br>
-            40764 Langenfeld<br>
-            <b>E-Mail: hej@duga.events</b>
-          </div>
-          <p>Verantwortliche Stelle ist die natürliche oder juristische Person, die allein oder gemeinsam mit anderen über die Zwecke und Mittel der Verarbeitung von personenbezogenen Daten (z. B. Namen, E-Mail-Adressen o. Ä.) entscheidet.</p>
-          <div>
-            <div class="my-2"><b>Widerruf Ihrer Einwilligung zur Datenverarbeitung</b></div>
-            <p class="mb-4">Viele Datenverarbeitungsvorgänge sind nur mit Ihrer ausdrücklichen Einwilligung möglich. Sie können eine bereits erteilte Einwilligung jederzeit widerrufen. Dazu reicht eine formlose Mitteilung per E-Mail an uns. Die Rechtmäßigkeit der bis zum Widerruf erfolgten Datenverarbeitung bleibt vom Widerruf unberührt.</p>
-          </div>
-          <div>
-            <div class="my-2"><b>Widerspruchsrecht gegen die Datenerhebung in besonderen Fällen sowie gegen Direktwerbung (Art. 21 DSGVO)</b></div>
-            <p class="mb-4">Wenn die Datenverarbeitung auf Grundlage von Art. 6 Abs. 1 lit. e oder f DSGVO erfolgt, haben Sie jederzeit das Recht, aus Gründen, die sich aus ihrer besonderen Situation ergeben, gegen die Verarbeitung ihrer personenbezogenen Daten Widerspruch einzulegen; dies gilt auch für ein auf diese Bestimmungen gestütztes Profiling. Die jeweilige Rechtsgrundlade, auf denen eine Verarbeitung beruht, entnehmen sie dieser Datenschutzerklärung. Wenn sie Widerspruch einlegen, werden wir ihre betroffenen personenbezogenen Daten nicht mehr verarbeiten, es sei denn, wir können zwingende schutzwürdige Gründe für die Verarbeitung nachweisen, die ihre Interessen, Rechte und Freiheiten überwiegen oder die Verarbeitung dient der Geltendmachung, Ausübung oder Verteidigung von Rechtsansprüchen (Widerspruch nach Art. 21 Abs. 1 DSGVO). Werden ihre personenbezogenen Daten verarbeitet, um Direktwerbung zu betreiben, so haben sie das Recht, jederzeit Widerspruch gegen die Verarbeitung sie betreffender personenbezogener Daten zum Zwecke derartiger Werbung einzulegen; dies gilt auch für das Profiling, soweit es mit solcher Direktwerbung in Verbindung steht. Wenn sie widersprechen, werden ihre personenbezogenen Daten anschließend nicht mehr zum Zwecke der Direktwerbung verwendet (Widerspruch nach Art. 21 Abs. 2 DSGVO).</p>
-          </div>
-          <div>
-            <div class="my-2"><b>Beschwerderecht bei der zuständigen Aufsichtsbehörde</b></div>
-            <p class="mb-4">Im Falle von Verstößen gegen die DSGVO steht den Betroffenen ein Beschwerderecht bei einer Aufsichtsbehörde, insbesondere in dem Mitgliedstaat ihres gewöhnlichen Aufenthalts, ihres Arbeitsplatzes oder des Orts des mutmaßlichen Verstoßes zu. Das Beschwerderecht besteht unbeschadet anderweitiger verwaltungsrechtlicher oder gerichtlicher Rechtsbehelfe.</p>
-          </div>
-          <div>
-            <div class="my-2"><b>Recht auf Datenübertragbarkeit</b></div>
-            <p class="mb-4">Sie haben das Recht, Daten, die wir auf Grundlage Ihrer Einwilligung oder in Erfüllung eines Vertrags automatisiert verarbeiten, an sich oder an einen Dritten in einem gängigen, maschinenlesbaren Format aushändigen zu lassen. Sofern Sie die direkte Übertragung der Daten an einen anderen Verantwortlichen verlangen, erfolgt dies nur, soweit es technisch machbar ist.</p>
-          </div>
-          <div>
-            <div class="my-2"><b>SSL- bzw. TLS-Verschlüsselung</b></div>
-            <p class="mb-4">Diese Seite nutzt aus Sicherheitsgründen und zum Schutz der Übertragung vertraulicher Inhalte, wie zum Beispiel Bestellungen oder Anfragen, die Sie an uns als Seitenbetreiber senden, eine SSL- bzw. TLS-Verschlüsselung. Eine verschlüsselte Verbindung erkennen Sie daran, dass die Adresszeile des Browsers von „http://“ auf „https://“ wechselt und an dem Schloss-Symbol in Ihrer Browserzeile. Wenn die SSL- bzw. TLS-Verschlüsselung aktiviert ist, können die Daten, die Sie an uns übermitteln, nicht von Dritten mitgelesen werden.</p>
-          </div>
-          <div>
-            <div class="my-2"><b>Auskunft, Löschung und Berichtigung</b></div>
-            <p class="mb-4">Sie haben im Rahmen der geltenden gesetzlichen Bestimmungen jederzeit das Recht auf unentgeltliche Auskunft über Ihre gespeicherten personenbezogenen Daten, deren Herkunft und Empfänger und den Zweck der Datenverarbeitung und ggf. ein Recht auf Berichtigung oder Löschung dieser Daten. Hierzu sowie zu weiteren Fragen zum Thema personenbezogene Daten können Sie sich jederzeit unter der im Impressum angegebenen Adresse an uns wenden.</p>
-          </div>
-          <div>
-            <div class="my-2"><b>Recht auf Einschränkung der Verarbeitung</b></div>
-            <p class="mb-4">Sie haben das Recht, die Einschränkung der Verarbeitung Ihrer personenbezogenen Daten zu verlangen. Hierzu können Sie sich jederzeit unter der im Impressum angegebenen Adresse an uns wenden. Das Recht auf Einschränkung der Verarbeitung besteht in folgenden Fällen:</p>
-            <ul>
-              <li>Wenn Sie die Richtigkeit Ihrer bei uns gespeicherten personenbezogenen Daten bestreiten, benötigen wir in der Regel Zeit, um dies zu überprüfen. Für die Dauer der Prüfung haben Sie das Recht, die Einschränkung der Verarbeitung Ihrer personenbezogenen Daten zu verlangen.</li>
-              <li>Wenn die Verarbeitung Ihrer personenbezogenen Daten unrechtmäßig geschah/geschieht, können Sie statt der Löschung die Einschränkung der Datenverarbeitung verlangen.</li>
-              <li>Wenn wir Ihre personenbezogenen Daten nicht mehr benötigen, Sie sie jedoch zur Ausübung, Verteidigung oder Geltendmachung von Rechtsansprüchen benötigen, haben Sie das Recht, statt der Löschung die Einschränkung der Verarbeitung Ihrer personenbezogenen Daten zu verlangen.</li>
-              <li>Wenn Sie einen Widerspruch nach Art. 21 Abs. 1 DSGVO eingelegt haben, muss eine Abwägung zwischen Ihren und unseren Interessen vorgenommen werden. Solange noch nicht feststeht, wessen Interessen überwiegen, haben Sie das Recht, die Einschränkung der Verarbeitung Ihrer personenbezogenen Daten zu verlangen.</li>
-              <li>Wenn Sie die Verarbeitung Ihrer personenbezogenen Daten eingeschränkt haben, dürfen diese Daten – von ihrer Speicherung abgesehen – nur mit Ihrer Einwilligung oder zur Geltendmachung, Ausübung oder Verteidigung von Rechtsansprüchen oder zum Schutz der Rechte einer anderen natürlichen oder juristischen Person oder aus Gründen eines wichtigen öffentlichen Interesses der Europäischen Union oder eines Mitgliedstaats verarbeitet werden.</li>
-            </ul>
-          </div>
-        </div>
-
-        <div>
-          <h3 class="text-xl my-4">4. Datenerfassung auf dieser Website</h3>
-          <div class="my-2"><b>Externes Hosting</b></div>
-          <p>Diese Website wird bei einem externen Dienstleister gehostet (Hoster). Die personenbezogenen Daten, die auf dieser Website erfasst werden, werden auf den Servern des Hosters gespeichert. Hierbei kann es sich v. a. um IP-Adressen, Kontaktanfragen, Meta- und Kommunikationsdaten, Vertragsdaten, Kontaktdaten, Namen, Webseitenzugriffe und sonstige Daten, die über eine Website generiert werden, handeln. Der Einsatz des Hosters erfolgt zum Zwecke der Vertragserfüllung gegenüber unseren potenziellen und bestehenden Kunden (Art. 6 Abs. 1 lit. b DSGVO) und im Interesse einer sicheren, schnellen und effizienten Bereitstellung unseres Online-Angebots durch einen professionellen Anbieter (Art. 6 Abs. 1 lit. f DSGVO). Unser Hoster wird Ihre Daten nur insoweit verarbeiten, wie dies zur Erfüllung seiner Leistungspflichten erforderlich ist und unsere Weisungen in Bezug auf diese Daten befolgen.
-          </p>
-          <b>Abschluss eines Vertrages über Auftragsverarbeitung</b>
-          <p>Um die datenschutzkonforme Verarbeitung zu gewährleisten, haben wir einen Vertrag über Auftragsverarbeitung mit unserem Hoster geschlossen.</p>
-        </div>
-
-      </div>
+    <section class="text-gray-800 mx-4 sm:mx-20 md:ml-32 py-4" id="data-privacy">
+      <h1>Datenschutzerklärung</h1>
+      <p>
+        Verantwortlicher im Sinne der Datenschutzgesetze, insbesondere der
+        EU-Datenschutzgrundverordnung (DSGVO), ist:
+      </p>
+      <p>Dominik Dugandzic <br />Walter-Kolb-Str. 40 <br />40764 Langenfeld</p>
+      <h2>Ihre Betroffenenrechte</h2>
+      <p>
+        Unter den angegebenen Kontaktdaten unseres Datenschutzbeauftragten
+        können Sie jederzeit folgende Rechte ausüben:
+      </p>
+      <ul>
+        <li>
+          Auskunft über Ihre bei uns gespeicherten Daten und deren Verarbeitung
+          (Art. 15 DSGVO),
+        </li>
+        <li>
+          Berichtigung unrichtiger personenbezogener Daten (Art. 16 DSGVO),
+        </li>
+        <li>Löschung Ihrer bei uns gespeicherten Daten (Art. 17 DSGVO),</li>
+        <li>
+          Einschränkung der Datenverarbeitung, sofern wir Ihre Daten aufgrund
+          gesetzlicher Pflichten noch nicht löschen dürfen (Art. 18 DSGVO),
+        </li>
+        <li>
+          Widerspruch gegen die Verarbeitung Ihrer Daten bei uns (Art. 21 DSGVO)
+          und
+        </li>
+        <li>
+          Datenübertragbarkeit, sofern Sie in die Datenverarbeitung eingewilligt
+          haben oder einen Vertrag mit uns abgeschlossen haben (Art. 20 DSGVO).
+        </li>
+      </ul>
+      <p>
+        Sofern Sie uns eine Einwilligung erteilt haben, können Sie diese
+        jederzeit mit Wirkung für die Zukunft widerrufen.
+      </p>
+      <p>
+        Sie können sich jederzeit mit einer Beschwerde an eine Aufsichtsbehörde
+        wenden, z. B. an die zuständige Aufsichtsbehörde des Bundeslands Ihres
+        Wohnsitzes oder an die für uns als verantwortliche Stelle zuständige
+        Behörde.
+      </p>
+      <p>
+        Eine Liste der Aufsichtsbehörden (für den nichtöffentlichen Bereich) mit
+        Anschrift finden Sie unter:
+        <a
+          href="https://www.bfdi.bund.de/DE/Infothek/Anschriften_Links/anschriften_links-node.html"
+          target="_blank"
+          rel="nofollow noopener"
+          >https://www.bfdi.bund.de/DE/Infothek/Anschriften_Links/anschriften_links-node.html</a
+        >.
+      </p>
+      <p></p>
+      <h2>Erfassung allgemeiner Informationen beim Besuch unserer Website</h2>
+      <h3>Art und Zweck der Verarbeitung:</h3>
+      <p>
+        Wenn Sie auf unsere Website zugreifen, d.h., wenn Sie sich nicht
+        registrieren oder anderweitig Informationen übermitteln, werden
+        automatisch Informationen allgemeiner Natur erfasst. Diese Informationen
+        (Server-Logfiles) beinhalten etwa die Art des Webbrowsers, das
+        verwendete Betriebssystem, den Domainnamen Ihres
+        Internet-Service-Providers, Ihre IP-Adresse und ähnliches.
+      </p>
+      <p>Sie werden insbesondere zu folgenden Zwecken verarbeitet:</p>
+      <ul>
+        <li>
+          Sicherstellung eines problemlosen Verbindungsaufbaus der Website,
+        </li>
+        <li>Sicherstellung einer reibungslosen Nutzung unserer Website,</li>
+        <li>Auswertung der Systemsicherheit und -stabilität sowie</li>
+        <li>zur Optimierung unserer Website.</li>
+      </ul>
+      <p>
+        Wir verwenden Ihre Daten nicht, um Rückschlüsse auf Ihre Person zu
+        ziehen. Informationen dieser Art werden von uns ggfs. anonymisiert
+        statistisch ausgewertet, um unseren Internetauftritt und die
+        dahinterstehende Technik zu optimieren.
+      </p>
+      <h3>Rechtsgrundlage und berechtigtes Interesse:</h3>
+      <p>
+        Die Verarbeitung erfolgt gemäß Art. 6 Abs. 1 lit. f DSGVO auf Basis
+        unseres berechtigten Interesses an der Verbesserung der Stabilität und
+        Funktionalität unserer Website.
+      </p>
+      <h3>Empfänger:</h3>
+      <p>
+        Empfänger der Daten sind ggf. technische Dienstleister, die für den
+        Betrieb und die Wartung unserer Webseite als Auftragsverarbeiter tätig
+        werden.
+      </p>
+      <p></p>
+      <h3>Speicherdauer:</h3>
+      <p>
+        Die Daten werden gelöscht, sobald diese für den Zweck der Erhebung nicht
+        mehr erforderlich sind. Dies ist für die Daten, die der Bereitstellung
+        der Website dienen, grundsätzlich der Fall, wenn die jeweilige Sitzung
+        beendet ist.
+      </p>
+      <p></p>
+      <h3>Bereitstellung vorgeschrieben oder erforderlich:</h3>
+      <p>
+        Die Bereitstellung der vorgenannten personenbezogenen Daten ist weder
+        gesetzlich noch vertraglich vorgeschrieben. Ohne die IP-Adresse ist
+        jedoch der Dienst und die Funktionsfähigkeit unserer Website nicht
+        gewährleistet. Zudem können einzelne Dienste und Services nicht
+        verfügbar oder eingeschränkt sein. Aus diesem Grund ist ein Widerspruch
+        ausgeschlossen.
+      </p>
+      <p></p>
+      <h2>Cookies</h2>
+      <p>
+        Wie viele andere Webseiten verwenden wir auch so genannte „Cookies“. Bei
+        Cookies handelt es sich um kleine Textdateien, die auf Ihrem Endgerät
+        (Laptop, Tablet, Smartphone o.ä.) gespeichert werden, wenn Sie unsere
+        Webseite besuchen.
+      </p>
+      <p>
+        Sie können Sie einzelne Cookies oder den gesamten Cookie-Bestand
+        löschen. Darüber hinaus erhalten Sie Informationen und Anleitungen, wie
+        diese Cookies gelöscht oder deren Speicherung vorab blockiert werden
+        können. Je nach Anbieter Ihres Browsers finden Sie die notwendigen
+        Informationen unter den nachfolgenden Links:
+      </p>
+      <ul>
+        <li>
+          Mozilla Firefox:
+          <a
+            href="https://support.mozilla.org/de/kb/cookies-loeschen-daten-von-websites-entfernen"
+            target="_blank"
+            rel="nofollow noopener"
+            >https://support.mozilla.org/de/kb/cookies-loeschen-daten-von-websites-entfernen</a
+          >
+        </li>
+        <li>
+          Internet Explorer:
+          <a
+            href="https://support.microsoft.com/de-de/help/17442/windows-internet-explorer-delete-manage-cookies"
+            target="_blank"
+            rel="nofollow noopener"
+            >https://support.microsoft.com/de-de/help/17442/windows-internet-explorer-delete-manage-cookies</a
+          >
+        </li>
+        <li>
+          Google Chrome:
+          <a
+            href="https://support.google.com/accounts/answer/61416?hl=de"
+            target="_blank"
+            rel="nofollow noopener"
+            >https://support.google.com/accounts/answer/61416?hl=de</a
+          >
+        </li>
+        <li>
+          Opera:
+          <a
+            href="http://www.opera.com/de/help"
+            target="_blank"
+            rel="nofollow noopener"
+            >http://www.opera.com/de/help</a
+          >
+        </li>
+        <li>
+          Safari:
+          <a
+            href="https://support.apple.com/kb/PH17191?locale=de_DE&viewlocale=de_DE"
+            target="_blank"
+            rel="nofollow noopener"
+            >https://support.apple.com/kb/PH17191?locale=de_DE&viewlocale=de_DE</a
+          >
+        </li>
+      </ul>
+      <h3>Speicherdauer und eingesetzte Cookies:</h3>
+      <p>
+        Soweit Sie uns durch Ihre Browsereinstellungen oder Zustimmung die
+        Verwendung von Cookies erlauben, können folgende Cookies auf unseren
+        Webseiten zum Einsatz kommen:
+      </p>
+      <p></p>
+      <h2>Technisch notwendige Cookies</h2>
+      <h3>Art und Zweck der Verarbeitung:</h3>
+      <p>
+        Wir setzen Cookies ein, um unsere Website nutzerfreundlicher zu
+        gestalten. Einige Elemente unserer Internetseite erfordern es, dass der
+        aufrufende Browser auch nach einem Seitenwechsel identifiziert werden
+        kann.
+      </p>
+      <p>
+        Der Zweck der Verwendung technisch notwendiger Cookies ist, die Nutzung
+        von Websites für die Nutzer zu vereinfachen. Einige Funktionen unserer
+        Internetseite können ohne den Einsatz von Cookies nicht angeboten
+        werden. Für diese ist es erforderlich, dass der Browser auch nach einem
+        Seitenwechsel wiedererkannt wird.
+      </p>
+      <p>Für folgende Anwendungen benötigen wir Cookies:</p>
+      <p>Merken von Suchbegriffen</p>
+      <h3>Rechtsgrundlage und berechtigtes Interesse:</h3>
+      <p>
+        Die Verarbeitung erfolgt gemäß Art. 6 Abs. 1 lit. f DSGVO auf Basis
+        unseres berechtigten Interesses an einer nutzerfreundlichen Gestaltung
+        unserer Website.
+      </p>
+      <h3>Empfänger:</h3>
+      <p>
+        Empfänger der Daten sind ggf. technische Dienstleister, die für den
+        Betrieb und die Wartung unserer Website als Auftragsverarbeiter tätig
+        werden.
+      </p>
+      <p></p>
+      <h3>Bereitstellung vorgeschrieben oder erforderlich:</h3>
+      <p>
+        Die Bereitstellung der vorgenannten personenbezogenen Daten ist weder
+        gesetzlich noch vertraglich vorgeschrieben. Ohne diese Daten ist jedoch
+        der Dienst und die Funktionsfähigkeit unserer Website nicht
+        gewährleistet. Zudem können einzelne Dienste und Services nicht
+        verfügbar oder eingeschränkt sein.
+      </p>
+      <h3>Widerspruch</h3>
+      <p>
+        Lesen Sie dazu die Informationen über Ihr Widerspruchsrecht nach Art. 21
+        DSGVO weiter unten.
+      </p>
+      <p></p>
+      <h2>Technisch nicht notwendige Cookies</h2>
+      <p>
+        Des Weiteren setzen wir Cookies ein, um das Angebot auf unserer Website
+        besser auf die Interessen unserer Besucher abzustimmen oder auf Basis
+        statistischer Auswertungen allgemein zu verbessern.
+      </p>
+      <p>
+        Welche Anbieter Cookies setzen, entnehmen Sie bitte den unten
+        aufgeführten Informationen zu den eingesetzten Darstellungs-, Tracking-,
+        Remarketing- und Webanalyse-Technologien.
+      </p>
+      <h3>Rechtsgrundlage:</h3>
+      <p>
+        Rechtsgrundlage für diese Verarbeitungen ist jeweils Ihre Einwilligung,
+        Art. 6 Abs. 1 lit. a DSGVO.
+      </p>
+      <h3>Empfänger:</h3>
+      <p>
+        Empfänger der Daten sind ggf. technische Dienstleister, die für den
+        Betrieb und die Wartung unserer Website als Auftragsverarbeiter tätig
+        werden.
+      </p>
+      <p>
+        Weitere Empfänger entnehmen Sie bitte den unten aufgeführten
+        Informationen zu den eingesetzten Darstellungs-, Tracking-, Remarketing-
+        und Webanalyse-Technologien.
+      </p>
+      <h3>Drittlandtransfer:</h3>
+      <p>
+        Informationen hierzu entnehmen Sie bitte aus den Auflistungen der
+        einzelnen Darstellungs-, Tracking-, Remarketing- und
+        Webanalyse-Anbietern.
+      </p>
+      <h3>Bereitstellung vorgeschrieben oder erforderlich:</h3>
+      <p>
+        Natürlich können Sie unsere Website grundsätzlich auch ohne Cookies
+        betrachten. Webbrowser sind regelmäßig so eingestellt, dass sie Cookies
+        akzeptieren. Im Allgemeinen können Sie die Verwendung von Cookies
+        jederzeit über die Einstellungen Ihres Browsers deaktivieren (siehe
+        Widerruf der Einwilligung).
+      </p>
+      <p>
+        Bitte beachten Sie, dass einzelne Funktionen unserer Website
+        möglicherweise nicht funktionieren, wenn Sie die Verwendung von Cookies
+        deaktiviert haben.
+      </p>
+      <h3>Widerruf der Einwilligung:</h3>
+      <p>
+        Sie können Ihre Einwilligung jederzeit über unser Cookie-Consent-Tool
+        widerrufen.
+      </p>
+      <h3>Profiling:</h3>
+      <p>
+        Inwiefern wir das Verhalten von Websitebesuchern mit pseudonymisierten
+        Nutzerprofilen analysieren, entnehmen Sie bitte den unten aufgeführten
+        Informationen zu den eingesetzten Darstellungs-, Tracking-, Remarketing-
+        und Webanalyse-Technologien.
+      </p>
+      <p></p>
+      <h2>Kommentarfunktion</h2>
+      <h3>Art und Zweck der Verarbeitung:</h3>
+      <p>
+        Wenn Nutzer Kommentare auf unserer Website hinterlassen, werden neben
+        diesen Angaben auch der Zeitpunkt ihrer Erstellung und der zuvor durch
+        den Websitebesucher gewählte Nutzername gespeichert. Dies dient unserer
+        Sicherheit, da wir für widerrechtliche Inhalte auf unserer Webseite
+        belangt werden können, auch wenn diese durch Benutzer erstellt wurden.
+      </p>
+      <h3>Rechtsgrundlage:</h3>
+      <p>
+        Die Verarbeitung der als Kommentar eingegebenen Daten erfolgt auf der
+        Grundlage eines berechtigten Interesses (Art. 6 Abs. 1 lit. f DSGVO).
+      </p>
+      <p>
+        Durch Bereitstellung der Kommentarfunktion möchten wir Ihnen eine
+        unkomplizierte Interaktion ermöglichen. Ihre gemachten Angaben werden
+        zum Zwecke der Bearbeitung der Anfrage sowie für mögliche
+        Anschlussfragen gespeichert.
+      </p>
+      <h3>Empfänger:</h3>
+      <p>Empfänger der Daten sind ggf. Auftragsverarbeiter.</p>
+      <p></p>
+      <h3>Speicherdauer:</h3>
+      <p>
+        Die Daten werden gelöscht, sobald diese für den Zweck der Erhebung nicht
+        mehr erforderlich sind. Dies ist grundsätzlich der Fall, wenn die
+        Kommunikation mit dem Nutzer abgeschlossen ist und das Unternehmen den
+        Umständen entnehmen kann, dass der betroffene Sachverhalt abschließend
+        geklärt ist. Wir behalten uns die Löschung ohne Angaben von Gründen und
+        ohne vorherige oder nachträgliche Information vor.
+      </p>
+      <p>
+        Außerdem können Sie Ihren Kommentar jederzeit durch uns löschen lassen.
+        Schreiben Sie dafür bitte eine E-Mail an den unten aufgeführten
+        Datenschutzbeauftragten bzw. die für den Datenschutz zuständige Person
+        und übermitteln den Link zu Ihrem Kommentar sowie zu
+        Identifikationszwecken die bei der Erstellung des Kommentars verwendete
+        E-Mail-Adresse.
+      </p>
+      <h3>Bereitstellung vorgeschrieben oder erforderlich:</h3>
+      <p>
+        Die Bereitstellung Ihrer personenbezogenen Daten erfolgt freiwillig.
+        Ohne die Bereitstellung Ihrer personenbezogenen Daten können wir Ihnen
+        keinen Zugang zu unserer Kommentarfunktion gewähren.
+      </p>
+      <p></p>
+      <h2>Newsletter</h2>
+      <h3>Art und Zweck der Verarbeitung:</h3>
+      <p>
+        Für die Zustellung unseres Newsletters erheben wir personenbezogene
+        Daten, die über eine Eingabemaske an uns übermittelt werden.
+      </p>
+      <p>
+        Für eine wirksame Registrierung benötigen wir eine valide
+        E-Mail-Adresse. Um zu überprüfen, dass eine Anmeldung tatsächlich durch
+        den Inhaber einer E-Mail-Adresse erfolgt, setzen wir das
+        „Double-Opt-in“-Verfahren ein. Hierzu protokollieren wir die Anmeldung
+        zum Newsletter, den Versand einer Bestätigungsmail und den Eingang der
+        hiermit angeforderten Antwort. Weitere Daten werden nicht erhoben.
+      </p>
+      <h3>Rechtsgrundlage:</h3>
+      <p>
+        Auf Grundlage Ihrer ausdrücklich erteilten Einwilligung (Art. 6 Abs. 1
+        lit. a DSGVO), übersenden wir Ihnen regelmäßig unseren Newsletter bzw.
+        vergleichbare Informationen per E-Mail an Ihre angegebene
+        E-Mail-Adresse.
+      </p>
+      <p>
+        Die Einwilligung zur Speicherung Ihrer persönlichen Daten und ihrer
+        Nutzung für den Newsletterversand können Sie jederzeit mit Wirkung für
+        die Zukunft widerrufen. In jedem Newsletter findet sich dazu ein
+        entsprechender Link. Außerdem können Sie sich jederzeit auch direkt auf
+        dieser Website abmelden oder uns Ihren Widerruf über die am Ende dieser
+        Datenschutzhinweise angegebene Kontaktmöglichkeit mitteilen.
+      </p>
+      <h3>Empfänger:</h3>
+      <p>Empfänger der Daten sind ggf. Auftragsverarbeiter.</p>
+      <p></p>
+      <h3>Speicherdauer:</h3>
+      <p>
+        Die Daten werden in diesem Zusammenhang nur verarbeitet, solange die
+        entsprechende Einwilligung vorliegt. Danach werden sie gelöscht.
+      </p>
+      <h3>Bereitstellung vorgeschrieben oder erforderlich:</h3>
+      <p>
+        Die Bereitstellung Ihrer personenbezogenen Daten erfolgt freiwillig,
+        allein auf Basis Ihrer Einwilligung. Ohne bestehende Einwilligung können
+        wir Ihnen unseren Newsletter leider nicht zusenden.
+      </p>
+      <h3>Widerruf der Einwilligung:</h3>
+      <p>
+        Die Einwilligung zur Speicherung Ihrer persönlichen Daten und ihrer
+        Nutzung für den Newsletterversand können Sie jederzeit mit Wirkung für
+        die Zukunft widerrufen. Die Abmeldung kann über den in jeder E-Mail
+        enthaltenen Link oder beim unten aufgeführten Datenschutzbeauftragten
+        bzw. der für den Datenschutz zuständigen Person beantragt werden.
+      </p>
+      <p></p>
+      <h2>Kontaktformular</h2>
+      <h3>Art und Zweck der Verarbeitung:</h3>
+      <p>
+        Die von Ihnen eingegebenen Daten werden zum Zweck der individuellen
+        Kommunikation mit Ihnen gespeichert. Hierfür ist die Angabe einer
+        validen E-Mail-Adresse sowie Ihres Namens erforderlich. Diese dient der
+        Zuordnung der Anfrage und der anschließenden Beantwortung derselben. Die
+        Angabe weiterer Daten ist optional.
+      </p>
+      <h3>Rechtsgrundlage:</h3>
+      <p>
+        Die Verarbeitung der in das Kontaktformular eingegebenen Daten erfolgt
+        auf der Grundlage eines berechtigten Interesses (Art. 6 Abs. 1 lit. f
+        DSGVO).
+      </p>
+      <p>
+        Durch Bereitstellung des Kontaktformulars möchten wir Ihnen eine
+        unkomplizierte Kontaktaufnahme ermöglichen. Ihre gemachten Angaben
+        werden zum Zwecke der Bearbeitung der Anfrage sowie für mögliche
+        Anschlussfragen gespeichert.
+      </p>
+      <p>
+        Sofern Sie mit uns Kontakt aufnehmen, um ein Angebot zu erfragen,
+        erfolgt die Verarbeitung der in das Kontaktformular eingegebenen Daten
+        zur Durchführung vorvertraglicher Maßnahmen (Art. 6 Abs. 1 lit. b
+        DSGVO).
+      </p>
+      <h3>Empfänger:</h3>
+      <p>Empfänger der Daten sind ggf. Auftragsverarbeiter.</p>
+      <p></p>
+      <h3>Speicherdauer:</h3>
+      <p>
+        Daten werden spätestens 6 Monate nach Bearbeitung der Anfrage gelöscht.
+      </p>
+      <p>
+        Sofern es zu einem Vertragsverhältnis kommt, unterliegen wir den
+        gesetzlichen Aufbewahrungsfristen nach HGB und löschen Ihre Daten nach
+        Ablauf dieser Fristen.
+      </p>
+      <h3>Bereitstellung vorgeschrieben oder erforderlich:</h3>
+      <p>
+        Die Bereitstellung Ihrer personenbezogenen Daten erfolgt freiwillig. Wir
+        können Ihre Anfrage jedoch nur bearbeiten, sofern Sie uns Ihren Namen,
+        Ihre E-Mail-Adresse und den Grund der Anfrage mitteilen.
+      </p>
+      <p></p>
+      <h2>Verwendung von Google Analytics</h2>
+      <p>
+        Soweit Sie ihre Einwilligung gegeben haben, wird auf dieser Website
+        Google Analytics eingesetzt, ein Webanalysedienst der Google LLC, 1600
+        Amphitheatre Parkway, Mountain View, CA 94043 USA (nachfolgend:
+        „Google“). Google Analytics verwendet sog. „Cookies“, also Textdateien,
+        die auf Ihrem Computer gespeichert werden und die eine Analyse der
+        Benutzung der Webseite durch Sie ermöglichen. Die durch das Cookie
+        erzeugten Informationen über Ihre Benutzung dieser Webseite werden in
+        der Regel an einen Server von Google in den USA übertragen und dort
+        gespeichert. Aufgrund der Aktivierung der IP-Anonymisierung auf diesen
+        Webseiten, wird Ihre IP-Adresse von Google jedoch innerhalb von
+        Mitgliedstaaten der Europäischen Union oder in anderen Vertragsstaaten
+        des Abkommens über den Europäischen Wirtschaftsraum zuvor gekürzt. Nur
+        in Ausnahmefällen wird die volle IP-Adresse an einen Server von Google
+        in den USA übertragen und dort gekürzt. Die im Rahmen von Google
+        Analytics von Ihrem Browser übermittelte IP-Adresse wird nicht mit
+        anderen Daten von Google zusammengeführt.
+      </p>
+      <p>
+        Nähere Informationen zu Nutzungsbedingungen und Datenschutz finden Sie
+        unter
+        <a
+          href="https://www.google.com/analytics/terms/de.html und unter https://policies.google.com/?hl=de"
+          rel="noopener"
+          target="_blank"
+          >https://www.google.com/analytics/terms/de.html und unter
+          https://policies.google.com/?hl=de</a
+        >.
+      </p>
+      <p>
+        Im Auftrag des Betreibers dieser Website wird Google diese Informationen
+        benutzen, um Ihre Nutzung der Webseite auszuwerten, um Reports über die
+        Webseitenaktivitäten zusammenzustellen und um weitere mit der
+        Websitenutzung und der Internetnutzung verbundene Dienstleistungen
+        gegenüber dem Webseitenbetreiber zu erbringen.
+      </p>
+      <p>
+        Die von uns gesendeten und mit Cookies, Nutzerkennungen (z. B. User-ID)
+        oder Werbe-IDs verknüpften Daten werden nach 14 Monaten automatisch
+        gelöscht. Die Löschung von Daten, deren Aufbewahrungsdauer erreicht ist,
+        erfolgt automatisch einmal im Monat.
+      </p>
+      <h3>Widerruf der Einwilligung:</h3>
+      <p>
+        Sie können das Tracking durch Google Analytics auf unserer Website
+        unterbinden, indem Sie
+        <a
+          title="Google Analytics Opt-Out-Cookie setzen"
+          onClick="gaOptout();alert('Google Analytics wurde deaktiviert');"
+          href="#"
+          >diesen Link anklicken</a
+        >. Dabei wird ein Opt-out-Cookie auf Ihrem Gerät installiert. Damit wird
+        die Erfassung durch Google Analytics für diese Website und für diesen
+        Browser zukünftig verhindert, solange das Cookie in Ihrem Browser
+        installiert bleibt.
+      </p>
+      <p>
+        Sie können darüber hinaus die Speicherung der Cookies durch eine
+        entsprechende Einstellung Ihrer Browser-Software verhindern; wir weisen
+        Sie jedoch darauf hin, dass Sie in diesem Fall gegebenenfalls nicht
+        sämtliche Funktionen dieser Website vollumfänglich werden nutzen können.
+      </p>
+      <p>
+        Sie können darüber hinaus die Erfassung der durch das Cookie erzeugten
+        und auf Ihre Nutzung der Webseite bezogenen Daten (inkl. Ihrer
+        IP-Adresse) an Google sowie die Verarbeitung dieser Daten durch Google
+        verhindern, indem sie das unter dem folgenden Link verfügbare
+        Browser-Plugin herunterladen und installieren:
+        <a
+          href="http://tools.google.com/dlpage/gaoptout?hl=de"
+          rel="noopener"
+          target="_blank"
+          >Browser Add On zur Deaktivierung von Google Analytics</a
+        >.
+      </p>
+      <p></p>
+      <h2>Google AdWords</h2>
+      <p>
+        Unsere Website nutzt das Google Conversion-Tracking.
+        Betreibergesellschaft der Dienste von Google AdWords ist die Google LLC,
+        1600 Amphitheatre Parkway, Mountain View, CA 94043, USA. Sind Sie über
+        eine von Google geschaltete Anzeige auf unsere Webseite gelangt, wird
+        von Google Adwords ein Cookie auf Ihrem Rechner gesetzt. Das Cookie für
+        Conversion-Tracking wird gesetzt, wenn ein Nutzer auf eine von Google
+        geschaltete Anzeige klickt.
+      </p>
+      <p>
+        Besucht der Nutzer bestimmte Seiten unserer Website und das Cookie ist
+        noch nicht abgelaufen, können wir und Google erkennen, dass der Nutzer
+        auf die Anzeige geklickt hat und zu dieser Seite weitergeleitet wurde.
+        Jeder Google AdWords-Kunde erhält ein anderes Cookie. Cookies können
+        somit nicht über die Websites von AdWords-Kunden nachverfolgt werden.
+        Die mithilfe des Conversion-Cookies eingeholten Informationen dienen
+        dazu, Conversion-Statistiken für AdWords-Kunden zu erstellen, die sich
+        für Conversion-Tracking entschieden haben. Die Kunden erfahren die
+        Gesamtanzahl der Nutzer, die auf ihre Anzeige geklickt haben und zu
+        einer mit einem Conversion-Tracking-Tag versehenen Seite weitergeleitet
+        wurden. Sie erhalten jedoch keine Informationen, mit denen sich Nutzer
+        persönlich identifizieren lassen.
+      </p>
+      <p>
+        Nähere Informationen über die Datenverarbeitung durch Google können Sie
+        den Google-Datenschutzhinweisen entnehmen:
+        <a
+          href="https://policies.google.com/privacy"
+          rel="noopener nofollow"
+          target="_blank"
+          >https://policies.google.com/privacy</a
+        >. Dort können Sie im Datenschutzcenter auch Ihre persönlichen
+        Datenschutz-Einstellungen verändern.
+      </p>
+      <h3>Widerruf der Einwilligung:</h3>
+      <p>
+        Vom Anbieter wird derzeit keine Möglichkeit für einen einfachen Opt-out
+        oder ein Blockieren der Datenübertragung angeboten. Wenn Sie eine
+        Nachverfolgung Ihrer Aktivitäten auf unserer Website verhindern wollen,
+        widerrufen Sie bitte im Cookie-Consent-Tool Ihre Einwilligung für die
+        entsprechende Cookie-Kategorie oder alle technisch nicht notwendigen
+        Cookies und Datenübertragungen. In diesem Fall können Sie unsere Website
+        jedoch ggfs. nicht oder nur eingeschränkt nutzen.
+      </p>
+      <p></p>
+      <h2>Einsatz von Google Remarketing</h2>
+      <p>
+        Diese Website verwendet die Remarketing-Funktion der Google Inc.
+        Betreibergesellschaft der Dienste von Google Remarketing ist die Google
+        LLC, 1600 Amphitheatre Parkway, Mountain View, CA 94043, USA
+        (nachfolgend „Google“).
+      </p>
+      <p>
+        Die Funktion dient dazu, Websitebesuchern innerhalb des
+        Google-Werbenetzwerks interessenbezogene Werbeanzeigen zu präsentieren.
+        Im Browser des Websitebesuchers wird ein sog. „Cookie“ gespeichert, der
+        es ermöglicht, den Besucher wiederzuerkennen, wenn dieser Webseiten
+        aufruft, die dem Werbenetzwerk von Google angehören. Auf diesen Seiten
+        können dem Besucher Werbeanzeigen präsentiert werden, die sich auf
+        Inhalte beziehen, die der Besucher zuvor auf Webseiten aufgerufen hat,
+        die die Remarketing Funktion von Google verwenden.
+      </p>
+      <p>
+        Nähere Informationen über die Datenverarbeitung durch Google können Sie
+        den Google-Datenschutzhinweisen entnehmen:
+        <a
+          href="https://policies.google.com/privacy"
+          rel="noopener nofollow"
+          target="_blank"
+          >https://policies.google.com/privacy</a
+        >. Dort können Sie im Datenschutzcenter auch Ihre persönlichen
+        Datenschutz-Einstellungen verändern.
+      </p>
+      <h3>Widerruf der Einwilligung:</h3>
+      <p>
+        Vom Anbieter wird derzeit keine Möglichkeit für einen einfachen Opt-out
+        oder ein Blockieren der Datenübertragung angeboten. Wenn Sie eine
+        Nachverfolgung Ihrer Aktivitäten auf unserer Website verhindern wollen,
+        widerrufen Sie bitte im Cookie-Consent-Tool Ihre Einwilligung für die
+        entsprechende Cookie-Kategorie oder alle technisch nicht notwendigen
+        Cookies und Datenübertragungen. In diesem Fall können Sie unsere Website
+        jedoch ggfs. nicht oder nur eingeschränkt nutzen.
+      </p>
+      <p></p>
+      <h2>SSL-Verschlüsselung</h2>
+      <p>
+        Um die Sicherheit Ihrer Daten bei der Übertragung zu schützen, verwenden
+        wir dem aktuellen Stand der Technik entsprechende
+        Verschlüsselungsverfahren (z. B. SSL) über HTTPS.
+      </p>
+      <p></p>
+      <hr />
+      <h2>Information über Ihr Widerspruchsrecht nach Art. 21 DSGVO</h2>
+      <h3>Einzelfallbezogenes Widerspruchsrecht</h3>
+      <p>
+        Sie haben das Recht, aus Gründen, die sich aus Ihrer besonderen
+        Situation ergeben, jederzeit gegen die Verarbeitung Sie betreffender
+        personenbezogener Daten, die aufgrund Art. 6 Abs. 1 lit. f DSGVO
+        (Datenverarbeitung auf der Grundlage einer Interessenabwägung) erfolgt,
+        Widerspruch einzulegen; dies gilt auch für ein auf diese Bestimmung
+        gestütztes Profiling im Sinne von Art. 4 Nr. 4 DSGVO.
+      </p>
+      <p>
+        Legen Sie Widerspruch ein, werden wir Ihre personenbezogenen Daten nicht
+        mehr verarbeiten, es sei denn, wir können zwingende schutzwürdige Gründe
+        für die Verarbeitung nachweisen, die Ihre Interessen, Rechte und
+        Freiheiten überwiegen, oder die Verarbeitung dient der Geltendmachung,
+        Ausübung oder Verteidigung von Rechtsansprüchen.
+      </p>
+      <h3>Empfänger eines Widerspruchs</h3>
+      <p>Dominik Dugandzic <br />Walter-Kolb-Str. 40 <br />40764 Langenfeld</p>
+      <hr />
+      <h2>Änderung unserer Datenschutzbestimmungen</h2>
+      <p>
+        Wir behalten uns vor, diese Datenschutzerklärung anzupassen, damit sie
+        stets den aktuellen rechtlichen Anforderungen entspricht oder um
+        Änderungen unserer Leistungen in der Datenschutzerklärung umzusetzen,
+        z.B. bei der Einführung neuer Services. Für Ihren erneuten Besuch gilt
+        dann die neue Datenschutzerklärung.
+      </p>
+      <h2>Fragen an den Datenschutzbeauftragten</h2>
+      <p>
+        Wenn Sie Fragen zum Datenschutz haben, schreiben Sie uns bitte eine
+        E-Mail oder wenden Sie sich direkt an die für den Datenschutz
+        verantwortliche Person in unserer Organisation:
+      </p>
+      <p></p>
+      <p>
+        <em
+          >Die Datenschutzerklärung wurde mithilfe der activeMind AG erstellt,
+          den Experten für
+          <a
+            href="https://www.activemind.de/datenschutz/datenschutzbeauftragter/"
+            target="_blank"
+            rel="noopener"
+            >externe Datenschutzbeauftragte</a
+          >
+          (Version #2020-09-30).</em
+        >
+      </p>
     </section>
   </Layout>
 </template>
 
 <script>
-import Intro from '../components/Intro'
+import Intro from "../components/Intro";
 
 export default {
   metaInfo: {
-    title: 'Impressum'
+    title: "Impressum",
   },
   components: {
-      Intro
-  }
-}
+    Intro,
+  },
+};
 </script>
 
 <style>
+#data-privacy h2 {
+  font-size: 1.5rem;
+}
+#data-privacy p {
+  margin: .5em 0;
+}
+#data-privacy a {
+  text-decoration: underline;
+}
+#data-privacy ul {
+  list-style-type: circle;
+  margin-left: 1.5rem;
+}
 </style>

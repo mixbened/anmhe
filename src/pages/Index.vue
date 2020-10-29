@@ -20,35 +20,30 @@
       </div>
     </section>
     <section class="my-64">
-      <h2 class="text-3xl font-semibold uppercase inline-block leading-tight text-white bg-black  mx-4 sm:mx-8 sm:mx-20 md:ml-32 p-2 my-4">Das ist unser Ding</h2>
+      <h2 class="text-3xl font-semibold uppercase inline-block leading-tight text-white bg-black mx-4 sm:mx-8 sm:mx-20 md:ml-32 p-2 my-4">Das ist unser Ding</h2>
       <div class="grid grid-cols-1 sm:grid-cols-3">
-        <div class="col-span-1 bg-cover bg-white hover:bg-transparent bg-no-repeat bg-scroll text-white text-left relative py-32 transition ease-in duration-200">
+        <div class="col-span-1 bg-cover bg-white bg-no-repeat bg-scroll text-white text-left relative py-32 transition ease-in duration-200" @mouseenter="selectShow('analog')" @mouseleave="selectShow('')" :style="{ background: show === 'analog' ? 'transparent' : 'white'}">
           <g-image src="https://res.cloudinary.com/mixbened/image/upload/v1603874155/teaser-analog.png" class="opacity-50 absolute top-0 w-full h-full" style="z-index: -1"></g-image>
           <div class="px-6">
             <h2 class="text-2xl font-semibold uppercase inline-block leading-tight my-8 text-black border-b border-black">Analoge Events</h2>
-            <p class="mb-4 text-sm text-black font-semibold">Die Zukunft wird Hybrid! Der Mix aus physischer Veranstaltung in Kombination mit digitaler Übertragung und Teilnahme in Echtzeit, gewinnt immer mehr an Akzeptanz.</p>
-            <g-link to="/was-wir-machen#analog" class="p-1 bg-tertiary absolute" style="bottom: 1em">Mehr erfahren</g-link>
+            <p class="mb-4 text-sm text-black font-semibold" :class="{ opacity: show === 'analog' ? '1' : '0' }">Die Zukunft wird Hybrid! Der Mix aus physischer Veranstaltung in Kombination mit digitaler Übertragung und Teilnahme in Echtzeit, gewinnt immer mehr an Akzeptanz.</p>
+            <g-link to="/was-wir-machen#analog" class="p-1 bg-tertiary absolute" style="bottom: 1em; left: 1.5em">Mehr erfahren</g-link>
           </div>
         </div>
-        <div class="col-span-1 bg-cover bg-white hover:bg-transparent bg-no-repeat bg-scroll text-white text-left relative py-32 transition ease-in duration-200">
+        <div class="col-span-1 bg-cover bg-no-repeat bg-scroll text-white text-left relative py-32 transition ease-in duration-200" @mouseenter="selectShow('digital')" @mouseleave="selectShow('')" :style="{ background: show === 'digital' ? 'transparent' : 'white'}">
           <g-image src="https://res.cloudinary.com/mixbened/image/upload/v1603874155/teaser-hybrid.png" class="opacity-50 absolute top-0 w-full h-full" style="z-index: -1"></g-image>
           <div class="px-6">
             <h2 class="text-2xl font-semibold uppercase inline-block leading-tight my-8 text-black border-b border-black">Digitale Events</h2>
-            <p class="mb-4 text-sm text-black font-semibold">Die Zukunft wird Hybrid! Der Mix aus physischer Veranstaltung in Kombination mit digitaler Übertragung und Teilnahme in Echtzeit, gewinnt immer mehr an Akzeptanz.</p>
-            <g-link to="/was-wir-machen#digital" class="p-1 bg-primary absolute" style="bottom: 1em">Mehr erfahren</g-link>
+            <p class="mb-4 text-sm text-black font-semibold" :class="{ opacity: show === 'digital' ? '1' : '0' }">Die Zukunft wird Hybrid! Der Mix aus physischer Veranstaltung in Kombination mit digitaler Übertragung und Teilnahme in Echtzeit, gewinnt immer mehr an Akzeptanz.</p>
+            <g-link to="/was-wir-machen#digital" class="p-1 bg-primary absolute transition" style="bottom: 1em; left: 1.5em">Mehr erfahren</g-link>
           </div>
         </div>
-        <!-- <div class="col-span-1 p-10 bg-cover bg-no-repeat bg-scroll text-white text-left relative py-20" style="background-image: url('https://res.cloudinary.com/mixbened/image/upload/v1603874155/teaser-hybrid.png')">
-          <h2 class="text-2xl font-semibold uppercase inline-block leading-tight my-8 text-secondary w-full">Hybride Events</h2>
-          <p class="mb-4 text-sm">Die Zukunft wird Hybrid! Der Mix aus physischer Veranstaltung in Kombination mit digitaler Übertragung und Teilnahme in Echtzeit, gewinnt immer mehr an Akzeptanz.</p>
-          <g-link to="/was-wir-machen#analog" class="p-1 border-b border-white absolute" style="bottom: 1em">Mehr erfahren</g-link>
-        </div> -->
-        <div class="col-span-1 bg-cover bg-white hover:bg-transparent bg-no-repeat bg-scroll text-white text-left relative py-32 transition ease-in duration-200">
+        <div class="col-span-1 bg-cover bg-white hover:bg-transparent bg-no-repeat bg-scroll text-black text-left relative py-32 transition ease-in duration-200" @mouseenter="selectShow('hybrid')" @mouseleave="selectShow('')" :style="{ background: show === 'hybrid' ? 'transparent' : 'white'}">
           <g-image src="https://res.cloudinary.com/mixbened/image/upload/v1603874155/teaser-digital.png" class="opacity-50 absolute top-0 w-full h-full" style="z-index: -1"></g-image>
           <div class="px-6">
-            <h2 class="text-2xl font-semibold uppercase inline-block leading-tight my-8 text-black border-b border-black">Hybride Events</h2>
-            <p class="mb-4 text-sm text-black font-semibold">Die Zukunft wird Hybrid! Der Mix aus physischer Veranstaltung in Kombination mit digitaler Übertragung und Teilnahme in Echtzeit, gewinnt immer mehr an Akzeptanz.</p>
-            <g-link to="/was-wir-machen#hybrid" class="p-1 bg-secondary absolute" style="bottom: 1em">Mehr erfahren</g-link>
+            <h2 class="text-2xl font-semibold uppercase inline-block leading-tight my-8 border-b border-black">Hybride Events</h2>
+            <p class="mb-4 text-sm text-black font-semibold" :class="{ 'opacity-1' : show === 'hybrid', 'opacity-0' : show !== 'hybrid' }">Die Zukunft wird Hybrid! Der Mix aus physischer Veranstaltung in Kombination mit digitaler Übertragung und Teilnahme in Echtzeit, gewinnt immer mehr an Akzeptanz.</p>
+            <g-link to="/was-wir-machen#hybrid" class="p-1 bg-secondary absolute text-white" style="bottom: 1em; left: 1.5em">Mehr erfahren</g-link>
           </div>
         </div>
       </div>
@@ -69,6 +64,11 @@ export default {
   metaInfo: {
     title: 'Home'
   },
+  data(){
+    return {
+      show: ''
+    }
+  },
   components: {
     InfoCard,
     InfoGrid,
@@ -83,6 +83,12 @@ export default {
       const heightHeader = elHeader.offsetHeight 
       window.scroll(0,heightBanner-heightHeader)
     },5000)
+  },
+  methods: {
+    selectShow: function(box) {
+      this.show = box
+      console.log('checked: ', this.show)
+    }
   }
 }
 </script>
