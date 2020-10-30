@@ -1,10 +1,10 @@
 <template>
   <Layout>
     <section>
-      <Header title=""  background="https://res.cloudinary.com/mixbened/image/upload/v1603873041/ANM/Titel_WerWir_Sind.png"/>
+      <Header title="Wer Wir sind."  background="https://res.cloudinary.com/mixbened/image/upload/v1603873041/ANM/Titel_WerWir_Sind.png"/>
     </section>
     <section class="my-10">
-      <Intro title="Vision" text="Holladio! Wir sind Ain´t No Mountain, die junge Agentur für Live-Kommunikation im Rheinland. Unser Herz schlägt für echte Erlebnisse: Wir lieben es, Messeauftritte, Produktpräsentationen, Kick-offs, Tagungen, Festivals und Mitarbeiterevents zu konzipieren und umzusetzen. Unser Ohrwurm-Name ist Programm: Kein Berg zu hoch und kein Weg zu weit. Kein Job zu klein und keine Challenge zu groß! Wir entwickeln für jedes Projekt die passenden Tools. On- oder offline, analog oder digital, hybrid oder virtuell. Wie wir das schaffen? Ganz einfach: Mit jeder Menge Erfahrung und unserem Netzwerk aus Kreativen und Projektmanagern. Profis aus Event, Messe, Online, Print und Social Media." />
+      <Intro_Main title="Vision" text="Holladio! Wir sind Ain´t No Mountain, die junge Agentur für Live-Kommunikation im Rheinland. Unser Herz schlägt für echte Erlebnisse: Wir lieben es, Messeauftritte, Produktpräsentationen, Kick-offs, Tagungen, Festivals und Mitarbeiterevents zu konzipieren und umzusetzen. Unser Ohrwurm-Name ist Programm: Kein Berg zu hoch und kein Weg zu weit. Kein Job zu klein und keine Challenge zu groß! Wir entwickeln für jedes Projekt die passenden Tools. On- oder offline, analog oder digital, hybrid oder virtuell. Wie wir das schaffen? Ganz einfach: Mit jeder Menge Erfahrung und unserem Netzwerk aus Kreativen und Projektmanagern. Profis aus Event, Messe, Online, Print und Social Media." />
     </section>
     <section class="my-20 mx-4 sm:mx-20 md:ml-32">
       <div class="grid grid-cols-3 sm:grid-cols-11">
@@ -26,7 +26,7 @@
 <script>
 import Header from '../components/Header'
 import FullBanner from '../components/FullBanner'
-import Intro from '../components/Intro'
+import Intro_Main from '../components/Intro_Main'
 
 export default {
   metaInfo: {
@@ -35,7 +35,7 @@ export default {
   components: {
     Header,
     FullBanner,
-    Intro
+    Intro_Main
   }
 }
 </script>

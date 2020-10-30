@@ -25,6 +25,12 @@ module.exports = {
       options: {
         tailwindConfig: './tailwind.config.js'
       }
+    },
+    {
+      use: '@gridsome/plugin-google-analytics',
+      options: {
+        id: 'G-MR9FXDD4T8'
+      }
     }
   ],
   templates: {

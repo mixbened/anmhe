@@ -1,10 +1,9 @@
 <template>
   <Layout>
-    <section class="mt-32">
-      <Intro title="Datenschutzerklärung" text="" />
+    <section class="mt-32 mx-4 sm:mx-20 md:ml-32 py-4 md:w-1/2">
+      <h2 class="text-3xl font-semibold uppercase inline-block bg-secondary leading-tight p-2 text-white">Datenschutzerklärung</h2>
     </section>
     <section class="text-gray-800 mx-4 sm:mx-20 md:ml-32 py-4" id="data-privacy">
-      <h1>Datenschutzerklärung</h1>
       <p>
         Verantwortlicher im Sinne der Datenschutzgesetze, insbesondere der
         EU-Datenschutzgrundverordnung (DSGVO), ist:

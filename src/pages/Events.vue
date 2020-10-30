@@ -1,9 +1,9 @@
 <template>
   <!-- This is the Events list Page-->
   <Layout>
-      <Header title=""  background="https://res.cloudinary.com/mixbened/image/upload/v1603873034/ANM/DoSomethingGreat-quer.png"/>
+      <Header title="Wie wir arbeiten."  background="https://res.cloudinary.com/mixbened/image/upload/v1603873034/ANM/DoSomethingGreat-quer.png"/>
       <section class="mt-10">
-        <Intro title="Bisher lief es ganz gut" text="Events blindtext, Lorem ipsum dolor sit amet. Events blindtext, Lorem ipsum dolor sit amet. Events blindtext, Lorem ipsum dolor sit amet. Events blindtext, Lorem ipsum dolor sit amet. Events blindtext, Lorem ipsum dolor sit amet" />
+        <Intro_Main title="Bisher lief es ganz gut" text="Events blindtext, Lorem ipsum dolor sit amet. Events blindtext, Lorem ipsum dolor sit amet. Events blindtext, Lorem ipsum dolor sit amet. Events blindtext, Lorem ipsum dolor sit amet. Events blindtext, Lorem ipsum dolor sit amet" />
       </section>
       <section class="my-20 mx-4 sm:mx-20 md:ml-32">
         <div class="grid grid-cols-3 gap-4">
@@ -41,7 +41,7 @@
 import Layout from "~/layouts/Default.vue";
 import EventCard from "~/components/EventCard.vue";
 import IconList from '../components/IconList'
-import Intro from '../components/Intro'
+import Intro_Main from '../components/Intro_Main'
 import Header from '../components/Header'
 
 export default {
@@ -49,7 +49,7 @@ export default {
     Layout,
     EventCard,
     IconList,
-    Intro,
+    Intro_Main,
     Header
   },
   data() {
