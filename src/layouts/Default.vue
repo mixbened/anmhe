@@ -5,15 +5,15 @@
           <g-link to="/"><g-image 
           alt="Logo ANMHE" 
           src="../assets/ANM-SHORT-B@3x.png"
-          class="ml-1 sm:ml-4 w-20 sm:w-32 m:w-40"  
+          class="ml-1 sm:ml-4 w-20 md:w-32 m:w-40"  
           /></g-link>
         </div>
-        <nav class="sm:mr-20">
+        <nav class="mr-4 lg:mr-20">
           <div class="flex w-auto items-center">
-            <g-link to="/was-wir-machen" class="sm:uppercase p-2 sm:p-2 lg:px-6 hover:text-secondary transition ease-in duration-200 font-semibold text-xs sm:text-base">Was Wir Machen</g-link>
-            <g-link to="/wer-wir-sind" class="sm:uppercase p-2 sm:p-2 lg:px-6 hover:text-secondary transition ease-in duration-200 font-semibold text-xs sm:text-base">Wer Wir Sind</g-link>
-            <g-link to="/events" class="hidden p-2 sm:block sm:uppercase sm:p-2 lg:px-6 hover:text-secondary transition ease-in duration-200 font-semibold text-xs sm:text-base">Wie Wir Arbeiten</g-link>
-            <g-link to="/was-wir-machen#digital" class="p-2 border border-primary sm:uppercase sm:p-2 lg:px-6 hover:text-secondary transition ease-in duration-200 font-semibold  text-xs sm:text-base">Digitale Events</g-link>
+            <g-link to="/was-wir-machen" class="sm:uppercase p-2 sm:p-2 lg:px-6 hover:text-secondary transition ease-in duration-200 font-semibold text-xs md:text-base">Was Wir Machen</g-link>
+            <g-link to="/wer-wir-sind" class="sm:uppercase p-2 sm:p-2 lg:px-6 hover:text-secondary transition ease-in duration-200 font-semibold text-xs md:text-base">Wer Wir Sind</g-link>
+            <g-link to="/events" class="hidden p-2 sm:block sm:uppercase sm:p-2 lg:px-6 hover:text-secondary transition ease-in duration-200 font-semibold text-xs md:text-base">Wie Wir Arbeiten</g-link>
+            <g-link to="/was-wir-machen#digital" class="p-2 border border-primary sm:uppercase sm:p-2 lg:px-6 hover:text-secondary transition ease-in duration-200 font-semibold  text-xs md:text-base">Digitale Events</g-link>
           </div>
         </nav>
       </header>
@@ -23,28 +23,28 @@
       </main>
     </transition>
     <footer class="text-white bg-black px-8">
-      <div class="grid grid-cols-4 px-12 py-8 flex items-center">
+      <div class="grid grid-cols-2 sm:grid-cols-4 px-2 sm:px-12 py-8 flex items-start text-xs sm:text-base">
         <div class="col-span-1 w-1/2">
           <g-image src="../assets/ANM-LC-WTX@3x.png" alt="Logo ANM"></g-image>
         </div>
         <div class="col-span-1">
-          <h3 class="inline-block border-b-2 border-white leading-tight mb-2 uppercase text-xl">Kontakt</h3>
+          <h3 class="inline-block border-b-2 border-white leading-tight mb-2 uppercase text-base sm:text-xl">Kontakt</h3>
           <ul>
             <li><span class="font-bold mr-2">T</span> +49 151 24071039</li>
             <li><span class="font-bold mr-2">F</span> +49 151 24071039</li>
             <li><span class="font-bold mr-2">M</span> hello@aintnomountain.com</li>
           </ul>
         </div>
-        <div class="col-span-1">
-          <h3 class="inline-block border-b-2 border-white leading-tight mb-2 uppercase text-xl">Anschrift</h3>
+        <div class="col-span-1 mt-4 sm:m-0">
+          <h3 class="inline-block border-b-2 border-white leading-tight mb-2 uppercase text-base sm:text-xl">Anschrift</h3>
           <ul>
             <li>Dominik Dugandzic</li>
             <li>Walter-Kolb-Str. 40</li>
             <li>40764 Langenfeld</li>
           </ul>
         </div>
-        <div class="col-span-1">
-          <h3 class="inline-block border-b-2 border-white leading-tight mb-2 uppercase text-xl">Social & Links</h3>
+        <div class="col-span-1 mt-4 sm:m-0">
+          <h3 class="inline-block border-b-2 border-white leading-tight mb-2 uppercase text-base sm:text-xl">Social & Links</h3>
           <ul>
             <g-link to="/impressum"><li>Facebook</li></g-link>
             <g-link to="/impressum"><li>Impressum</li></g-link>

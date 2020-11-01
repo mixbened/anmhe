@@ -1,6 +1,6 @@
 <template>
   <Layout>
-    <section class="relative sm:h-screen" id="banner">
+    <section class="relative lg:h-screen" id="banner">
       <div class="w-full h-full block overflow-hidden">
         <video autoplay muted id="myVideo" class="w-full h-full scale">
           <source src="https://res.cloudinary.com/mixbened/video/upload/v1603629177/ANM/trimmed-intro-anm.mov" type="video/mp4">
@@ -8,16 +8,19 @@
       </div>
     </section>
     <section class="mt-10" id="start">
-      <section class="text-black mx-4 sm:mx-20 md:ml-32 py-4">
-          <div class="grid grid-cols-1 sm:grid-cols-2">
-            <div class="mx-8">
+      <section class="text-black mx-4 sm:mx-20 md:ml-32 py-12">
+        <g-image alt="graphics anm" src="../assets/dreiecke/Dreieck-gelb-minus12Grad@2x.png" class="hidden sm:block absolute  right-0 mr-8" width="80"></g-image>
+        <g-image alt="graphics anm" src="../assets/dreiecke/Dreieck-Petrol-klein@2x.png" class="hidden sm:block absolute  left-0 m-8" width="80"></g-image>
+        <g-image alt="graphics anm" src="../assets/dreiecke/Dreieck-Pink-minus14grad@2x.png" class="hidden sm:block absolute left-0 m-64" width="200"></g-image>
+          <div class="grid grid-cols-1 sm:grid-cols-2 z-10 relative">
+            <div class="sm:mx-8">
               <vue-typed-js :strings="['Holladio!', 'Moin Moin', 'Die Agentur, die du dir gewünscht hast.']" :showCursor="false" :typeSpeed="150" :backSpeed="50" :backDelay="2000" :loop="true">
-                <h1 class="text-right text-4xl font-semibold"><span class="typing"></span><span class="opacity-0 text-xs">.</span></h1>
+                <h1 class="text-left sm:text-right text-4xl font-semibold"><span class="typing"></span><span class="opacity-0 text-xs">.</span></h1>
               </vue-typed-js>
             </div>
             <div>
-              <h3 class="text-left text-base font-semibold uppercase leading-tight p-0 my-6 sm:my-0">Wir sind Ain't No Mountain, die junge Agentur für Live-Kommunikation im Rheinland.</h3>
-              <p class="text-justify">Unser Herz schlägt für echte Erlebnisse: Wir lieben es, Messeauftritte, Produktpräsentationen, Kick-offs, Tagungen, Festivals und Mitarbeiterevents zu konzipieren und umzusetzen. Unser Ohrwurm-Name ist Programm: Kein Berg zu hoch und kein Weg zu weit. Kein Job zu klein und keine Challenge zu groß! Wir entwickeln für jedes Projekt die passenden Tools. On- oder offline, analog oder digital, hybrid oder virtuell. Wie wir das schaffen? Ganz einfach: Mit jeder Menge Erfahrung und unserem Netzwerk aus Kreativen und Projektmanagern. Profis aus Event, Messe, Online, Print und Social Media. Wenn der Berg ruft - just call us, you don't have to worry!</p>
+              <h3 class="text-left text-base font-semibold uppercase p-0 sm:my-0">Wir sind Ain't No Mountain, die junge Agentur für Live-Kommunikation im Rheinland.</h3>
+              <p class="text-justify my-6">Unser Herz schlägt für echte Erlebnisse: Wir lieben es, Messeauftritte, Produktpräsentationen, Kick-offs, Tagungen, Festivals und Mitarbeiterevents zu konzipieren und umzusetzen. Unser Ohrwurm-Name ist Programm: Kein Berg zu hoch und kein Weg zu weit. Kein Job zu klein und keine Challenge zu groß! Wir entwickeln für jedes Projekt die passenden Tools. On- oder offline, analog oder digital, hybrid oder virtuell. Wie wir das schaffen? Ganz einfach: Mit jeder Menge Erfahrung und unserem Netzwerk aus Kreativen und Projektmanagern. Profis aus Event, Messe, Online, Print und Social Media. Wenn der Berg ruft - just call us, you don't have to worry!</p>
             </div>
           </div>
       </section>

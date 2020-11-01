@@ -4,6 +4,8 @@
       <Header title="was wir machen." background="https://res.cloudinary.com/mixbened/image/upload/v1604004682/ANM/Titel_was_wir_machen_-_V2.png"/>
     </section>
     <section class="my-8 sm:my-20 mb-32">
+      <g-image alt="graphics anm" src="../assets/dreiecke/Dreieck-gelb-minus12Grad@2x.png" class="hidden sm:block absolute  right-0 -mt-32 mr-12" width="80"></g-image>
+      <g-image alt="graphics anm" src="../assets/dreiecke/Dreieck-Petrol-klein@2x.png" class="hidden sm:block absolute  -mt-32 left-0 m-8" width="80"></g-image>
       <Intro_Main title="No Way is too long. <br> No Mountain too high." text="Wir sind ehrlich mit dir: Die eierlegende Wollmilchsau sind wir nicht! Jedoch sind wir in der Lage, mit unserer Beratung, dem Projektmanagement und unserem Netzwerk aus Partnern beinahe jede Aufgabe zu lösen! Wo wir allerdings so richtig stark sind ist die Konzeption, Organisation und Umsetzung von echten Erlebnissen! Wie diese „echten Erlebnisse“ aussehen sollen, ist erst einmal egal. Wir helfen dir dabei dein “echtes Erlebnis” zu entwickeln, zu transportieren und richtig in Szene zu setzen. Denn unser Ziel ist, deine Veranstaltung an die Spitze zu bringen. Das lieben wir!" />
     </section>
     <section class="mx-4 sm:mx-20 md:ml-32 mb-32">
@@ -31,19 +33,22 @@
         </div>
     </section>
     <section class="bg-tertiary py-12">
-      <section id="analog">
-        <div class="grid grid-cols-1 sm:grid-cols-3">
-          <div class="col-span-1">
-            <g-image src="../assets/telefon-transparent.png" alt="fernseher grafik"></g-image>
+      <section id="analog" class="relative mx-4">
+        <g-image alt="graphics anm" src="../assets/dreiecke/Dreieck-Pink-minus14grad@2x.png" class="hidden sm:block absolute right-0 mr-48 -mt-32" width="200"></g-image>
+        <g-image alt="graphics anm" src="../assets/dreiecke/Dreieck-Pink-minus14grad@2x.png" class="hidden sm:block absolute bottom-0 ml-64 mb-64" style="left:50%;" width="100"></g-image>
+        <g-image alt="graphics anm" src="../assets/dreiecke/Dreieck-petrol-197Grad@2x.png" class="hidden sm:block absolute bottom-0 mb-64" style="left:50%;" width="80"></g-image>
+        <div class="grid grid-cols-1 sm:grid-cols-3 relative z-10">
+          <div class="col-span-1 mx-8">
+            <g-image src="../assets/PLATZHALTER vintagePhone_quino-al-unsplash-auf-gelb.png" alt="fernseher grafik"></g-image>
           </div>
           <div class="col-span-2">
             <h2 class="text-3xl font-semibold uppercase inline-block leading-tight py-2 border-b-4 border-black">Analoge Events</h2>
-            <div class="grid grid-cols-1 sm:grid-cols-2 gap-8 mt-10">
-              <div class="col-span-1 py-4 mr-4 sm:mr-32">
+            <div class="grid grid-cols-2 gap-8 mt-10">
+              <div class="col-span-2 lg:col-span-1 py-4 mr-4 sm:mr-32">
                 <h3 class="leading-tight mb-2 uppercase text-xl font-semibold">Live will be back!</h3>
                 <p>Messen, Produktpräsentationen, Kick-off-Events, Tagungen, Festivals und Mitarbeiterevents werden zurückkommen! Dafür ist der Mensch zu sehr von seinen Emotionen gesteuert. Veranstaltungen sprechen alle Sinne an, schaffen einmalige Erlebnisse und bleiben nachhaltig in Erinnerung. Diese Merkmale können.</p>
               </div>
-              <div class="col-span-1 px-4 mr-4 sm:mr-32 border-l-4 border-black">
+              <div class="col-span-2 lg:col-span-1 px-4 mr-4 sm:mr-32 border-l-4 border-black">
                 <h3 class="leading-tight mb-2 uppercase text-xl font-semibold">Unser Versprechen</h3>
                 <p>Bei der Konzeption, Organisation und Umsetzung von Veranstaltungen unterstützen wir dich! Wir beraten dich, welches Veranstaltungsformat für dein Vorhaben am besten geeignet ist und setzen das Event von der ersten Idee bis der letzte das Licht aus macht für dich um.</p>
               </div>
@@ -79,8 +84,9 @@
       </section>
     </section>
     <section class="bg-primary text-white py-12" id="digital">
+      <g-image alt="graphics anm" src="../assets/dreiecke/Dreieck-weiss-312Grad@2x.png" class="hidden sm:block absolute right-0 mr-48 -mt-32" width="200"></g-image>
       <section class="mx-4 sm:mx-20 md:ml-32 py-4">
-        <div class="grid grid-cols-2">
+        <div class="grid grid-cols-1 lg:grid-cols-2">
             <div class="col-span-1 py-4 mr-4 md:mr-32">
               <g-image src="../assets/vintageTV_stephen-monterroso-unsplash.png" alt="analog grafik"></g-image>
             </div>
@@ -96,7 +102,7 @@
     </section>
     <section class="bg-secondary text-white py-12" id="digital">
       <section class="mx-4 sm:mx-20 lg:mx-32 lg:ml-64 py-4 lg:w-2/3">
-        <div class="grid grid-cols-1 sm:grid-cols-2">
+        <div class="grid grid-cols-1 lg:grid-cols-2">
             <div class="col-span-1 py-4 mr-4">
               <h3 class="inline-block border-b-4 border-white leading-tight mb-2 uppercase text-3xl font-semibold">Hybrid</h3>
               <div>
