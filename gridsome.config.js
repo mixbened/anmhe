@@ -1,5 +1,6 @@
 module.exports = {
   siteName: "Ain't No Mountain High Enough",
+  siteUrl: "https://www.aintnomountain.com",
   plugins: [
     {
       use: "@gridsome/source-airtable",
@@ -30,6 +31,13 @@ module.exports = {
       use: '@gridsome/plugin-google-analytics',
       options: {
         id: 'G-MR9FXDD4T8'
+      }
+    },
+    {
+      use: '@gridsome/plugin-sitemap',
+      options: {
+        config: {
+        }
       }
     }
   ],
