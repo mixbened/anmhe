@@ -9,7 +9,7 @@
         <div>
           <h3 class="inline-block border-b-2 border-black leading-tight mb-2 uppercase text-xl font-semibold">Kontaktformular</h3>
           <div class="my-2">
-            <a class="typeform-share button" href="https://form.typeform.com/to/RuigsLYO" data-mode="popup" style="display:inline-block;text-decoration:none;background-color:#FFC31E;color:white;cursor:pointer;font-size:20px;text-align:center;margin:0;padding:10px 22px;border-radius:0px;max-width:100%;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;font-weight:bold;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;" target="_blank">Kontaktformular</a> 
+            <button class="bg-tertiary text-white p-2 " @click="typeform">Kontaktanfrage</button>
           </div>
         </div>
         <div>
@@ -37,6 +37,7 @@
 <script>
 import Intro from '../components/Intro'
 import Header from '../components/Header'
+import * as typeformEmbed from '@typeform/embed'
 
 
 export default {
@@ -46,6 +47,29 @@ export default {
   components: {
     Intro,
     Header
+  },
+  methods: {
+    typeform: function(){
+      console.log('start form')
+      typeformEmbed.makePopup(
+        'https://form.typeform.com/to/RuigsLYO',
+        {
+          mode: 'drawer_right',
+          open: 'scroll',
+          autoClose: 3,
+          hideScrollbars: true,
+          onSubmit: function () {
+            console.log('Typeform successfully submitted')
+          },
+          onReady: function () {
+            console.log('Typeform is ready')
+          },
+          onClose: function () {
+            console.log('Typeform is closed')
+          }
+        }
+      )
+    }
   }
 }
 </script>

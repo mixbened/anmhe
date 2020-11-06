@@ -33,6 +33,7 @@
             <li><span class="font-bold mr-2">T</span> +49 151 24071039</li>
             <li><span class="font-bold mr-2">F</span> +49 151 24071039</li>
             <li><span class="font-bold mr-2">M</span> hello@aintnomountain.com</li>
+            <g-link to="/bergpost"><li><span class="font-bold mr-2 cursor-pointer">W</span> Direkter Kontakt</li></g-link>
           </ul>
         </div>
         <div class="col-span-1 mt-4 sm:m-0">
