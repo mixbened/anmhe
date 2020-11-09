@@ -6,29 +6,29 @@
     <section class="my-8 sm:my-20 mb-32">
       <g-image alt="graphics anm" src="../assets/dreiecke/Dreieck-gelb-minus12Grad@2x.png" class="hidden sm:block absolute  right-0 -mt-32 mr-12" width="80"></g-image>
       <g-image alt="graphics anm" src="../assets/dreiecke/Dreieck-Petrol-klein@2x.png" class="hidden sm:block absolute  -mt-32 left-0 m-8" width="80"></g-image>
-      <Intro_Main title="No Way is too long. <br> No Mountain too high." text="Wir sind ehrlich mit dir: Die eierlegende Wollmilchsau sind wir nicht! Jedoch sind wir in der Lage, mit unserer Beratung, dem Projektmanagement und unserem Netzwerk aus Partnern beinahe jede Aufgabe zu lösen! Wo wir allerdings so richtig stark sind ist die Konzeption, Organisation und Umsetzung von echten Erlebnissen! Wie diese „echten Erlebnisse“ aussehen sollen, ist erst einmal egal. Wir helfen dir dabei dein “echtes Erlebnis” zu entwickeln, zu transportieren und richtig in Szene zu setzen. Denn unser Ziel ist, deine Veranstaltung an die Spitze zu bringen. Das lieben wir!" />
+      <Intro_Main title="Grenzenlose Live-Kommunikation. Analog, digital und hybrid." text="So paradox es klingt: Je digitaler und vernetzter unsereWelt, destogrößer das Bedürfnis nach echten Erlebnissen. Doch die sind längst nicht mehr nur real oder live. Immer mehr verschwimmen die Grenzen zwischen On- und Offline, virtuellem und realem Raum. Und genau hier sind wir zu Hause! <br> Wir helfen dirdabei, dein “echtesErlebnis” zu entwickeln und deine Botschaften in Szene zu setzen. Passgenau, im richtigen Format. Unser Ziel: Dein Event zum Gipfelstürmer machen." />
     </section>
     <section class="mx-4 sm:mx-20 md:ml-32 mb-32">
         <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 mt-10">
           <div class="col-span-1 py-4 mr-8">
             <h3 class="leading-tight mb-2 uppercase font-semibold">KONZEPTION</h3>
-            <p class="text-sm">Von einer kleinen Idee bis zu der Konzeption eines ganzen Veranstaltungsformats können wir dir alles bieten!</p>
+            <p class="text-sm">Von der ersten Idee bis zum fertigen Konzept, von der Story bis zur finalen Dramaturgie. Gemeinsam überlegen wir, was zu dir passt und wie deine Botschaft am besten ankommt.</p>
           </div>
           <div class="col-span-1 py-4 mr-8">
             <h3 class="leading-tight mb-2 uppercase font-semibold">PRODUKTION</h3>
-            <p class="text-sm">Den richtigen Content entwickeln, Einladungen erstellen, Regie finden und überhaupt die richtige Location suchen. Alles Dinge, die wir dir gern abnehmen!</p>
+            <p class="text-sm">Content entwickeln, Einladungen erstellen, Banner beauftragen. Wir kümmern uns um alles, was dein Event braucht.</p>
           </div>
           <div class="col-span-1 py-4 mr-8">
             <h3 class="leading-tight mb-2 uppercase font-semibold">RECHT + SICHERHEIT</h3>
-            <p class="text-sm">Versammlungen mit gesetzeskonformen Stimmabgaben und -ergebnissen, Datensicherheit gemäß DSGVO und zertifizierte Zurverfügungstellung von Servern in Deutschland ...haben wir unbedingt alles auf dem Schirm für dich!</p>
+            <p class="text-sm">Ob gesetzeskonforme Versammlungsdurchführung oder Datensicherheit gemäß DSGVO.Es gibt Themen, mit denen will sich keiner befassen – wir schon!</p>
           </div>
           <div class="col-span-1 py-4 mr-8">
             <h3 class="leading-tight mb-2 uppercase font-semibold">BERATUNG + PLANUNG</h3>
-            <p class="text-sm">Individuelle Lösungsansätze für dich, deine Marke und deine Veranstaltung. Wir beraten dich, bis du zufrieden damit bist!!</p>
+            <p class="text-sm">Individuelle Lösungsansätze für deine Marke und Veranstaltung. Wir finden heraus, welchesFormat zu dir passt und planen dein einzigartiges Event. Analog, digital, hybrid.</p>
           </div>
           <div class="col-span-1 py-4 mr-8">
             <h3 class="leading-tight mb-2 uppercase font-semibold">UMSETZUNG</h3>
-            <p class="text-sm">Ganzheitliche Betreuung und Koordination des Projekts. Suchst du jemanden fürs “A” sind wir auch gern noch bis zum “Z” an deiner Seite.</p>
+            <p class="text-sm">Wir betreuen dein Projekt von Beginn und steuern es bis zum sicheren Ende. Ob Technik, Catering, Künstler oder Regie– wir kümmern uns darum!</p>
           </div>
         </div>
     </section>
@@ -46,16 +46,17 @@
             <div class="grid grid-cols-2 gap-8 mt-10">
               <div class="col-span-2 lg:col-span-1 py-4 mr-4 sm:mr-32">
                 <h3 class="leading-tight mb-2 uppercase text-xl font-semibold">Live will be back!</h3>
-                <p>Messen, Produktpräsentationen, Kick-off-Events, Tagungen, Festivals und Mitarbeiterevents werden zurückkommen! Dafür ist der Mensch zu sehr von seinen Emotionen gesteuert. Veranstaltungen sprechen alle Sinne an, schaffen einmalige Erlebnisse und bleiben nachhaltig in Erinnerung. Diese Merkmale können.</p>
+                <p>Es sieht zwar gerade nicht danach aus, aber das klassische Event ist noch lange nicht tot. Denn gute Events binden uns ein, bringen uns zusammen und geben echte Orientierung im ansonsten „digital life“. WerGeschichten mit allen fünf Sinnen erlebt, erinnert sich auch an die Botschaft.</p>
               </div>
               <div class="col-span-2 lg:col-span-1 px-4 mr-4 sm:mr-32 border-l-4 border-black">
                 <h3 class="leading-tight mb-2 uppercase text-xl font-semibold">Unser Versprechen</h3>
                 <p>Bei der Konzeption, Organisation und Umsetzung von Veranstaltungen unterstützen wir dich! Wir beraten dich, welches Veranstaltungsformat für dein Vorhaben am besten geeignet ist und setzen das Event von der ersten Idee bis der letzte das Licht aus macht für dich um.</p>
               </div>
               <div class="col-span-2 py-4 mr-4 sm:mr-32">
+                <h4 class="leading-tight uppercase text-xl font-semibold">VERANSTALTUNGEN, DIE UNSER HERZ HÖHER SCHLAGEN LASSEN:</h4>
                 <div class="flex justify-start my-4">
                   <div>
-                <h3 class="leading-tight mb-2 uppercase text-xl font-semibold">Corporate</h3>
+                <h3 class="leading-tight mb-2 uppercase text-xl">Corporate</h3>
                     <ul class="ml-6 list-disc mt-2">
                         <li class="py-1">Mitarbeiterfest</li>
                         <li class="py-1">Vertriebstagung</li>
@@ -67,7 +68,7 @@
                     </ul>
                   </div>
                   <div class="ml-8">
-                <h3 class="leading-tight mb-2 uppercase text-xl font-semibold">Public</h3>
+                <h3 class="leading-tight mb-2 uppercase text-xl">Public</h3>
                     <ul class="ml-6 list-disc mt-2">
                       <li class="py-1">Festival</li>
                       <li class="py-1">Ausstellungseröffnung</li>
@@ -93,8 +94,22 @@
             <div class="col-span-1 py-4 mr-4 lg:mr-32">
               <h3 class="inline-block border-b-4 border-white leading-tight mb-2 uppercase text-3xl font-semibold">Digital</h3>
               <div>
-                <div class="my-2"><b>Kurz mal raus aus dem Schatten und alles überholt. Das haben Digitale Events vor ein paar Wochen geschafft und sind aktuell nicht mehr aus der Veranstaltungslandschaft wegzudenken.</b></div>
-                <p>Mehr noch, denn ohne sie wird man in Zukunft nicht mehr auskommen. Viele Unternehmen haben die Corona-Krise genutzt und ihre Veranstaltungsformate einfach ins digitale übersetzt. Wir helfen dir dabei, auch dein Event zu digitalisieren und für das Internet fit zu machen. Dabei legen wir Wert auf eine klare Botschaft, viel Aufmerksamkeit und vor allem Interaktionsmöglichkeiten, damit die Inhalte spannend bleiben und nicht bei der erstbesten Gelegenheit weggeklickt werden</p>
+                <h3 class="leading-tight my-2 uppercase text-xl font-semibold">We are Online!</h3>
+                <p>Digitale Events und virtuelle Messen sind aus der Veranstaltungslandschaft nicht mehr wegzudenken. Doch ein Live-Projekt lässt sich nicht 1:1 digital übersetzen. Wo vorher fünf Sinne angesprochen wurden, werden digital nur zwei erreicht (sehen + hören). <br> <br>Zum Glück kennen und nutzen wir die richtigen Tools, um dein Event zu digitalisieren und für das Internet fit zu machen. Dabei legen wir Wert auf eine gute Dramaturgie, viel Action und Interaktion. Damit Inhalte spannend bleiben: Wegklicken? Keine Chance</p>
+              </div>
+              <div class="my-4">
+                <div>
+                  <h4 class="leading-tight uppercase text-xl font-semibold">WAS GIBT ES FÜR DIGITALE EVENTS?</h4>
+                  <ul class="ml-6 list-disc mt-2">
+                      <li class="py-1">Mitarbeiterfest</li>
+                      <li class="py-1">Vertriebstagung</li>
+                      <li class="py-1">Kick-off-Veranstaltung</li>
+                      <li class="py-1">Messe</li>
+                      <li class="py-1">Tagung</li>
+                      <li class="py-1">Incentive</li>
+                      <li class="py-1">Teambuilding</li>
+                  </ul>
+                </div>
               </div>
             </div>
         </div>
@@ -102,27 +117,32 @@
     </section>
     <section class="bg-secondary text-white py-12" id="digital">
       <section class="mx-4 sm:mx-20 lg:mx-32 lg:ml-64 py-4 lg:w-2/3">
-        <div class="grid grid-cols-1 lg:grid-cols-2">
+      <g-image alt="graphics anm" src="../assets/dreiecke/Dreieck-weiss-312Grad@2x.png" class="hidden sm:block absolute right-0 mr-48 -mt-20" width="80"></g-image>
+      <g-image alt="graphics anm" src="../assets/dreiecke/Dreieck-gelb-minus12Grad@2x.png" class="hidden sm:block absolute right-0 mr-20 mt-56" width="80"></g-image>
+      <g-image alt="graphics anm" src="../assets/dreiecke/Dreieck-Pink-minus14grad@2x.png" class="hidden sm:block absolute left-0 mt-48 ml-20" width="100"></g-image>
+        <div class="grid grid-cols-1 lg:grid-cols-2 relative z-10">
             <div class="col-span-1 py-4 mr-4">
               <h3 class="inline-block border-b-4 border-white leading-tight mb-2 uppercase text-3xl font-semibold">Hybrid</h3>
               <div>
-                <div class="my-2"><b class="text-xl font-semibold">Der Mix aus physischer Veranstaltung in Kombination mit digitaler Übertragung und Teilnahme in Echtzeit gewinnt immer mehr an Akzeptanz.</b></div>
-                <p>Veranstaltungsformate werden künftig für zwei Zielgruppen konzipiert und angeboten. Für Teilnehmer, die live dabei sein wollen und auch für diejenigen, die das Event rein digital erleben möchten. Das Potential der Hybridisierung von Veranstaltungen ist enorm, denn eine viel höhere Reichweite kann generiert und Teilnehmerzahlen dadurch um ein vielfaches gesteigert werden. <br> <br>Ein erfolgreiches Hybrid-Event ist die Königsdisziplin oder auch die Besteigung des Mount Everest. Wir reichen dir die Hand und gehen diese Expedition gemeinsam, stehen mit unserer Erfahrung zur Seite bis wir zusammen den Gipfel erreicht haben!</p>
+                <h3 class="leading-tight my-2 uppercase text-xl font-semibold">DIE ZUKUNFT WIRD HYBRID!</h3>
+                <div class="my-2">
+                  <p>Das Beste aus zwei Welten. Der Mix aus physischer Veranstaltung, digitaler Übertragung und Teilnahme in Echtzeit. Zukünftige Veranstaltungsformate funktionierenparallel: Für Teilnehmer, die live dabei sein wollen und für diejenigen, die das Event online erleben möchten. <br> Ein Hybrid-Event ist wie eine Erstbesteigung. Eigentlich ist klar, wo es langgeht, aber unterwegs kann alles ganz anders laufen – that’s live!Wir gehen diese Expedition gemeinsam mit dir und sorgen dafür, dass alle Teilnehmer oben ankommen.</p>
+                </div>
                 <div class="my-12 border-l-4 px-4">
                   <h2 class="text-xl font-semibold">Was sind Vorteile von hybriden Events</h2>
                   <ul class="list-disc my-2 ml-4">
                       <li> Hohe Reichweite - Teilnahme ohne räumliche Bindung </li>
                       <li>Image - Positionierung als innovativer und nachhaltiger Veranstalter</li>
-                      <li> Ohne Limit - Variabler Veranstaltungszeitraum   </li>
+                      <li>Ohne Limit - Variabler Veranstaltungszeitraum   </li>
                       <li>Nachhaltigkeit - Geringer Materialverbrauch</li>
-                      <li> Content-Nutzung - Vorteil für Nachbereitung oder neue Bewerbung</li>
-                      <li> flexible Erzählstruktur - Keine Bindung an lineare Abläufe</li>
+                      <li>Content-Nutzung - Vorteil für Nachbereitung oder neue Bewerbung</li>
+                      <li>Flexible Erzählstruktur - Keine Bindung an lineare Abläufe</li>
                   </ul>
                 </div>
               </div>
             </div>
             <div class="col-span-1 py-4 mr-4 sm:mr-32">
-              
+              <g-image class="mt-20 ml-12" src="../assets/the-new-york-public-library-yEauzeZU6xo-unsplash.png" alt="analog grafik"></g-image>
             </div>
         </div>
       </section>

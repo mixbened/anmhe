@@ -7,8 +7,7 @@
           <g-image src="../assets/Newsletter_Laptop_goran-ivos-unsplash.png"></g-image>
         </div>
         <div class="col-span-3">
-          <h2 class="text-xl md:text-3xl font-semibold text-tertiary">Kein Event mehr verpassen</h2>
-          <h2 class="font-bold">Hol dir den Newsletter</h2>
+          <h2 class="text-xl md:text-3xl font-semibold text-tertiary">Lust auf Bergpost aus Langenfeld? Dann hier den Newsletter abonnieren!</h2>
           <p class="py-4 italic text-xs sm-text-base">Unser Herz schlägt für echte Erlebnisse: Wir lieben es, Messeauftritte, Produktpräsentationen, Kick-offs, Tagungen, Festivals und Mitarbeiterevents zu konzipieren und umzusetzen.</p>
         </div>
         <div class="col-span-3 sm:col-span-4 -mt-10 md:-mt-24 sm:ml-10">
@@ -17,12 +16,12 @@
           </div>
         </div>
         <div class="col-span-2 sm:col-span-1 -mt-10 md:-mt-24">
-          <div class="clear h-10"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="cursor-pointer h-full w-full bg-secondary hover:bg-black text-white font-bold py-2 px-4 text-xs sm:text-sm"></div>
+          <div class="clear h-10"><input type="submit" value="Ab die Post!" name="subscribe" id="mc-embedded-subscribe" class="cursor-pointer h-full w-full bg-secondary hover:bg-black text-white font-bold py-2 px-4 text-xs sm:text-sm"></div>
           <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_379cbb28ae2ca785a28d16826_82123e83a3" tabindex="-1" value=""></div>
         </div>
         <div class="col-span-5 text-xs sm:text-sm md:-mt-4 leading-tight">
             <input type="checkbox" required="true">
-            Ich stimme zu, Informationen und kommerzielle Angebote über AINTNOMOUNTAIN zu erhalten (z.B. Newsletter, die Veröffentlichung von Event- oder Blog-Posts, das Auslaufen von Tickets, ...) in Übereinstimmung mit der <g-link to="/impressum" class="text-warning"> Datenschutzerklärung</g-link>
+            Weitere Informationen zur Verarbeitung deiner personenbezogenen Daten findest du hier (Datenschutz). Die Abmeldung ist jederzeit über einen Link am Ende eines jeden Newsletters möglich. Deinen Abmeldewunsch kannst du uns auch gerne an hello@aintnomountain.com senden.
         </div>
       </div>
     </form>
