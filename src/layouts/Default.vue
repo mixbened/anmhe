@@ -12,7 +12,7 @@
           <div class="flex w-auto items-center">
             <g-link to="/was-wir-machen" class="sm:uppercase p-2 sm:p-2 lg:px-6 hover:text-secondary transition ease-in duration-200 font-semibold text-xs md:text-base">Was Wir Machen</g-link>
             <g-link to="/wer-wir-sind" class="sm:uppercase p-2 sm:p-2 lg:px-6 hover:text-secondary transition ease-in duration-200 font-semibold text-xs md:text-base">Wer Wir Sind</g-link>
-            <g-link to="/events" class="hidden p-2 sm:block sm:uppercase sm:p-2 lg:px-6 hover:text-secondary transition ease-in duration-200 font-semibold text-xs md:text-base">Für Wen</g-link>
+            <g-link to="/fuer-wen" class="hidden p-2 sm:block sm:uppercase sm:p-2 lg:px-6 hover:text-secondary transition ease-in duration-200 font-semibold text-xs md:text-base">Für Wen</g-link>
             <g-link to="/was-wir-machen#digital" class="p-2 border border-primary sm:uppercase sm:p-2 lg:px-6 hover:text-secondary transition ease-in duration-200 font-semibold  text-xs md:text-base">Digitale Events</g-link>
           </div>
         </nav>

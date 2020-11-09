@@ -22,10 +22,10 @@
           <p class="transition mt-4">
             <b>Was du mitbringen solltest: </b>
             <ul class="list-disc ml-6">
-              <li>Bisschen Agenturerfahrung wär´ nicht schlecht</li>
-              <li>Schon mal was geplant und organisiert haben</li>
-              <li>Bock auf coole Ideen und Kreativität</li>
-              <li>Bist neugierig, mutig und motiviert</li>
+              <li>Bisschen Agenturerfahrung wäre nicht schlecht</li>
+              <li>Schon mal etwas geplant und organisiert haben</li>
+              <li>Neugier, Mut und Motivation</li>
+              <li>Absolute Zuverlässigkeit und Sorgfalt</li>
               <li>Absolute Zuverlässigkeit und Sorgfalt</li>
             </ul>
             <b class="uppercase">Idealerweise 3 Monate Zeit</b>
@@ -40,12 +40,10 @@
           <p class="transition mt-4">
             <b>Wenn du: </b>
             <ul class="list-disc p-4">
-              <li>Dich als Projektleiter, Konzeptioner, Architekt, Grafiker bei uns einbringen möchtest</li>
-              <li>Lust hast, uns mit deiner Erfahrung beim Aufbau der Agentur zu unterstützen</li>
-              <li>Bock auf coole Ideen und Kreativität</li>
-              <li>Eine Hohe Kommunikations- und Teamfähigkeit besitzt</li>
-              <li>Professionell eigenverantwortlich und strukturiert arbeitest</li>
-              <li>Projekte umsetzen willst, die den Kunden und dich nach vorne bringen</li>
+              <li>dich als Projektleiter*in, Konzeptioner*in, Architekt*in, Grafiker*in bei uns einbringen möchtest</li>
+              <li>kommunikationsstarkbist und dich im Team am wohlsten fühlst</li>
+              <li>eigenverantwortlich und strukturiert arbeitest</li>
+              <li>Projekte umsetzen willst, die den Kunden und uns nach vorne bringen</li>
             </ul>
             <b class="uppercase">…dann freuen wir uns von dir zu hören!</b>
           </p>
@@ -56,7 +54,7 @@
       </div>
       <div>
         <div class="w-32 border-2 border-black border-primary mb-4"></div>   
-        <small class="text-primary">*Du weißt nicht was ein Hollerwasser ist? Hier das Rezept: <br> Nimm Wasser (egal, ob laut oder leise) und gebe Holunderblütensirup dazu - fertig! Die richtige “Mische” erfährst du, wenn du bei uns anfängst ;-)</small>
+        <small class="text-primary">*Du weißt nicht, was ein Hollerwasser ist? Hier das Rezept: <br> Nimm Wasser (egal, ob laut oder leise) und gebe Holunderblütensirup dazu - fertig! Die richtige “Mische” erfährst du, wenn du bei uns anfängst ;-)</small>
       </div>
     </section>
   </Layout>
