@@ -1,10 +1,10 @@
 <template>
     <section class="w-full">
-      <div class="bg-scroll bg-center bg-cover p-20 sm:p-48 cover-image-background relative text-white" :style="{backgroundImage:`url(${image})`}">
+      <div class="bg-scroll bg-center bg-cover p-20 sm:p-48 relative text-white" :style="{backgroundImage:`url(${image})`}">
         <div class="text-center relative z-10">
-          <h4>{{ subtitle }}</h4>
-          <h1 class="text-2xl sm:text-6xl font-bold py-2">{{ title }}</h1>
-          <g-link :to="link" class="py-1 border-bottom">{{ buttonText }}</g-link>
+          <h1 class="inline-block px-6 leading-tight text-2xl sm:text-5xl font-bold border-b-2 border-white">{{ title }}</h1>
+          <h4 class="uppercase text-xl font-semibold py-4">{{ subtitle }}</h4>
+          <g-link :to="link" class="p-1 px-2 border border-white bg-secondary uppercase">{{ buttonText }}</g-link>
         </div>
       </div>
     </section>

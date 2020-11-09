@@ -1,30 +1,43 @@
 <template>
   <Layout>
-    <section class="mt-32 mx-4 sm:mx-20 md:ml-32 py-4 md:w-1/2">
-      <h2 class="text-3xl font-semibold uppercase inline-block bg-primary leading-tight p-2 text-white">Stellen bei ANM</h2>
-      <p class="my-6">Lass uns zusammen die Berge der Arbeitswelt erklimmen, einzigartige Veranstaltungen konzipieren, die besten Abläufe planen und echte Erlebnisse umsetzen. Mit unserer Kreativität bringen wir gemeinsam Ideen auf die Strecke und mit unserer Detailverliebtheit so manchen auch um den Verstand. Für unsere Kunden geben wir alles und wollen immer besser sein als die anderen. Das hält uns aber nicht davon ab auch mal die Aussicht zu genießen, ganz gemütlich und mit einem Hollerwasser* in der Hand.</p>
+    <section class="mt-32 mx-4 sm:mx-20 md:mx-32 py-4">
+      <g-image alt="graphics anm" src="../assets/dreiecke/Dreieck-Petrol-klein@2x.png" class="hidden sm:block absolute left-0 ml-12 -mt-20" width="80"></g-image>
+      <g-image alt="graphics anm" src="../assets/dreiecke/Dreieck-gelb-minus12Grad@2x.png" class="hidden sm:block absolute right-0 mr-20 mt-20" width="80"></g-image>
+      <g-image alt="graphics anm" src="../assets/dreiecke/Dreieck-Pink-minus14grad@2x.png" class="hidden sm:block absolute left-0 m-48" width="100"></g-image>
+      <h2 class="text-5xl font-semibold uppercase inline-block border-b-2 pl-10 border-primary leading-tight p-2 text-primary">Jobs</h2>
+    <div class="grid grid-cols-1 sm:grid-cols-5 my-10">
+      <div class="col-span-1 sm:col-span-2">
+        <p class="font-bold uppercase text-2xl text-right sm:mr-8 leading-tight">Offene Stellen bei Ain't No Mountain.</p>
+      </div>
+      <div class="col-span-1 sm:col-span-3">
+        <p>Lust, deinen Rucksack zu schnüren und die Eventgipfel des Rheinlands zu erstürmen? Dann bewirb dich bei uns! <br> Mit deiner Planungsliebe und Kreativität bringen wir neue Ideen und gemeinsameProjekte auf den Weg. Deine Aufgaben führst du sicher und souverän an die Spitze. Dort angekommen, genießt du die Aussicht und freust dich auf die nächste Besteigung – in der Zwischenzeit spendieren wir dir ein Hollerwasser*. <br> Wir sind ein kleines Team, das stetig wächst. Hilf uns mit deinem Können beim Aufbau einer lokalen Agentur mit überregionaler Reichweite. Sende uns einfach deine Bewerbung mit ein paar netten Worten und Referenzen an hello@aintnomountain.com.</p>
+      </div>
+    </div>
     </section>
     <section class="mb-32 mx-4 sm:mx-20 md:ml-32 p-4">
       <div class="grid grid-cols-1 sm:grid-cols-2 gap-2 my-20">
-        <div class="col-span-1 rounded p-4 px-6 shadow relative">
-          <h4 class="text-2xl my-2 text-center inline-block border-b-2 border-black">Praktikant (m/w/d)</h4>
-          <p class="transition">
+        <div class="col-span-1 rounded p-4 px-6 shadow relative pb-20 bg-secondary text-white">
+          <h4 class="text-2xl my-2 text-center inline-block border-b-2 border-white">Praktikant*innen</h4>
+          <p>(M/W/D)</p>
+          <p class="transition mt-4">
             <b>Was du mitbringen solltest: </b>
-            <ul class="list-disc p-4">
+            <ul class="list-disc ml-6">
               <li>Bisschen Agenturerfahrung wär´ nicht schlecht</li>
               <li>Schon mal was geplant und organisiert haben</li>
               <li>Bock auf coole Ideen und Kreativität</li>
               <li>Bist neugierig, mutig und motiviert</li>
               <li>Absolute Zuverlässigkeit und Sorgfalt</li>
-              <li>Idealerweise 3 Monate Zeit</li>
             </ul>
+            <b class="uppercase">Idealerweise 3 Monate Zeit</b>
           </p>
           <div class="bottom-0 my-2 absolute">
+            <g-link to="/was-wir-machen#analog" class="p-1 bg-primary my-4 inline-block text-white font-semibold uppercase">Kontakt</g-link>
           </div>
         </div>
-        <div class="col-span-1 rounded p-4 px-6 shadow relative">
-          <h4 class="text-2xl my-2 text-center inline-block border-b-2 border-black">Freelancer</h4>
-          <p class="transition">
+        <div class="col-span-1 rounded p-4 px-6 shadow relative pb-20 bg-primary text-white">
+          <h4 class="text-2xl my-2 text-center inline-block border-b-2 border-white">Freelancer*innen</h4>
+          <p>(M/W/D)</p>
+          <p class="transition mt-4">
             <b>Wenn du: </b>
             <ul class="list-disc p-4">
               <li>Dich als Projektleiter, Konzeptioner, Architekt, Grafiker bei uns einbringen möchtest</li>
@@ -34,15 +47,16 @@
               <li>Professionell eigenverantwortlich und strukturiert arbeitest</li>
               <li>Projekte umsetzen willst, die den Kunden und dich nach vorne bringen</li>
             </ul>
-            <b>…dann freuen wir uns von dir zu hören!</b>
+            <b class="uppercase">…dann freuen wir uns von dir zu hören!</b>
           </p>
+          <div class="bottom-0 my-2 absolute">
+            <g-link to="/was-wir-machen#analog" class="p-1 bg-tertiary my-4 inline-block text-white font-semibold uppercase">Kontakt</g-link>
+          </div>          
         </div>
       </div>
       <div>
-        
-        <p class="mb-4">Wenn du Lust hast auf ein starkes Team, abwechslungsreiche Aufgaben, ein kreatives Arbeitsklima XXX, dann werde Teil unseres Agentur-Alltags und begleite uns beim Aufbau. Sende uns einfach deine Bewerbung mit ein paar netten Worten und Arbeitsproben an <span class="font-semibold">hello@aintnomountain.com.</span></p>
-        
-        <small>*Du weißt nicht was ein Hollerwasser ist? Hier das Rezept: Nimm Wasser (egal, ob laut oder leise) und gebe Holunderblütensirup dazu - fertig! Die richtige “Mische” erfährst du, wenn du bei uns anfängst ;-)</small>
+        <div class="w-32 border-2 border-black border-primary mb-4"></div>   
+        <small class="text-primary">*Du weißt nicht was ein Hollerwasser ist? Hier das Rezept: <br> Nimm Wasser (egal, ob laut oder leise) und gebe Holunderblütensirup dazu - fertig! Die richtige “Mische” erfährst du, wenn du bei uns anfängst ;-)</small>
       </div>
     </section>
   </Layout>
