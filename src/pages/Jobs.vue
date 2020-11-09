@@ -31,7 +31,7 @@
             <b class="uppercase">Idealerweise 3 Monate Zeit</b>
           </p>
           <div class="bottom-0 my-2 absolute">
-            <g-link to="/was-wir-machen#analog" class="p-1 bg-primary my-4 inline-block text-white font-semibold uppercase">Kontakt</g-link>
+            <g-link to="/bergpost" class="p-1 bg-primary hover:bg-tertiary  my-4 inline-block text-white font-semibold uppercase">Kontakt</g-link>
           </div>
         </div>
         <div class="col-span-1 rounded p-4 px-6 shadow relative pb-20 bg-primary text-white">
@@ -48,7 +48,7 @@
             <b class="uppercase">…dann freuen wir uns von dir zu hören!</b>
           </p>
           <div class="bottom-0 my-2 absolute">
-            <g-link to="/was-wir-machen#analog" class="p-1 bg-tertiary my-4 inline-block text-white font-semibold uppercase">Kontakt</g-link>
+            <g-link to="/bergpost" class="p-1 bg-tertiary hover:bg-secondary my-4 inline-block text-white font-semibold uppercase">Kontakt</g-link>
           </div>          
         </div>
       </div>

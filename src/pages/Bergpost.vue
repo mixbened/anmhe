@@ -48,27 +48,20 @@ export default {
     Intro,
     Header
   },
+  data(){
+    return {
+      popup1: undefined
+    }
+  },
   methods: {
     typeform: function(){
       console.log('start form')
-      typeformEmbed.makePopup(
-        'https://form.typeform.com/to/RuigsLYO',
-        {
-          mode: 'drawer_right',
-          open: 'scroll',
-          autoClose: 3,
-          hideScrollbars: true,
-          onSubmit: function () {
-            console.log('Typeform successfully submitted')
-          },
-          onReady: function () {
-            console.log('Typeform is ready')
-          },
-          onClose: function () {
-            console.log('Typeform is closed')
-          }
-        }
-      )
+      this.popup1 = typeformEmbed.makePopup('https://form.typeform.com/to/RuigsLYO', {
+          mode: 'drawer_left',          
+          hideHeaders: true,
+          hideFooter: true
+        });
+      this.popup1.open()
     }
   }
 }

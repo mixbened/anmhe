@@ -23,7 +23,7 @@
               <p class="inline text-2xl lg:text-3xl leading-tight uppercase bg-primary font-semibold px-1">Eventbusiness zur Seite."</p>
             </div>
             <div>
-              <g-link to="/bergpost" class="lg:text-2xl p-1 px-2 bg-primary text-white uppercase font-semibold my-4 sm:my-20 inline-block">Kontakt</g-link>
+              <g-link to="/bergpost" class="lg:text-2xl p-1 px-2 bg-primary hover:bg-tertiary text-white uppercase font-semibold my-4 sm:my-20 inline-block">Kontakt</g-link>
             </div>
           </div>
         </div>
