@@ -28,12 +28,6 @@ module.exports = {
       }
     },
     {
-      use: '@gridsome/plugin-google-analytics',
-      options: {
-        id: 'G-MR9FXDD4T8'
-      }
-    },
-    {
       use: '@gridsome/plugin-sitemap',
       options: {
         config: {
