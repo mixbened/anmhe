@@ -54,9 +54,7 @@
       </div>
     </footer>
     <div class="hidden sm:block fixed bottom-0 right-0 cursor-pointer z-10 mr-4 mb-4 round p-2 bg-tertiary text-white" @click="typeform">
-      <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M7 8h10M7 12h4m1 8l-4-4H5a2 2 0 01-2-2V6a2 2 0 012-2h14a2 2 0 012 2v8a2 2 0 01-2 2h-3l-4 4z" />
-      </svg>
+      <g-image src="../assets/icon96.png"></g-image>
     </div>
   </div>
 </template>
