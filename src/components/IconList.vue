@@ -42,7 +42,7 @@
           <p class="mb-4 text-sm">Live will be back! Messen, Produktpräsentationen, Kick-off-Events, Tagungen, Festivals und Mitarbeiterevents werden zurückkommen. Dafür ist der Mensch zu sehr Mensch und von seinen Emotionen gesteuert.</p>
           <g-link to="/was-wir-machen#analog" class="p-1 border-b border-white absolute" style="bottom: 1em">Mehr erfahren</g-link>
         </div>
-        <div class="col-span-1 text-left p-10 bg-secondary shadow text-white rounded relative">
+        <!-- <div class="col-span-1 text-left p-10 bg-secondary shadow text-white rounded relative">
           <g-image 
           alt="Icon Image" 
           src="../assets/undraw_events_2p66.svg"
@@ -62,7 +62,7 @@
           <h2 class="text-2xl font-semibold uppercase inline-block bg-white leading-tight p-2 my-8 text-primary w-full">Hybride Events</h2>
           <p class="mb-4 text-sm">Die Zukunft wird Hybrid! Der Mix aus physischer Veranstaltung in Kombination mit digitaler Übertragung und Teilnahme in Echtzeit, gewinnt immer mehr an Akzeptanz.</p>
           <g-link to="/was-wir-machen#hybrid" class="p-1 border-b border-white absolute" style="bottom: 1em">Mehr erfahren</g-link>
-        </div>
+        </div> -->
       </div>
     </section>
   </section>
