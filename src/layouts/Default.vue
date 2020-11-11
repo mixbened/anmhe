@@ -30,16 +30,15 @@
         <div class="col-span-1">
           <h3 class="inline-block border-b-2 border-white leading-tight mb-2 uppercase text-base sm:text-xl">Kontakt</h3>
           <ul>
-            <li><span class="font-bold mr-2">T</span> +49 151 24071039</li>
-            <li><span class="font-bold mr-2">F</span> +49 151 24071039</li>
-            <li><span class="font-bold mr-2">M</span> hello@aintnomountain.com</li>
-            <g-link to="/bergpost"><li><span class="font-bold mr-2 cursor-pointer">W</span> Direkter Kontakt</li></g-link>
+            <li><span class="font-bold mr-2">T</span>+49 (0) 2173 9120000</li>
+            <li><span class="font-bold mr-2">E</span> hello@aintnomountain.com</li>
+            <g-link to="/bergpost"><li><span class="font-bold mr-2 cursor-pointer">F</span> Direkter Kontakt</li></g-link>
           </ul>
         </div>
         <div class="col-span-1 mt-4 sm:m-0">
           <h3 class="inline-block border-b-2 border-white leading-tight mb-2 uppercase text-base sm:text-xl">Anschrift</h3>
           <ul>
-            <li>Dominik Dugandzic</li>
+            <li>Ain´t No Mountain</li>
             <li>Walter-Kolb-Str. 40</li>
             <li>40764 Langenfeld</li>
           </ul>
@@ -47,11 +46,9 @@
         <div class="col-span-1 mt-4 sm:m-0">
           <h3 class="inline-block border-b-2 border-white leading-tight mb-2 uppercase text-base sm:text-xl">Social & Links</h3>
           <ul>
-            <g-link to="/impressum"><li>Facebook</li></g-link>
-            <g-link to="/impressum"><li>Impressum</li></g-link>
-            <g-link to="/datenschutz"><li>Datenschutz</li></g-link>
-            <g-link to="/presse"><li>Presse</li></g-link>
             <g-link to="/jobs"><li>Jobs</li></g-link>
+            <g-link to="/datenschutz"><li>Datenschutz</li></g-link>
+            <g-link to="/impressum"><li>Impressum</li></g-link>
           </ul>
         </div>
       </div>
@@ -72,7 +69,7 @@ export default {
   data () {
     return {
         view: {
-            atTopOfPage: true,
+            atTopOfPage: false,
             // route: window.location.pathname // eslint-disable-line no-eval
         }
     }
@@ -83,6 +80,11 @@ export default {
       // console.log(this.view)
 
   },
+  watch: {
+    $route(to, from) {
+      console.log('route changed: ', from, to)
+    }
+  },
   methods: {
       handleScroll(){
           // when the user scrolls, check the pageYOffset
@@ -91,7 +93,7 @@ export default {
               if(this.view.atTopOfPage) this.view.atTopOfPage = false
           }else{
               // user is at top of page
-              if(!this.view.atTopOfPage) this.view.atTopOfPage = true
+              if(!this.view.atTopOfPage) this.view.atTopOfPage = false
           }
       }
   }

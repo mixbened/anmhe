@@ -6,14 +6,15 @@
     <section class="text-gray-800 mx-4 sm:mx-20 md:ml-32 py-4">
       <b>Angaben gemäß § 5 TMG</b>
       <p class="my-4">
+        Ain´t No Mountain<br>
         Dominik Dugandzic<br>
         Walter-Kolb-Str. 40<br>
         40764 Langenfeld<br>
       </p>
       <div class="my-4">
         <b>Kontakt</b>
-        <p>Mobil: 0151 24071039</p>
-        <p>E-Mail: hello@aintnomountain.com</p>
+        <p><b>T</b> +49 (0) 2173 9120000</p>
+        <p><b>E</b> hello@aintnomountain.com</p>
         <p>Wir sind nicht bereit oder verpflichtet, an Streitbeilegungsverfahren vor einer Verbraucherschlichtungsstelle teilzunehmen.</p>
       </div>
       <div class="my-4">
