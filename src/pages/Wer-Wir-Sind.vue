@@ -21,7 +21,6 @@
               <ul>
                 <li><span class="font-bold mr-2">T</span>+49 (0) 151 24071039</li>
                 <li><span class="font-bold mr-2">E</span>duga@aintnomountain.com</li>
-                <g-link to="/bergpost"><li><span class="font-bold mr-2 cursor-pointer">F</span> Direkter Kontakt</li></g-link>
               </ul>
             </div>
             <div class="my-4 sm:mt-64 sm:-ml-32">

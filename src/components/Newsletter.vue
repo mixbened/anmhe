@@ -11,7 +11,7 @@
         </div>
         <div class="col-span-3 sm:col-span-4 sm:ml-10">
           <div class="mc-field-group h-10">
-          <input type="email" value="" name="EMAIL" class="required email w-full p-2 text-black bg-gray-200 h-full" id="mce-EMAIL" placeholder="Hier Email Adresse eingeben*">
+          <input type="email" value="" name="EMAIL" class="required email w-full p-2 text-black bg-gray-200 h-full" id="mce-EMAIL" placeholder="Hier E-Mail-Adresse eingeben*">
           </div>
         </div>
         <div class="col-span-2 sm:col-span-1">

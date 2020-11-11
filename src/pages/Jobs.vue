@@ -1,7 +1,7 @@
 <template>
   <Layout>
     <section class="mt-32 mx-4 sm:mx-20 md:mx-32 py-4">
-      <g-image alt="graphics anm" src="../assets/dreiecke/Dreieck-Petrol-klein@2x.png" class="hidden sm:block absolute left-0 ml-12 -mt-20" width="80"></g-image>
+      <g-image alt="graphics anm" src="../assets/dreiecke/Dreieck-Petrol-klein@2x.png" class="hidden sm:block absolute left-0 ml-12 -mt-28" width="80"></g-image>
       <g-image alt="graphics anm" src="../assets/dreiecke/Dreieck-gelb-minus12Grad@2x.png" class="hidden sm:block absolute right-0 mr-20 mt-20" width="80"></g-image>
       <g-image alt="graphics anm" src="../assets/dreiecke/Dreieck-Pink-minus14grad@2x.png" class="hidden sm:block absolute left-0 m-48" width="100"></g-image>
       <h2 class="text-5xl font-semibold uppercase inline-block border-b-2 pl-10 border-primary leading-tight p-2 text-primary">Jobs</h2>
@@ -20,23 +20,23 @@
           <h4 class="text-2xl my-2 text-center inline-block border-b-2 border-white">Praktikant*in</h4>
           <p class="transition mt-4">
             <b>Was du mitbringen solltest: </b>
-            <ul class="list-disc ml-6">
+            <ul class="list-disc p-4">
               <li>Bisschen Agenturerfahrung wäre nicht schlecht</li>
               <li>Schon mal etwas geplant und organisiert haben</li>
               <li>Bock auf coole Ideen und Kreativität</li>
               <li>Neugier, Mut und Motivation</li>
               <li>Absolute Zuverlässigkeit und Sorgfalt</li>
             </ul>
-            <b class="uppercase">Idealerweise 3 Monate Zeit</b>
+            <b class="inline-block uppercase">Idealerweise 3 Monate Zeit</b>
           </p>
           <div class="bottom-0 my-2 absolute">
-            <g-link to="/bergpost" class="p-1 bg-primary hover:bg-tertiary  my-4 inline-block text-white font-semibold uppercase">Kontakt</g-link>
+            <a href="mailto:hello@aintnomountain.com"><button class="p-1 bg-primary hover:bg-tertiary  my-4 inline-block text-white font-semibold uppercase">Kontakt</button></a>
           </div>
         </div>
         <div class="col-span-1 rounded p-4 px-6 shadow relative pb-20 bg-primary text-white">
           <h4 class="text-2xl my-2 text-center inline-block border-b-2 border-white">Freelancer*in</h4>
           <p class="transition mt-4">
-            <b>Wenn du: </b>
+            <b>Wenn du...</b>
             <ul class="list-disc p-4">
               <li>dich als Projektleiter*in, Konzeptioner*in, Architekt*in, Grafiker*in bei uns einbringen möchtest</li>
               <li>kommunikationsstark bist und dich im Team am wohlsten fühlst</li>
@@ -46,7 +46,7 @@
             <b class="uppercase">…dann freuen wir uns von dir zu hören!</b>
           </p>
           <div class="bottom-0 my-2 absolute">
-            <g-link to="/bergpost" class="p-1 bg-tertiary hover:bg-secondary my-4 inline-block text-white font-semibold uppercase">Kontakt</g-link>
+            <a href="mailto:hello@aintnomountain.com"><button class="p-1 bg-tertiary hover:bg-secondary my-4 inline-block text-white font-semibold uppercase">Kontakt</button></a>
           </div>          
         </div>
       </div>

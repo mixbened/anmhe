@@ -33,23 +33,21 @@
         </div>
     </section>
     <section class="bg-tertiary py-24">
-      <section id="analog" class="relative mx-4">
+      <section id="analog" class="relative mx-4 text-center">
         <g-image alt="graphics anm" src="../assets/dreiecke/Dreieck-Pink-minus14grad@2x.png" class="hidden sm:block absolute right-0 mr-48 -mt-32" width="200"></g-image>
-        <g-image alt="graphics anm" src="../assets/dreiecke/Dreieck-Pink-minus14grad@2x.png" class="hidden sm:block absolute bottom-0 ml-64 mb-64" style="left:50%;" width="100"></g-image>
-        <g-image alt="graphics anm" src="../assets/dreiecke/Dreieck-petrol-197Grad@2x.png" class="hidden sm:block absolute bottom-0 mb-64" style="left:50%;" width="80"></g-image>
-        <div class="grid grid-cols-1 sm:grid-cols-3 relative z-10">
-          <div class="col-span-1 mx-8">
-            <g-image src="../assets/PLATZHALTER vintagePhone_quino-al-unsplash-auf-gelb.png" alt="fernseher grafik"></g-image>
+        <g-image alt="graphics anm" src="../assets/dreiecke/Dreieck-weiss-312Grad@2x.png" class="hidden sm:block absolute left-0 bottom-0 ml-64 mb-8" style="left:50%;" width="100"></g-image>
+        <g-image alt="graphics anm" src="../assets/dreiecke/Dreieck-petrol-197Grad@2x.png" class="hidden sm:block absolute left-0 top-0 ml-24" width="80"></g-image>
+        <h2 class="text-3xl mx-auto font-semibold uppercase inline-block leading-tight py-2 mb-10 border-b-4 border-black">Analoge Events</h2>
+        <div class="grid grid-cols-1 sm:grid-cols-5 relative z-10">
+          <div class="col-span-1"></div>
+          <div class="col-span-2 mr-8">
+            <g-image src="../assets/konfetti-unsplash-keywords2_transparent.png" alt="fernseher grafik" class="px-10"></g-image>
           </div>
           <div class="col-span-2">
-            <h2 class="text-3xl font-semibold uppercase inline-block leading-tight py-2 border-b-4 border-black">Analoge Events</h2>
-            <div class="grid grid-cols-2 gap-8 mt-10">
-              <div class="col-span-2 lg:col-span-1 py-4 mr-4 sm:mr-32">
-                <h3 class="leading-tight mb-2 uppercase text-xl font-semibold">Live will be back!</h3>
-                <p>Es sieht zwar gerade nicht danach aus, aber das klassische Event ist noch lange nicht tot. Denn gute Events binden uns ein, bringen uns zusammen und geben echte Orientierung im ansonsten „digital life“. Wer Geschichten mit allen fünf Sinnen erlebt, erinnert sich auch an die Botschaft.</p>
-              </div>
-              <div class="col-span-2 py-4 mr-4 sm:mr-32">
-               
+            <div class="grid grid-cols-2 gap-8 mt-10 border-l-4 border-black">
+              <div class="col-span-2 px-4 lg:col-span-1 mr-4">
+                <h3 class="leading-tight mb-2 uppercase text-xl font-semibold text-left">Live will be back!</h3>
+                <p class="text-left">Es sieht zwar gerade nicht danach aus, aber das klassische Event ist noch lange nicht tot. Denn gute Events binden uns ein, bringen uns zusammen und geben echte Orientierung im ansonsten „digital life“. Wer Geschichten mit allen fünf Sinnen erlebt, erinnert sich auch an die Botschaft.</p>
               </div>
             </div>
           </div>

@@ -5,7 +5,7 @@
           <g-link to="/"><g-image 
           alt="Logo ANMHE" 
           src="../assets/ANM-SHORT-B@3x.png"
-          class="ml-1 sm:ml-4 w-20 md:w-32 m:w-40"  
+          class="ml-1 sm:ml-4 w-20"  
           /></g-link>
         </div>
         <nav class="mr-4 lg:mr-20">
@@ -32,7 +32,7 @@
           <ul>
             <li><span class="font-bold mr-2">T</span>+49 (0) 2173 9120000</li>
             <li><span class="font-bold mr-2">E</span> hello@aintnomountain.com</li>
-            <g-link to="/bergpost"><li><span class="font-bold mr-2 cursor-pointer">F</span> Direkter Kontakt</li></g-link>
+            <li class="font-semibold cursor-pointer" @click="typeform">Kontaktformular</li>
           </ul>
         </div>
         <div class="col-span-1 mt-4 sm:m-0">
@@ -44,7 +44,7 @@
           </ul>
         </div>
         <div class="col-span-1 mt-4 sm:m-0">
-          <h3 class="inline-block border-b-2 border-white leading-tight mb-2 uppercase text-base sm:text-xl">Social & Links</h3>
+          <h3 class="inline-block border-b-2 border-white leading-tight mb-2 uppercase text-base sm:text-xl">Links</h3>
           <ul>
             <g-link to="/jobs"><li>Jobs</li></g-link>
             <g-link to="/datenschutz"><li>Datenschutz</li></g-link>
@@ -53,6 +53,11 @@
         </div>
       </div>
     </footer>
+    <div class="hidden sm:block fixed bottom-0 right-0 cursor-pointer z-10 mr-4 mb-4 round p-2 bg-tertiary text-white" @click="typeform">
+      <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M7 8h10M7 12h4m1 8l-4-4H5a2 2 0 01-2-2V6a2 2 0 012-2h14a2 2 0 012 2v8a2 2 0 01-2 2h-3l-4 4z" />
+      </svg>
+    </div>
   </div>
 </template>
 
@@ -65,6 +70,8 @@ query {
 </static-query>
 
 <script>
+import * as typeformEmbed from '@typeform/embed'
+
 export default {
   data () {
     return {
@@ -86,16 +93,24 @@ export default {
     }
   },
   methods: {
-      handleScroll(){
-          // when the user scrolls, check the pageYOffset
-          if(window.pageYOffset>0){
-              // user is scrolled
-              if(this.view.atTopOfPage) this.view.atTopOfPage = false
-          }else{
-              // user is at top of page
-              if(!this.view.atTopOfPage) this.view.atTopOfPage = false
-          }
-      }
+    handleScroll(){
+        // when the user scrolls, check the pageYOffset
+        if(window.pageYOffset>0){
+            // user is scrolled
+            if(this.view.atTopOfPage) this.view.atTopOfPage = false
+        }else{
+            // user is at top of page
+            if(!this.view.atTopOfPage) this.view.atTopOfPage = false
+        }
+    },
+    typeform: function(){
+      this.popup1 = typeformEmbed.makePopup('https://form.typeform.com/to/RuigsLYO', {
+          mode: 'drawer_left',          
+          hideHeaders: true,
+          hideFooter: true
+        });
+      this.popup1.open()
+    }
   }
 }
 </script>
@@ -103,6 +118,15 @@ export default {
 <style>
 .content-container {
   padding: 0 5%;
+}
+
+.round {
+  width: 60px;
+  height: 60px;
+  border-radius: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 </style>

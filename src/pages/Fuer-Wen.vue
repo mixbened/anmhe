@@ -14,7 +14,7 @@
         <div class="grid grid-cols-1 sm:grid-cols-3 z-10 relative">
           <div class="mx-8">
             <h2 class="uppercase font-bold text-2xl">Wenn du einer unserer ersten Kunden sein möchtest, dann schreib uns...</h2>
-            <g-link to="/bergpost" class="lg:text-2xl p-1 px-2 bg-primary text-white uppercase font-semibold my-4 sm:my-8 inline-block">Kontakt</g-link>
+            <button class="lg:text-2xl p-1 px-2 bg-primary text-white uppercase font-semibold my-4 sm:my-8 inline-block" @click="typeform">Kontakt</button>
           </div>
           <div>
             <g-image src="../assets/claudio-schwarz-purzelbaum-unsplash.png"></g-image>
@@ -26,7 +26,7 @@
             <div class="grid grid-cols-3 my-8">
                 <div class="col-span-2">
                   <div class="mc-field-group h-10">
-                  <input type="email" value="" name="EMAIL" class="required email w-full p-2 text-black text-xs bg-gray-200 h-full" id="mce-EMAIL" placeholder="Hier Email Adresse eingeben*">
+                  <input type="email" value="" name="EMAIL" class="required email w-full p-2 text-black text-xs bg-gray-200 h-full" id="mce-EMAIL" placeholder="Hier E-Mail-Adresse eingeben*">
                   </div>
                 </div>
                 <div>
@@ -49,6 +49,7 @@
 import Header from '../components/Header'
 import FullBanner from '../components/FullBanner'
 import Intro_Main from '../components/Intro_Main'
+import * as typeformEmbed from '@typeform/embed'
 
 export default {
   metaInfo: {
@@ -63,6 +64,16 @@ export default {
     Header,
     FullBanner,
     Intro_Main
+  },
+  methods: {
+        typeform: function(){
+      this.popup1 = typeformEmbed.makePopup('https://form.typeform.com/to/RuigsLYO', {
+          mode: 'drawer_left',          
+          hideHeaders: true,
+          hideFooter: true
+        });
+      this.popup1.open()
+    }
   }
 }
 </script>
