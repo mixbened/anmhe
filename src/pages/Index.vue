@@ -6,7 +6,7 @@
           <source src="https://res.cloudinary.com/mixbened/video/upload/v1603629177/ANM/trimmed-intro-anm.mov" type="video/mp4">
         </video>
         <div class="absolute top-0 left-0 flex items-end justify-center w-full h-full z-10 lg:pb-8 transition ease-in duration-200" :class="{ 'opacity-0': !arrow, 'opacity-100': arrow }">
-          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" class="text-white w-0 sm:w-20 z-10 relative animate-bounce">
+          <svg xmlns="https://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" class="text-white w-0 sm:w-20 z-10 relative animate-bounce">
             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
           </svg>
         </div>

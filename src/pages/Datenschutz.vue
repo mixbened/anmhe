@@ -158,10 +158,10 @@
         <li>
           Opera:
           <a
-            href="http://www.opera.com/de/help"
+            href="https://www.opera.com/de/help"
             target="_blank"
             rel="nofollow noopener"
-            >http://www.opera.com/de/help</a
+            >https://www.opera.com/de/help</a
           >
         </li>
         <li>
@@ -499,7 +499,7 @@
         verhindern, indem sie das unter dem folgenden Link verfügbare
         Browser-Plugin herunterladen und installieren:
         <a
-          href="http://tools.google.com/dlpage/gaoptout?hl=de"
+          href="https://tools.google.com/dlpage/gaoptout?hl=de"
           rel="noopener"
           target="_blank"
           >Browser Add On zur Deaktivierung von Google Analytics</a
