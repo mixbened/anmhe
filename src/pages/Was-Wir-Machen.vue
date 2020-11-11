@@ -57,12 +57,15 @@
     <section class="bg-primary text-white py-24" id="digital">
       <g-image alt="graphics anm" src="../assets/dreiecke/Dreieck-weiss-312Grad@2x.png" class="hidden sm:block absolute right-0 mr-48 -mt-32" width="200"></g-image>
       <section class="mx-4 sm:mx-20 md:ml-32 py-4">
-        <div class="grid grid-cols-1 lg:grid-cols-2">
+        <div class="grid grid-cols-1 lg:grid-cols-2 text-left">
+          <div></div>
+          <h3 class="inline-block border-b-4 border-white leading-tight mb-2 uppercase text-3xl font-semibold  mr-4 md:mr-32">Digitale Events</h3>
+        </div>
+        <div class="grid grid-cols-1 lg:grid-cols-2 text-left">
             <div class="col-span-1 py-4 mr-4 md:mr-32">
               <g-image src="../assets/vintageTV_stephen-monterroso-unsplash.png" alt="analog grafik"></g-image>
             </div>
             <div class="col-span-1 py-4 mr-4 lg:mr-32">
-              <h3 class="inline-block border-b-4 border-white leading-tight mb-2 uppercase text-3xl font-semibold">Digitale Events</h3>
               <div>
                 <h3 class="leading-tight my-2 uppercase text-xl font-semibold">We are Online!</h3>
                 <p>Digitale Events und virtuelle Messen sind aus der Veranstaltungslandschaft nicht mehr wegzudenken. Doch ein Live-Projekt lässt sich nicht 1:1 digital übersetzen. Wo vorher fünf Sinne angesprochen wurden, werden digital nur zwei erreicht (sehen + hören). <br> <br>Zum Glück kennen und nutzen wir die richtigen Tools, um dein Event zu digitalisieren und für das Internet fit zu machen. Dabei legen wir Wert auf eine gute Dramaturgie, viel Action und Interaktion. Damit Inhalte spannend bleiben: Wegklicken? Keine Chance!</p>
