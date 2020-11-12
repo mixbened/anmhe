@@ -44,8 +44,8 @@
             <g-image src="../assets/konfetti-unsplash-keywords2_transparent.png" alt="fernseher grafik" class="px-10"></g-image>
           </div>
           <div class="col-span-2">
-            <div class="grid grid-cols-2 gap-8 mt-10 border-l-4 border-black">
-              <div class="col-span-2 px-4 lg:col-span-1 mr-4">
+            <div class="mt-10 border-l-4 border-black">
+              <div class="px-4 mr-4">
                 <h3 class="leading-tight mb-2 uppercase text-xl font-semibold text-left">Live will be back!</h3>
                 <p class="text-left">Es sieht zwar gerade nicht danach aus, aber das klassische Event ist noch lange nicht tot. Denn gute Events binden uns ein, bringen uns zusammen und geben echte Orientierung im ansonsten „digital life“. Wer Geschichten mit allen fünf Sinnen erlebt, erinnert sich auch an die Botschaft.</p>
               </div>
@@ -93,30 +93,30 @@
       <g-image alt="graphics anm" src="../assets/dreiecke/Dreieck-weiss-312Grad@2x.png" class="hidden sm:block absolute right-0 mr-48 -mt-20" width="80"></g-image>
       <g-image alt="graphics anm" src="../assets/dreiecke/Dreieck-gelb-minus12Grad@2x.png" class="hidden sm:block absolute right-0 mr-20 mt-56" width="80"></g-image>
       <g-image alt="graphics anm" src="../assets/dreiecke/Dreieck-Pink-minus14grad@2x.png" class="hidden sm:block absolute left-0 mt-48 ml-20" width="100"></g-image>
-        <div class="grid grid-cols-1 lg:grid-cols-2 relative z-10">
-            <div class="col-span-1 py-4 mr-4">
+        <div class=" relative z-10">
               <h3 class="inline-block border-b-4 border-white leading-tight mb-2 uppercase text-3xl font-semibold">Hybride Events</h3>
-              <div>
-                <h3 class="leading-tight my-2 uppercase text-xl font-semibold">DIE ZUKUNFT WIRD HYBRID!</h3>
-                <div class="my-2">
-                  <p>Das Beste aus zwei Welten. Der Mix aus physischer Veranstaltung, digitaler Übertragung und Teilnahme in Echtzeit. Zukünftige Veranstaltungsformate funktionieren parallel: Für Teilnehmer, die live dabei sein wollen und für diejenigen, die das Event online erleben möchten. <br> Ein Hybrid-Event ist wie eine Erstbesteigung. Eigentlich ist klar, wo es langgeht, aber unterwegs kann alles ganz anders laufen – that’s live! Wir gehen diese Expedition gemeinsam mit dir und sorgen dafür, dass alle Teilnehmer oben ankommen.</p>
+              <div class="flex lg:flex-row flex-col">
+                <div class="py-4 mr-4 sm:mr-32">
+                  <g-image class="sm:mt-20" src="../assets/the-new-york-public-library-yEauzeZU6xo-unsplash.png" alt="analog grafik"></g-image>
                 </div>
-                <div class="my-12 border-l-4 px-4">
-                  <h2 class="text-xl font-semibold">Was sind Vorteile von hybriden Events</h2>
-                  <ul class="list-disc my-2 ml-4">
-                      <li> Hohe Reichweite - Teilnahme ohne räumliche Bindung </li>
-                      <li>Image - Positionierung als innovativer und nachhaltiger Veranstalter</li>
-                      <li>Ohne Limit - Variabler Veranstaltungszeitraum   </li>
-                      <li>Nachhaltigkeit - Geringer Materialverbrauch</li>
-                      <li>Content-Nutzung - Vorteil für Nachbereitung oder neue Bewerbung</li>
-                      <li>Flexible Erzählstruktur - Keine Bindung an lineare Abläufe</li>
-                  </ul>
+                <div class="order-last lg:order-first">
+                  <h3 class="leading-tight my-2 uppercase text-xl font-semibold">DIE ZUKUNFT WIRD HYBRID!</h3>
+                  <div class="my-2">
+                    <p>Das Beste aus zwei Welten. Der Mix aus physischer Veranstaltung, digitaler Übertragung und Teilnahme in Echtzeit. Zukünftige Veranstaltungsformate funktionieren parallel: Für Teilnehmer, die live dabei sein wollen und für diejenigen, die das Event online erleben möchten. <br> Ein Hybrid-Event ist wie eine Erstbesteigung. Eigentlich ist klar, wo es langgeht, aber unterwegs kann alles ganz anders laufen – that’s live! Wir gehen diese Expedition gemeinsam mit dir und sorgen dafür, dass alle Teilnehmer oben ankommen.</p>
+                  </div>
+                  <div class="my-12 border-l-4 px-4">
+                    <h2 class="text-xl font-semibold">Was sind Vorteile von hybriden Events</h2>
+                    <ul class="list-disc my-2 ml-4">
+                        <li> Hohe Reichweite - Teilnahme ohne räumliche Bindung </li>
+                        <li>Image - Positionierung als innovativer und nachhaltiger Veranstalter</li>
+                        <li>Ohne Limit - Variabler Veranstaltungszeitraum   </li>
+                        <li>Nachhaltigkeit - Geringer Materialverbrauch</li>
+                        <li>Content-Nutzung - Vorteil für Nachbereitung oder neue Bewerbung</li>
+                        <li>Flexible Erzählstruktur - Keine Bindung an lineare Abläufe</li>
+                    </ul>
+                  </div>
                 </div>
               </div>
-            </div>
-            <div class="col-span-1 py-4 mr-4 sm:mr-32">
-              <g-image class="mt-20 ml-12" src="../assets/the-new-york-public-library-yEauzeZU6xo-unsplash.png" alt="analog grafik"></g-image>
-            </div>
         </div>
       </section>
     </section>
