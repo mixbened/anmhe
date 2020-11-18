@@ -16,7 +16,7 @@
             <h2 class="uppercase font-bold text-2xl">Wenn du einer unserer ersten Kunden sein möchtest, dann schreib uns...</h2>
             <button class="lg:text-2xl p-1 px-2 bg-primary text-white uppercase font-semibold my-4 sm:my-8 inline-block" @click="typeform">Kontakt</button>
           </div>
-          <div>
+          <div class="my-12 sm:my-2">
             <g-image src="../assets/claudio-schwarz-purzelbaum-unsplash.png"></g-image>
           </div>
           <div class="mx-8">
@@ -30,7 +30,7 @@
                   </div>
                 </div>
                 <div>
-                  <div class="clear h-10"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="cursor-pointer h-full w-full bg-secondary hover:bg-black text-white font-bold py-2 px-1 lg:px-4 text-xs"></div>
+                  <div class="clear h-10"><input type="submit" value="Ab die Post!" name="subscribe" id="mc-embedded-subscribe" class="cursor-pointer h-full w-full bg-secondary hover:bg-black text-white font-bold py-2 px-1 lg:px-4 text-xs"></div>
                   <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_379cbb28ae2ca785a28d16826_82123e83a3" tabindex="-1" value=""></div>
                 </div>
             </div>

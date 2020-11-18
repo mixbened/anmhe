@@ -30,7 +30,7 @@
           </div>
       </section>
     </section>
-    <section class="my-32 bg-secondary">
+    <section class="my-8 sm:my-32 bg-secondary">
       <div class="grid grid-cols-1 sm:grid-cols-3 text-white">
         <h2 class="text-3xl sm:text-5xl font-semibold uppercase absolute left-0 p-4 mt-8 sm:px-12 z-10">Das ist unser Ding</h2>
         <div class="col-span-1 bg-cover bg-no-repeat bg-scroll text-white text-left relative py-24 sm:py-32 transition ease-in duration-200" @mouseenter="selectShow('analog')" @mouseleave="selectShow('')">
@@ -39,7 +39,7 @@
             <h2 class="text-2xl font-semibold uppercase inline-block leading-tight my-8 border-b-2 border-white">Analoge Events</h2>
             <p class="text-xl uppercase opacity-0" :class="{ 'opacity-100': show === 'analog' }">Es sieht zwar gerade nicht danach aus, aber ohne Zweifel: Live will be back!</p>
           </div>
-          <g-link to="/was-wir-machen#analog" class="absolute bottom-0 p-1 bg-primary mb-12 mx-4 sm:mx-12 inline-block opacity-0" :class="{ 'opacity-100': show === 'analog' }">Hier Lang</g-link>
+          <g-link to="/was-wir-machen#analog" class="absolute bottom-0 p-1 bg-primary mb-12 mx-4 sm:mx-12 inline-block opacity-0" :class="{ 'opacity-100': show === 'analog' }">Hier lang</g-link>
         </div>
         <div class="col-span-1 bg-cover bg-no-repeat bg-scroll text-white text-left relative py-24 sm:py-32 transition ease-in duration-200" @mouseenter="selectShow('digital')" @mouseleave="selectShow('')">
           <g-image src="https://res.cloudinary.com/mixbened/image/upload/v1603874155/teaser-digital.png" class="opacity-0 transition duration-300 ease-in absolute top-0 w-full h-full" :class="{ 'opacity-50': show === 'digital' }"></g-image>
@@ -47,7 +47,7 @@
             <h2 class="text-2xl font-semibold uppercase inline-block leading-tight my-8 border-b-2 border-white">Digitale Events</h2>
             <p class="text-xl uppercase opacity-0" :class="{ 'opacity-100': show === 'digital' }">Kurz mal raus aus dem Schatten und alle bisherigen Formate überholt!</p>
           </div>
-          <g-link to="/was-wir-machen#digital" class="absolute bottom-0 p-1 bg-secondary border mb-12 mx-4 sm:mx-12 inline-block opacity-0" :class="{ 'opacity-100': show === 'digital' }">Hier Lang</g-link>
+          <g-link to="/was-wir-machen#digital" class="absolute bottom-0 p-1 bg-secondary border mb-12 mx-4 sm:mx-12 inline-block opacity-0" :class="{ 'opacity-100': show === 'digital' }">Hier lang</g-link>
         </div>
         <div class="col-span-1 bg-cover bg-no-repeat bg-scroll text-white text-left relative py-24 sm:py-32 transition ease-in duration-200" @mouseenter="selectShow('hybrid')" @mouseleave="selectShow('')">
           <g-image src="https://res.cloudinary.com/mixbened/image/upload/v1603874155/teaser-hybrid.png" class="opacity-0 transition duration-300 ease-in absolute top-0 w-full h-full" :class="{ 'opacity-50': show === 'hybrid' }"></g-image>
@@ -55,7 +55,7 @@
             <h2 class="text-2xl font-semibold uppercase inline-block leading-tight my-8 border-b-2 border-white">Hybride Events</h2>
             <p class="text-xl uppercase opacity-0" :class="{ 'opacity-100': show === 'hybrid' }">Die Zukunft wird hybrid. Das Beste aus zwei Welten!</p>
           </div>
-          <g-link to="/was-wir-machen#hybrid" class="absolute bottom-0 p-1 bg-tertiary mb-12 mx-4 sm:mx-12 inline-block opacity-0" :class="{ 'opacity-100': show === 'hybrid' }">Hier Lang</g-link>
+          <g-link to="/was-wir-machen#hybrid" class="absolute bottom-0 p-1 bg-tertiary mb-12 mx-4 sm:mx-12 inline-block opacity-0" :class="{ 'opacity-100': show === 'hybrid' }">Hier lang</g-link>
         </div>
       </div>
     </section>

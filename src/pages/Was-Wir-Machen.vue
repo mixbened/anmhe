@@ -3,10 +3,10 @@
     <section>
       <Header title="was wir machen." background="https://res.cloudinary.com/mixbened/image/upload/v1604004682/ANM/Titel_was_wir_machen_-_V2.png"/>
     </section>
-    <section class="my-8 sm:my-20 mb-32">
+    <section class="my-8 sm:my-20 sm:mb-32">
       <g-image alt="graphics anm" src="../assets/dreiecke/Dreieck-gelb-minus12Grad@2x.png" class="hidden sm:block absolute  right-0 -mt-32 mr-12" width="80"></g-image>
       <g-image alt="graphics anm" src="../assets/dreiecke/Dreieck-Petrol-klein@2x.png" class="hidden sm:block absolute  -mt-32 left-0 m-8" width="80"></g-image>
-      <Intro_Main title="Grenzenlose Live-Kommunikation. <br> Analog, digital und hybrid." text="So paradox es klingt: Je digitaler und vernetzter unsere Welt, destogrößer das Bedürfnis nach echten Erlebnissen. Doch die sind längst nicht mehr nur real oder live. Immer mehr verschwimmen die Grenzen zwischen On- und Offline, virtuellem und realem Raum. Und genau hier sind wir zu Hause! <br> Wir helfen dirdabei, dein “echtes Erlebnis” zu entwickeln und deine Botschaften in Szene zu setzen. Passgenau, im richtigen Format. Unser Ziel: Dein Event zum Gipfelstürmer machen." />
+      <Intro_Main title="Grenzenlose Live-Kommunikation. <br> Analog, digital und hybrid." text="So paradox es klingt: Je digitaler und vernetzter unsere Welt, desto größer das Bedürfnis nach echten Erlebnissen. Doch die sind längst nicht mehr nur real oder live. Immer mehr verschwimmen die Grenzen zwischen On- und Offline, virtuellem und realem Raum. Und genau hier sind wir zu Hause! <br> Wir helfen dir dabei, dein “echtes Erlebnis” zu entwickeln und deine Botschaften in Szene zu setzen. Passgenau, im richtigen Format. Unser Ziel: Dein Event zum Gipfelstürmer machen." />
     </section>
     <section class="mx-4 sm:mx-20 md:ml-32 mb-32">
         <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 mt-10">
@@ -32,7 +32,7 @@
           </div>
         </div>
     </section>
-    <section class="bg-tertiary py-24">
+    <section class="bg-tertiary py-8 sm:py-24">
       <section id="analog" class="relative mx-4 text-center">
         <g-image alt="graphics anm" src="../assets/dreiecke/Dreieck-Pink-minus14grad@2x.png" class="hidden sm:block absolute right-0 mr-48 -mt-32" width="200"></g-image>
         <g-image alt="graphics anm" src="../assets/dreiecke/Dreieck-weiss-312Grad@2x.png" class="hidden sm:block absolute left-0 bottom-0 ml-64 mb-8" style="left:50%;" width="100"></g-image>
@@ -47,14 +47,14 @@
             <div class="mt-10 border-l-4 border-black">
               <div class="px-4 mr-4">
                 <h3 class="leading-tight mb-2 uppercase text-xl font-semibold text-left">Live will be back!</h3>
-                <p class="text-left">Es sieht zwar gerade nicht danach aus, aber das klassische Event ist noch lange nicht tot. Denn gute Events binden uns ein, bringen uns zusammen und geben echte Orientierung im ansonsten „digital life“. Wer Geschichten mit allen fünf Sinnen erlebt, erinnert sich auch an die Botschaft.</p>
+                <p class="text-left">Es sieht zwar gerade nicht danach aus, aber das klassische Event ist noch lange nicht tot. Denn gute Events binden uns ein, bringen uns zusammen und geben echte Orientierung im ansonsten "digital life". Wer Geschichten mit allen fünf Sinnen erlebt, erinnert sich auch an die Botschaft.</p>
               </div>
             </div>
           </div>
         </div>
       </section>
     </section>
-    <section class="bg-primary text-white py-24" id="digital">
+    <section class="bg-primary text-white py-8 sm:py-24" id="digital">
       <g-image alt="graphics anm" src="../assets/dreiecke/Dreieck-weiss-312Grad@2x.png" class="hidden sm:block absolute right-0 mr-48 -mt-32" width="200"></g-image>
       <section class="mx-4 sm:mx-20 md:ml-32 py-4">
         <div class="grid grid-cols-1 lg:grid-cols-2 text-left">
@@ -68,7 +68,7 @@
             <div class="col-span-1 py-4 mr-4 lg:mr-32">
               <div>
                 <h3 class="leading-tight my-2 uppercase text-xl font-semibold">We are Online!</h3>
-                <p>Digitale Events und virtuelle Messen sind aus der Veranstaltungslandschaft nicht mehr wegzudenken. Doch ein Live-Projekt lässt sich nicht 1:1 digital übersetzen. Wo vorher fünf Sinne angesprochen wurden, werden digital nur zwei erreicht (sehen + hören). <br> <br>Zum Glück kennen und nutzen wir die richtigen Tools, um dein Event zu digitalisieren und für das Internet fit zu machen. Dabei legen wir Wert auf eine gute Dramaturgie, viel Action und Interaktion. Damit Inhalte spannend bleiben: Wegklicken? Keine Chance!</p>
+                <p>Digitale Events und virtuelle Messen sind aus der Veranstaltungslandschaft nicht mehr wegzudenken. Doch ein Live-Projekt lässt sich nicht 1:1 digital übersetzen. Wo vorher fünf Sinne angesprochen wurden, werden digital nur zwei erreicht (Sehen + Hören). <br> <br>Zum Glück kennen und nutzen wir die richtigen Tools, um dein Event zu digitalisieren und für das Internet fit zu machen. Dabei legen wir Wert auf eine gute Dramaturgie, viel Action und Interaktion. Damit Inhalte spannend bleiben: Wegklicken? Keine Chance!</p>
               </div>
               <div class="my-4">
                 <div>
@@ -88,7 +88,7 @@
         </div>
       </section>
     </section>
-    <section class="bg-secondary text-white py-24" id="hybrid">
+    <section class="bg-secondary text-white py-8 sm:py-24" id="hybrid">
       <section class="mx-4 sm:mx-20 lg:mx-32 lg:ml-64 py-4 lg:w-2/3">
       <g-image alt="graphics anm" src="../assets/dreiecke/Dreieck-weiss-312Grad@2x.png" class="hidden sm:block absolute right-0 mr-48 -mt-20" width="80"></g-image>
       <g-image alt="graphics anm" src="../assets/dreiecke/Dreieck-gelb-minus12Grad@2x.png" class="hidden sm:block absolute right-0 mr-20 mt-56" width="80"></g-image>
@@ -107,12 +107,12 @@
                   <div class="my-12 border-l-4 px-4">
                     <h2 class="text-xl font-semibold">Was sind Vorteile von hybriden Events</h2>
                     <ul class="list-disc my-2 ml-4">
-                        <li> Hohe Reichweite - Teilnahme ohne räumliche Bindung </li>
-                        <li>Image - Positionierung als innovativer und nachhaltiger Veranstalter</li>
-                        <li>Ohne Limit - Variabler Veranstaltungszeitraum   </li>
-                        <li>Nachhaltigkeit - Geringer Materialverbrauch</li>
-                        <li>Content-Nutzung - Vorteil für Nachbereitung oder neue Bewerbung</li>
-                        <li>Flexible Erzählstruktur - Keine Bindung an lineare Abläufe</li>
+                        <li> Hohe Reichweite <hr class="inline-block w-2 align-middle border-white"> Teilnahme ohne räumliche Bindung </li>
+                        <li>Image <hr class="inline-block w-2 align-middle border-white"> Positionierung als innovativer und nachhaltiger Veranstalter</li>
+                        <li>Ohne Limit <hr class="inline-block w-2 align-middle border-white"> Variabler Veranstaltungszeitraum   </li>
+                        <li>Nachhaltigkeit <hr class="inline-block w-2 align-middle border-white"> Geringer Materialverbrauch</li>
+                        <li>Content-Nutzung <hr class="inline-block w-2 align-middle border-white"> Vorteil für Nachbereitung oder neue Bewerbung</li>
+                        <li>Flexible Erzählstruktur <hr class="inline-block w-2 align-middle border-white"> Keine Bindung an lineare Abläufe</li>
                     </ul>
                   </div>
                 </div>
