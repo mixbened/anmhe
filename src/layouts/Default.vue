@@ -10,9 +10,9 @@
         </div>
         <nav class="mr-8 sm:mr-4 lg:mr-20">
           <div class="flex w-auto items-center">
-            <g-link to="/was-wir-machen" class="sm:uppercase p-2 p-1 sm:p-2 lg:px-6 hover:text-secondary transition ease-in duration-200 font-semibold text-xs md:text-base">Was Wir Machen</g-link>
-            <g-link to="/wer-wir-sind" class="sm:uppercase p-1 sm:p-2 sm:p-2 lg:px-6 hover:text-secondary transition ease-in duration-200 font-semibold text-xs md:text-base">Wer Wir Sind</g-link>
-            <g-link to="/fuer-wen" class="p-1 sm:p-2 sm:uppercase sm:p-2 lg:px-6 hover:text-secondary transition ease-in duration-200 font-semibold text-xs md:text-base">Für Wen</g-link>
+            <g-link to="/was-wir-machen" class="border-r sm:border-0 sm:uppercase px-2 sm:p-2 lg:px-6 hover:text-secondary transition ease-in duration-200 font-semibold text-xs md:text-base">Was Wir Machen</g-link>
+            <g-link to="/wer-wir-sind" class="border-r sm:border-0 sm:uppercase px-2 sm:p-2 sm:p-2 lg:px-6 hover:text-secondary transition ease-in duration-200 font-semibold text-xs md:text-base">Wer Wir Sind</g-link>
+            <g-link to="/fuer-wen" class="px-2 sm:uppercase sm:p-2 lg:px-6 hover:text-secondary transition ease-in duration-200 font-semibold text-xs md:text-base">Für Wen</g-link>
             <g-link to="/was-wir-machen#digital" class="hidden sm:block p-1 sm:p-2 border border-primary sm:uppercase sm:p-2 lg:px-6 hover:text-secondary transition ease-in duration-200 font-semibold  text-xs md:text-base">Digitale Events</g-link>
           </div>
         </nav>
