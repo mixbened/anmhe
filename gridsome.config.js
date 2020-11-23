@@ -1,5 +1,5 @@
 module.exports = {
-  siteName: "Ain't No Mountain",
+  siteName: "Under Maintenance",
   siteUrl: "https://www.aintnomountain.com",
   plugins: [
     {
