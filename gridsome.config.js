@@ -1,6 +1,8 @@
 module.exports = {
-  siteName: "Himalayeah",
-  siteUrl: "https://www.aintnomountain.com",
+  siteName: "Himalayeah!",
+  siteUrl: "http://www.himalayeah.de",
+  icon: 'src/favicon.png',
+  titleTemplate: '%s',
   plugins: [
     
     {

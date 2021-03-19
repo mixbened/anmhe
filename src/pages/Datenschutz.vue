@@ -656,7 +656,7 @@ import Intro from "../components/Intro";
 
 export default {
   metaInfo: {
-    title: "Impressum",
+    title: "Datenschutz",
   },
   components: {
     Intro,

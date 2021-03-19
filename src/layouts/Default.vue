@@ -1,16 +1,17 @@
 <template>
   <div class="layout">
       <header :class="{ 'opacity-1': !view.atTopOfPage, 'opacity-0': view.atTopOfPage }" class="bg-white transition duration-500 text-gray-800 flex items-center justify-between fixed top-0 w-full bg-transparent z-50 py-2" id="header">
+	  
         <div>
           <g-link to="/"><g-image 
           alt="Logo ANMHE" 
           src="../assets/ANM-SHORT-B@3x.png"
-          class="ml-1 sm:ml-4 w-20"  
+          class="ml-1 sm:ml-4 w-16"  
           /></g-link>
         </div>
         <nav class="mr-8 sm:mr-4 lg:mr-20">
           <div class="flex w-auto items-center">
-		  <g-link to="/" class="border-r sm:border-0 sm:uppercase px-2 sm:p-2 lg:px-6 hover:text-secondary transition ease-in duration-200 font-semibold text-xs md:text-base">Yeah!</g-link>
+		  <g-link to="/" class="hidden sm:block p-1 sm:p-2 sm:uppercase sm:p-2 lg:px-6 hover:text-secondary transition ease-in duration-200 font-semibold  text-xs md:text-base">Yeah!</g-link>
             <g-link to="/wer-wir-sind" class="border-r sm:border-0 sm:uppercase px-2 sm:p-2 sm:p-2 lg:px-6 hover:text-secondary transition ease-in duration-200 font-semibold text-xs md:text-base">Wer Wir Sind</g-link>
             <g-link to="/was-wir-machen" class="border-r sm:border-0 sm:uppercase px-2 sm:p-2 lg:px-6 hover:text-secondary transition ease-in duration-200 font-semibold text-xs md:text-base">Was Wir Machen</g-link>
             <g-link to="/fuer-wen" class="px-2 sm:uppercase sm:p-2 lg:px-6 hover:text-secondary transition ease-in duration-200 font-semibold text-xs md:text-base">Für Wen</g-link>

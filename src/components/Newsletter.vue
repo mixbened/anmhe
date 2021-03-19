@@ -7,7 +7,7 @@
           <g-image src="../assets/Newsletter_Laptop_goran-ivos-unsplash.png"></g-image>
         </div>
         <div class="col-span-3">
-          <h2 class="text-xl sm:text-2xl md:text-5xl font-semibold text-tertiary">Lust auf Bergpost aus Langenfeld? <br> <span class="text-primary text-base sm:text-2xl font-normal">Dann hier den Newsletter abonnieren!</span></h2>
+          <h2 style="line-height:1.2;" class="text-xl sm:text-2xl md:text-5xl font-semibold text-tertiary">Lust auf Bergpost aus Langenfeld? <br> <span class="text-primary text-base sm:text-2xl font-normal">Dann hier den Newsletter abonnieren!</span></h2>
         </div>
         <div class="col-span-3 sm:col-span-4 sm:ml-10">
           <div class="mc-field-group h-10">
