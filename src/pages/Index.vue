@@ -6,7 +6,7 @@
           <source src="../assets/Himalayeah_Logo_Intro_RGB_Full_HD.mp4" type="video/mp4">
         </video>
         <div class="absolute top-0 left-0 flex items-end justify-center w-full h-full z-10 lg:pb-8 transition ease-in duration-200" :class="{ 'opacity-0': !arrow, 'opacity-100': arrow }">
-          <svg xmlns="https://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" class="text-white w-0 sm:w-20 z-10 relative animate-bounce">
+          <svg  fill="none" viewBox="0 0 24 24" stroke="currentColor" class="text-white w-0 sm:w-20 z-10 relative animate-bounce">
             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
           </svg>
         </div>
@@ -25,7 +25,9 @@
             </div>
             <div>
               <h3 class="text-left text-base font-semibold uppercase p-0 sm:my-0">WIR SIND HIMALAYEAH! DIE JUNGE AGENTUR FÜR DIGITAL- UND LIVE-EVENTS IM RHEINLAND.</h3>
-              <p class="text-justify my-6">Unser Herz schlägt für echte Erlebnisse: ob Messen, Präsentationen, Kick-offs, Festivals oder Mitarbeiter-Events. Wir&nbsp;konzipieren, organisieren und realisieren analoge, digitale oder hybride Veranstaltungsformate. <br>Wir haben Bock auf das was wir tun und geben von der Idee bis zur Umsetzung alles. Uns ist kein Berg zu hoch und kein Weg zu weit, kein Job zu klein und kein Projekt zu groß. Wie wir das schaffen? Mit jeder Menge Erfahrung und unserem regionalen Netzwerk. Profis aus Event, Messe, Online, Print und Social Media.<br><br>Jetzt ist die spannendste Zeit, um Dinge anders zu machen – sag&nbsp;einfach&nbsp;nur&nbsp;<i>Yeah!</i></p>
+              <p class="text-justify my-6">
+                Unser Herz schlägt für echte Erlebnisse: ob Messen, Präsentationen, Kick-offs, Festivals oder Mitarbeiter-Events. Wir konzipieren, organisieren und realisieren analoge, digitale oder hybride Veranstaltungsformate. <br><br> Wir haben Bock auf das, was vor uns liegt und geben von der Idee bis zur Umsetzung alles. Uns ist kein Berg zu hoch und kein Weg zu weit, kein Job zu klein und kein Projekt zu groß. Wie wir das schaffen? Mit jeder Menge Erfahrung und unserem regionalen Netzwerk. Profis aus Event, Messe, Online, Print und Social Media.<br><br> Wenn der Berg ruft, rufen wir <i>Yeah!</i>
+              </p>
             </div>
           </div>
       </section>
@@ -73,7 +75,13 @@ import Newsletter from '../components/Newsletter'
 
 export default {
   metaInfo: {
-    title: 'Welcome to Himalayeah!'
+    title: 'Himalayeah – Agentur für Digital- und Live-Events Langenfeld',
+    meta: [
+      {
+        name: 'description',
+        content: 'Wir sind eine junge Eventagentur aus dem Rheinland. Unser Herz schlägt für Messen, Präsentationen, Kick-offs, Festivals oder Mitarbeiter-Events.'
+      }
+    ]
   },
   data(){
     return {

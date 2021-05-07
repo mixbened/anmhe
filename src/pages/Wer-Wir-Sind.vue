@@ -46,7 +46,13 @@ import Intro_Main from '../components/Intro_Main'
 
 export default {
   metaInfo: {
-    title: 'Über Uns'
+    title: 'Wer wir sind – Himalayeah – Eventagentur Langenfeld',
+    meta: [
+      {
+        name: 'description',
+        content: 'Wir haben jahrelange Erfahrung im Eventmanagement und Marketing. Unser regionales Netzwerk besteht aus Profis für Event, Messe, Online, Print und Social Media.'
+      }
+    ]
   },
   components: {
     Header,

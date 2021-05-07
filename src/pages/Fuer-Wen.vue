@@ -53,7 +53,13 @@ import * as typeformEmbed from '@typeform/embed'
 
 export default {
   metaInfo: {
-    title: 'Für Wen'
+    title: 'Für wen - Himalayeah - Eventagentur Langenfeld',
+    meta: [
+      {
+        name: "description",
+        content: "Wir betreuen Unternehmen, Agenturen, Institutionen und Verbände aus der Region. Von Mittelstand bis Dax-Konzern, von Handel über Telekommunikation bis Kultur."
+      }
+    ]
   },
   data(){
     return {

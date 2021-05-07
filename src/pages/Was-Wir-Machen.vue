@@ -129,7 +129,13 @@ import FullBanner from '../components/FullBanner'
 
 export default {
   metaInfo: {
-    title: 'Leistungen'
+    title: 'Was wir machen - Himalayeah - Eventagentur Langenfeld',
+    meta: [
+      {
+        name: "description",
+        content: "Unsere Leistungen - Himalayeah kümmert sich um die Konzeption, Organisation und Umsetzung von analogen, digitalen oder hybriden Veranstaltungen."
+      }
+    ]
   },
   components: {
     InfoCard,

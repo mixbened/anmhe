@@ -63,7 +63,13 @@ import Intro from '../components/Intro'
 
 export default {
   metaInfo: {
-    title: 'Jobs'
+    title: 'Jobs - Himalayeah - Eventagentur Langenfeld',
+    meta: [
+      {
+        name: 'description',
+        content: 'Lust, deinen Rucksack zu schnüren und die Eventgipfel des Rheinlands zu erstürmen? Dann bewirb dich bei uns als Eventmanager, im Marketing oder als Freelancer am Standort Langenfeld.'
+      }
+    ]
   },
   components: {
       Intro

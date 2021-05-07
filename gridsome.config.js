@@ -1,6 +1,7 @@
 module.exports = {
   siteName: "Himalayeah!",
   siteUrl: "http://www.himalayeah.de",
+  siteDescription: "",
   icon: 'src/favicon.png',
   titleTemplate: '%s',
   plugins: [
@@ -16,6 +17,12 @@ module.exports = {
       options: {
         config: {
         }
+      }
+    },
+    {
+      use: '@gridsome/plugin-google-analytics',
+      options: {
+        id: 'G-PD6ZJ50QXS'
       }
     }
   ],
