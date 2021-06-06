@@ -5,7 +5,14 @@ module.exports = {
   icon: 'src/favicon.png',
   titleTemplate: '%s',
   plugins: [
-    
+    {
+      use: '@gridsome/source-filesystem',
+      options: {
+          typeName: 'Post',
+          path: 'blog/*.md',
+          route: '/blog/:slug',
+      }
+    },
     {
       use: "gridsome-plugin-tailwindcss",
       options: {
@@ -26,5 +33,15 @@ module.exports = {
       }
     }
   ],
-  
+  transformers: {
+    //Add markdown support to all file-system sources
+    remark: {
+        externalLinksTarget: '_blank',
+        externalLinksRel: ['nofollow', 'noopener', 'noreferrer'],
+        anchorClassName: 'icon icon-link',
+        plugins: [
+            '@gridsome/remark-prismjs'
+        ]
+    }
+  },
 };
